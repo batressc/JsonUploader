@@ -1,0 +1,1496 @@
+{
+  "externalId": "M800N06",
+  "requestedCompletionDate": "2023-12-04T00:00:00.000-1000",
+  "characteristic": [
+    {
+      "name": "sourceSystem",
+      "value": [
+        "SOE"
+      ]
+    },
+    {
+      "name": "BSSOrderNumber",
+      "value": [
+        "M800N06"
+      ]
+    },
+    {
+      "name": "orderVersion",
+      "value": [
+        "2"
+      ]
+    },
+    {
+      "name": "dueDate",
+      "value": [
+        "2023-12-04T00:00:00.000-1000"
+      ]
+    },
+    {
+      "name": "BSSOrderCapturer",
+      "value": [
+        "jari622"
+      ]
+    },
+    {
+      "name": "isRecordsOnly",
+      "value": [
+        "No"
+      ]
+    },
+    {
+      "name": "isONTSwapRequired",
+      "value": [
+        "No"
+      ]
+    }
+  ],
+  "relatedParty": [
+    {
+      "id": "200000000638837",
+      "firstName": "CHAU YEE",
+      "middleName": "",
+      "lastName": "CHOW",
+      "role": "customer"
+    }
+  ],
+  "orderItem": [
+    {
+      "id": "M800N06_Billing",
+      "action": "modify",
+      "product": {
+        "id": "M800N06_Billing",
+        "productSpecification": {
+          "id": "Billing"
+        },
+        "characteristic": [
+          {
+            "name": "accountExternalId",
+            "value": [
+              "200000000638837"
+            ]
+          },
+          {
+            "name": "parentAccountExternalId",
+            "value": [
+              ""
+            ]
+          },
+          {
+            "name": "accountStatus",
+            "value": [
+              "ACT"
+            ]
+          },
+          {
+            "name": "accountType",
+            "value": [
+              "IND"
+            ]
+          },
+          {
+            "name": "ACNA",
+            "value": [
+              "AWL"
+            ]
+          },
+          {
+            "name": "billingTelephoneNumber",
+            "value": [
+              "8082000876"
+            ]
+          },
+          {
+            "name": "billAddress1",
+            "value": [
+              "1465 Aala St"
+            ]
+          },
+          {
+            "name": "billAddress2",
+            "value": [
+              "APT 701"
+            ]
+          },
+          {
+            "name": "billCity",
+            "value": [
+              "HONOLULU"
+            ]
+          },
+          {
+            "name": "billCountry",
+            "value": [
+              "USA"
+            ]
+          },
+          {
+            "name": "billDispMeth",
+            "value": [
+              "1"
+            ]
+          },
+          {
+            "name": "billFmtOpt",
+            "value": [
+              "100"
+            ]
+          },
+          {
+            "name": "billFranchiseTaxCode",
+            "value": [
+              "1"
+            ]
+          },
+          {
+            "name": "billPeriod",
+            "value": [
+              "M19"
+            ]
+          },
+          {
+            "name": "billState",
+            "value": [
+              "HI"
+            ]
+          },
+          {
+            "name": "billZip",
+            "value": [
+              "96817"
+            ]
+          },
+          {
+            "name": "creditRating",
+            "value": [
+              "2"
+            ]
+          },
+          {
+            "name": "custFirstName",
+            "value": [
+              "CHAU YEE"
+            ]
+          },
+          {
+            "name": "custMiddleName",
+            "value": [
+              ""
+            ]
+          },
+          {
+            "name": "custLastName",
+            "value": [
+              "CHOW"
+            ]
+          },
+          {
+            "name": "custEmail",
+            "value": [
+              "Mail Receipt"
+            ]
+          },
+          {
+            "name": "dateActive",
+            "value": [
+              "2016-05-02T00:00:00.000-1000"
+            ]
+          },
+          {
+            "name": "mktCode",
+            "value": [
+              "1"
+            ]
+          },
+          {
+            "name": "payMethod",
+            "value": [
+              "INV"
+            ]
+          },
+          {
+            "name": "rateClassDefault",
+            "value": [
+              "1"
+            ]
+          },
+          {
+            "name": "VIPCode",
+            "value": [
+              "1"
+            ]
+          },
+          {
+            "name": "waiveTerminationObligation",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "waiveUnmetObligation",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "ExtendedData",
+            "value": [
+              {
+                "componentExternalId": [
+                  "M800N06_Billing_NUMBER_OF_INVOICE_COPIES"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "paramName": [
+                  "NUMBER_OF_INVOICE_COPIES"
+                ],
+                "paramValue": [
+                  "1"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "ExtendedData",
+            "value": [
+              {
+                "componentExternalId": [
+                  "M800N06_Billing_CREF"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "paramName": [
+                  "CREF"
+                ],
+                "paramValue": [
+                  ""
+                ]
+              }
+            ]
+          },
+          {
+            "name": "ExtendedData",
+            "value": [
+              {
+                "componentExternalId": [
+                  "M800N06_Billing_SALESREP_FIRSTNAME"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "paramName": [
+                  "SALESREP_FIRSTNAME"
+                ],
+                "paramValue": [
+                  "Jose"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "ExtendedData",
+            "value": [
+              {
+                "componentExternalId": [
+                  "M800N06_Billing_SALESREP_LASTNAME"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "paramName": [
+                  "SALESREP_LASTNAME"
+                ],
+                "paramValue": [
+                  "Roberto Arias"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "ExtendedData",
+            "value": [
+              {
+                "componentExternalId": [
+                  "M800N06_Billing_SSN"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "paramName": [
+                  "SSN"
+                ],
+                "paramValue": [
+                  "LS0tLS1CRUdJTiBQR1AgTUVTU0FHRS0tLS0tClZlcnNpb246IEJDUEcgdjEuNzQuMAoKd2NETUEwUTR2a2d1eW1pc0FRd0FrNEY5U1FKR0pELzdWQjdZL1BhNmJWc0VQdGQ2M0Rad2s3SEhPdWM4NUQzZgpIZDJPdXRnNndMVTlLVDVLZVJDTnpTYUVrUXVaRnlFQzJNNHZXYUxqNnRISCtHNkVqbU95bGczbGk5bENOTkplCk9tZVJnMG9wemNMR3d2ZDVLUERsSDBJRUhIRGNuVis4amdqNDROMXpvcytFamFHSXJIcmc2OCtrdEI5WTBSSTAKM0lUMUFUNU9ldDRqYVU0YUNtcEp1Ym1Rd3hiU2Z3NWY5NGlXWW9TK3dTRDBjOUF5VEJyOWNNUDh1SHNkT0l2dgpLZFA2V1JnazhMT0N6dkdZbjJVMzNFK1l2THhnVWpVWGlNT056Q0dqK3VvemxISzh1eWV6SnNZUDhlNytDbElyCmxxQzlPRVVxdTJFT29RcDQ4TTNyWm96b1ZtdHZZM0pZTitRSXpwRk5ZNXFqMXZXbkZSVUJycXN2VnlpS2VZSXQKTk4xeHpENVhhdkE5a25mYXNKVGxha0xZTjEzTUsxdVV5aitMQjQxM25DT0ZYK1dPQkRyT210aEs0TnM4c2tjegptaUhTbERPQ2F5U1Rkci80YjVzV3B2WDdjWVJrQmVqT3daQWE5ODV1R3VpVGJvZm85dU5ORWFJVmo1aTYxNEh0CjBuTTJTVVgwZHhDOXcyVE9XMUlxMGtBQmhuMk1MR0VodHprYzM0U3FEc1BSODY2WGVLQ2lnVFREQWtCVmJwQksKd1VhWG1kNFphaVhUVkFsR3NzUG9iSEVJOFFqeTVGZXgrQk1jbzZXSU1tcnoKPVBFcmMKLS0tLS1FTkQgUEdQIE1FU1NBR0UtLS0tLQo="
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "M800N06_Address",
+      "action": "noChange",
+      "product": {
+        "characteristic": [
+          {
+            "name": "Address",
+            "value": [
+              {
+                "action": [
+                  "noChange"
+                ],
+                "componentExternalId": [
+                  "M800N06_Address_441326"
+                ],
+                "serviceAddressId": [
+                  "441326"
+                ],
+                "streetNumber": [
+                  "1465"
+                ],
+                "streetName": [
+                  "AALA"
+                ],
+                "preDirectional": [
+                  ""
+                ],
+                "postDirectional": [
+                  ""
+                ],
+                "streetType": [
+                  "ST"
+                ],
+                "streetAddress": [
+                  "1465 AALA ST"
+                ],
+                "city": [
+                  "HONOLULU"
+                ],
+                "county": [
+                  "OAHU"
+                ],
+                "state": [
+                  "HI"
+                ],
+                "country": [
+                  "USA"
+                ],
+                "zip": [
+                  "96817"
+                ],
+                "subloc1": [
+                  "APT 701"
+                ],
+                "subloc2": [
+                  ""
+                ],
+                "subloc3": [
+                  ""
+                ],
+                "subloc": [
+                  "APT 701"
+                ],
+                "addressRemarks1": [
+                  ""
+                ],
+                "addressRemarks2": [
+                  "MDU - KEOLA HOONANEA"
+                ],
+                "jurisdiction": [
+                  "1002000"
+                ],
+                "ACO": [
+                  "BCZ"
+                ],
+                "CLLI": [
+                  "HNLLHIMNSIP"
+                ],
+                "MDU": [
+                  "No"
+                ],
+                "centralOffice": [
+                  "1521"
+                ],
+                "copperServingCLLI": [
+                  "HNLLHIMN"
+                ],
+                "FTTPServingCLLI": [
+                  "HNLLHIMN"
+                ],
+                "SIPProvisioningCLLI": [
+                  "HNLLHIMNSIP"
+                ],
+                "FTTPDropInstalled": [
+                  "Yes"
+                ],
+                "cs2kLRN": [
+                  "8087991647"
+                ],
+                "copperLRN": [
+                  "8085255238"
+                ],
+                "wireCenterId": [
+                  "40881"
+                ],
+                "stationWorkZone": [
+                  "Oahu"
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "M800N06_Address",
+        "productSpecification": {
+          "id": "Address"
+        }
+      }
+    },
+    {
+      "id": "M800N06_Internet_2",
+      "action": "add",
+      "product": {
+        "id": "M800N06_Internet_2",
+        "productSpecification": {
+          "id": "Internet"
+        },
+        "characteristic": [
+          {
+            "name": "serviceAddressId",
+            "value": [
+              "441326"
+            ]
+          },
+          {
+            "name": "installJobId",
+            "value": [
+              "NABNC428"
+            ]
+          },
+          {
+            "name": "dueDate",
+            "value": [
+              "2023-12-04T00:00:00.000-1000"
+            ]
+          },
+          {
+            "name": "kenanServiceInstanceId",
+            "value": [
+              ""
+            ]
+          },
+          {
+            "name": "MDUEvent",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "expediteFlag",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "isBillingSuspend",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "isBillingResume",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "installAndMaintNotes",
+            "value": [
+              "CONTACT- CHAU YEE CHOW, CBR 111-111-1111 \n\nLoose animals on-prem: (edit to include the number of loose animals and if they will be restrained upon arrival)\nAccess arrangements: (edit to include any special access arrangements for the tech - ie. gate code, property mgt access, etc)\n\n\nHSI Activation Fee 100% Discount\nAnnouncement - 643-0023\nDry Loop - Res\nNo Pic Selected (NPS)(All LD)\nFioptics 400\nGateway Fee (Non-TV/HSI)\nResidential Internet Email\nSAVES for Keola Hoonanea (400M-1G )\nInside Wire Maintenance - No\n\nInstall SAHSI Fioptics 400 on TN 8082000876\nONT Action Needed: Install"
+            ]
+          },
+          {
+            "name": "InternetBillingPackage",
+            "value": [
+              {
+                "componentExternalId": [
+                  "M800N06_Internet_2_PK100017_0"
+                ],
+                "packageId": [
+                  "100017"
+                ],
+                "kenanPackageInstanceId": [
+                  ""
+                ],
+                "action": [
+                  "add"
+                ],
+                "packageSeq": [
+                  "0"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "120837",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "M800N06_Internet_2_120837_0"
+                ],
+                "componentSeq": [
+                  "0"
+                ],
+                "productCode": [
+                  "120837"
+                ],
+                "productName": [
+                  "Gateway Fee (Non-TV/HSI)"
+                ],
+                "kenanComponentInstanceId": [
+                  ""
+                ],
+                "packageId": [
+                  "100017"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "InternetBillingPackage",
+            "value": [
+              {
+                "componentExternalId": [
+                  "M800N06_Internet_2_PK100042_1"
+                ],
+                "packageId": [
+                  "100042"
+                ],
+                "kenanPackageInstanceId": [
+                  ""
+                ],
+                "action": [
+                  "add"
+                ],
+                "packageSeq": [
+                  "1"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "100003783",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "M800N06_Internet_2_100003783_1"
+                ],
+                "componentSeq": [
+                  "1"
+                ],
+                "productCode": [
+                  "100003783"
+                ],
+                "productName": [
+                  "SAVES for Keola Hoonanea (400M-1G )"
+                ],
+                "kenanComponentInstanceId": [
+                  ""
+                ],
+                "packageId": [
+                  "100042"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "InternetBillingPackage",
+            "value": [
+              {
+                "componentExternalId": [
+                  "M800N06_Internet_2_PK920001_2"
+                ],
+                "packageId": [
+                  "920001"
+                ],
+                "kenanPackageInstanceId": [
+                  ""
+                ],
+                "action": [
+                  "add"
+                ],
+                "packageSeq": [
+                  "2"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "100492",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "M800N06_Internet_2_100492_2"
+                ],
+                "componentSeq": [
+                  "2"
+                ],
+                "productCode": [
+                  "100492"
+                ],
+                "productName": [
+                  "Residential Internet Email"
+                ],
+                "kenanComponentInstanceId": [
+                  ""
+                ],
+                "packageId": [
+                  "920001"
+                ],
+                "innovawareId": [
+                  "INS85665090"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "160722",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "M800N06_Internet_2_160722_3"
+                ],
+                "componentSeq": [
+                  "3"
+                ],
+                "productCode": [
+                  "160722"
+                ],
+                "productName": [
+                  "Fioptics 400"
+                ],
+                "kenanComponentInstanceId": [
+                  ""
+                ],
+                "packageId": [
+                  "920001"
+                ],
+                "technologyType": [
+                  "Fiber"
+                ],
+                "downloadSpeed": [
+                  "400"
+                ],
+                "uploadSpeed": [
+                  "400"
+                ],
+                "HSIProduct": [
+                  "FIBER_400"
+                ],
+                "IPAddressType": [
+                  "Dynamic"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "InternetBillingPackage",
+            "value": [
+              {
+                "componentExternalId": [
+                  "M800N06_Internet_2_PK100034_3"
+                ],
+                "packageId": [
+                  "100034"
+                ],
+                "kenanPackageInstanceId": [
+                  ""
+                ],
+                "action": [
+                  "add"
+                ],
+                "packageSeq": [
+                  "3"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "100002622",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "M800N06_Internet_2_100002622_4"
+                ],
+                "componentSeq": [
+                  "4"
+                ],
+                "productCode": [
+                  "100002622"
+                ],
+                "productName": [
+                  "HSI Activation Fee"
+                ],
+                "kenanComponentInstanceId": [
+                  ""
+                ],
+                "packageId": [
+                  "100034"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "100002625",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "M800N06_Internet_2_100002625_5"
+                ],
+                "componentSeq": [
+                  "5"
+                ],
+                "productCode": [
+                  "100002625"
+                ],
+                "productName": [
+                  "HSI Activation Fee 100% Discount"
+                ],
+                "kenanComponentInstanceId": [
+                  ""
+                ],
+                "packageId": [
+                  "100034"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "InternetBillingPackage",
+            "value": [
+              {
+                "componentExternalId": [
+                  "M800N06_Internet_2_PK130029_4"
+                ],
+                "packageId": [
+                  "130029"
+                ],
+                "kenanPackageInstanceId": [
+                  ""
+                ],
+                "action": [
+                  "add"
+                ],
+                "packageSeq": [
+                  "4"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "132352",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "M800N06_Internet_2_132352_6"
+                ],
+                "componentSeq": [
+                  "6"
+                ],
+                "productCode": [
+                  "132352"
+                ],
+                "productName": [
+                  "Inside Wire Maintenance - No"
+                ],
+                "kenanComponentInstanceId": [
+                  ""
+                ],
+                "packageId": [
+                  "130029"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "M800N06_Voice_2",
+      "action": "add",
+      "product": {
+        "id": "M800N06_Voice_2",
+        "productSpecification": {
+          "id": "Voice"
+        },
+        "characteristic": [
+          {
+            "name": "serviceAddressId",
+            "value": [
+              "441326"
+            ]
+          },
+          {
+            "name": "installJobId",
+            "value": [
+              "NABNC428"
+            ]
+          },
+          {
+            "name": "dueDate",
+            "value": [
+              "2023-12-04T00:00:00.000-1000"
+            ]
+          },
+          {
+            "name": "kenanServiceInstanceId",
+            "value": [
+              ""
+            ]
+          },
+          {
+            "name": "MDUEvent",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "expediteFlag",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "isBillingSuspend",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "isBillingResume",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "installAndMaintNotes",
+            "value": [
+              "CONTACT- CHAU YEE CHOW, CBR 111-111-1111 \n\nLoose animals on-prem: (edit to include the number of loose animals and if they will be restrained upon arrival)\nAccess arrangements: (edit to include any special access arrangements for the tech - ie. gate code, property mgt access, etc)\n\n\nHSI Activation Fee 100% Discount\nAnnouncement - 643-0023\nDry Loop - Res\nNo Pic Selected (NPS)(All LD)\nFioptics 400\nGateway Fee (Non-TV/HSI)\nResidential Internet Email\nSAVES for Keola Hoonanea (400M-1G )\nInside Wire Maintenance - No\n\nInstall SAHSI Fioptics 400 on TN 8082000876\nONT Action Needed: Install"
+            ]
+          },
+          {
+            "name": "VoiceBillingPackage",
+            "value": [
+              {
+                "componentExternalId": [
+                  "M800N06_Voice_2_PK130211_0"
+                ],
+                "packageId": [
+                  "130211"
+                ],
+                "kenanPackageInstanceId": [
+                  ""
+                ],
+                "action": [
+                  "add"
+                ],
+                "packageSeq": [
+                  "0"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "132804",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "M800N06_Voice_2_132804_0"
+                ],
+                "componentSeq": [
+                  "0"
+                ],
+                "productCode": [
+                  "132804"
+                ],
+                "productName": [
+                  "Dry Loop - Res"
+                ],
+                "kenanComponentInstanceId": [
+                  ""
+                ],
+                "packageId": [
+                  "130211"
+                ],
+                "technologyType": [
+                  "Fiber"
+                ],
+                "telephoneNumber": [
+                  "8082000876"
+                ],
+                "accessPackageId": [
+                  "24045355"
+                ],
+                "intralataPIC": [
+                  "9000"
+                ],
+                "interlataPIC": [
+                  "9000"
+                ],
+                "internationalPIC": [
+                  "9000"
+                ],
+                "newServiceProviderId": [
+                  "3100"
+                ],
+                "oldServiceProviderId": [
+                  "3100"
+                ],
+                "LNPType": [
+                  "Port Within"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "132806",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "M800N06_Voice_2_132806_1"
+                ],
+                "componentSeq": [
+                  "1"
+                ],
+                "productCode": [
+                  "132806"
+                ],
+                "productName": [
+                  "Announcement - 643-0023"
+                ],
+                "kenanComponentInstanceId": [
+                  ""
+                ],
+                "packageId": [
+                  "130211"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "M800N06_Internet_1",
+      "action": "delete",
+      "product": {
+        "id": "M800N06_Internet_1",
+        "productSpecification": {
+          "id": "Internet"
+        },
+        "characteristic": [
+          {
+            "name": "serviceAddressId",
+            "value": [
+              "441326"
+            ]
+          },
+          {
+            "name": "dueDate",
+            "value": [
+              "2023-12-04T00:00:00.000-1000"
+            ]
+          },
+          {
+            "name": "kenanServiceInstanceId",
+            "value": [
+              "4184612:0:12109735003"
+            ]
+          },
+          {
+            "name": "MDUEvent",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "expediteFlag",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "isBillingSuspend",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "isBillingResume",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "installAndMaintNotes",
+            "value": [
+              "CONTACT- CHAU YEE CHOW, CBR 111-111-1111 \n\nLoose animals on-prem: (edit to include the number of loose animals and if they will be restrained upon arrival)\nAccess arrangements: (edit to include any special access arrangements for the tech - ie. gate code, property mgt access, etc)\n\n\nHSI Activation Fee 100% Discount\nAnnouncement - 643-0023\nDry Loop - Res\nNo Pic Selected (NPS)(All LD)\nFioptics 400\nGateway Fee (Non-TV/HSI)\nResidential Internet Email\nSAVES for Keola Hoonanea (400M-1G )\nInside Wire Maintenance - No\n\nInstall SAHSI Fioptics 400 on TN 8082000876\nONT Action Needed: Install"
+            ]
+          },
+          {
+            "name": "disconnectReasonCode",
+            "value": [
+              "222"
+            ]
+          },
+          {
+            "name": "InternetBillingPackage",
+            "value": [
+              {
+                "componentExternalId": [
+                  "M800N06_Internet_1_PK100017_0"
+                ],
+                "packageId": [
+                  "100017"
+                ],
+                "kenanPackageInstanceId": [
+                  "16218514:3"
+                ],
+                "action": [
+                  "delete"
+                ],
+                "packageSeq": [
+                  "0"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "120837",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "M800N06_Internet_1_120837_0"
+                ],
+                "componentSeq": [
+                  "0"
+                ],
+                "productCode": [
+                  "120837"
+                ],
+                "productName": [
+                  "Gateway Fee (Non-TV/HSI)"
+                ],
+                "kenanComponentInstanceId": [
+                  "96487173:3"
+                ],
+                "packageId": [
+                  "100017"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "InternetBillingPackage",
+            "value": [
+              {
+                "componentExternalId": [
+                  "M800N06_Internet_1_PK100042_1"
+                ],
+                "packageId": [
+                  "100042"
+                ],
+                "kenanPackageInstanceId": [
+                  "16218513:3"
+                ],
+                "action": [
+                  "delete"
+                ],
+                "packageSeq": [
+                  "1"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "100003783",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "M800N06_Internet_1_100003783_1"
+                ],
+                "componentSeq": [
+                  "1"
+                ],
+                "productCode": [
+                  "100003783"
+                ],
+                "productName": [
+                  "SAVES for Keola Hoonanea (400M-1G )"
+                ],
+                "kenanComponentInstanceId": [
+                  "96487171:3"
+                ],
+                "packageId": [
+                  "100042"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "InternetBillingPackage",
+            "value": [
+              {
+                "componentExternalId": [
+                  "M800N06_Internet_1_PK920001_2"
+                ],
+                "packageId": [
+                  "920001"
+                ],
+                "kenanPackageInstanceId": [
+                  "14188649:3"
+                ],
+                "action": [
+                  "delete"
+                ],
+                "packageSeq": [
+                  "2"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "100492",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "M800N06_Internet_1_100492_2"
+                ],
+                "componentSeq": [
+                  "2"
+                ],
+                "productCode": [
+                  "100492"
+                ],
+                "productName": [
+                  "Residential Internet Email"
+                ],
+                "kenanComponentInstanceId": [
+                  "87611488:3"
+                ],
+                "packageId": [
+                  "920001"
+                ],
+                "innovawareId": [
+                  "INS44023284"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "160722",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "M800N06_Internet_1_160722_3"
+                ],
+                "componentSeq": [
+                  "3"
+                ],
+                "productCode": [
+                  "160722"
+                ],
+                "productName": [
+                  "Fioptics 400"
+                ],
+                "kenanComponentInstanceId": [
+                  "96487172:3"
+                ],
+                "packageId": [
+                  "920001"
+                ],
+                "technologyType": [
+                  "Fiber"
+                ],
+                "downloadSpeed": [
+                  "400"
+                ],
+                "uploadSpeed": [
+                  "400"
+                ],
+                "HSIProduct": [
+                  "FIBER_400"
+                ],
+                "IPAddressType": [
+                  "Dynamic"
+                ],
+                "circuitId": [
+                  "91.SWXX.381655..HTBB"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "M800N06_Voice_1",
+      "action": "delete",
+      "product": {
+        "id": "M800N06_Voice_1",
+        "productSpecification": {
+          "id": "Voice"
+        },
+        "characteristic": [
+          {
+            "name": "serviceAddressId",
+            "value": [
+              "441326"
+            ]
+          },
+          {
+            "name": "dueDate",
+            "value": [
+              "2023-12-04T00:00:00.000-1000"
+            ]
+          },
+          {
+            "name": "kenanServiceInstanceId",
+            "value": [
+              "4184617:0:12116781003"
+            ]
+          },
+          {
+            "name": "MDUEvent",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "expediteFlag",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "isBillingSuspend",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "isBillingResume",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "installAndMaintNotes",
+            "value": [
+              "CONTACT- CHAU YEE CHOW, CBR 111-111-1111 \n\nLoose animals on-prem: (edit to include the number of loose animals and if they will be restrained upon arrival)\nAccess arrangements: (edit to include any special access arrangements for the tech - ie. gate code, property mgt access, etc)\n\n\nHSI Activation Fee 100% Discount\nAnnouncement - 643-0023\nDry Loop - Res\nNo Pic Selected (NPS)(All LD)\nFioptics 400\nGateway Fee (Non-TV/HSI)\nResidential Internet Email\nSAVES for Keola Hoonanea (400M-1G )\nInside Wire Maintenance - No\n\nInstall SAHSI Fioptics 400 on TN 8082000876\nONT Action Needed: Install"
+            ]
+          },
+          {
+            "name": "disconnectReasonCode",
+            "value": [
+              "285"
+            ]
+          },
+          {
+            "name": "VoiceBillingPackage",
+            "value": [
+              {
+                "componentExternalId": [
+                  "M800N06_Voice_1_PK130211_0"
+                ],
+                "packageId": [
+                  "130211"
+                ],
+                "kenanPackageInstanceId": [
+                  "14246290:3"
+                ],
+                "action": [
+                  "delete"
+                ],
+                "packageSeq": [
+                  "0"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "132804",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "M800N06_Voice_1_132804_0"
+                ],
+                "componentSeq": [
+                  "0"
+                ],
+                "productCode": [
+                  "132804"
+                ],
+                "productName": [
+                  "Dry Loop - Res"
+                ],
+                "kenanComponentInstanceId": [
+                  "87899082:3"
+                ],
+                "packageId": [
+                  "130211"
+                ],
+                "technologyType": [
+                  "Fiber"
+                ],
+                "telephoneNumber": [
+                  "8082000876"
+                ],
+                "accessPackageId": [
+                  "24045355"
+                ],
+                "intralataPIC": [
+                  "9000"
+                ],
+                "interlataPIC": [
+                  "9000"
+                ],
+                "internationalPIC": [
+                  "9000"
+                ],
+                "newServiceProviderId": [
+                  "3100"
+                ],
+                "oldServiceProviderId": [
+                  "3100"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "132806",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "M800N06_Voice_1_132806_1"
+                ],
+                "componentSeq": [
+                  "1"
+                ],
+                "productCode": [
+                  "132806"
+                ],
+                "productName": [
+                  "Announcement - 643-0023"
+                ],
+                "kenanComponentInstanceId": [
+                  "87899083:3"
+                ],
+                "packageId": [
+                  "130211"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VoiceBillingPackage",
+            "value": [
+              {
+                "componentExternalId": [
+                  "M800N06_Voice_1_PK130029_1"
+                ],
+                "packageId": [
+                  "130029"
+                ],
+                "kenanPackageInstanceId": [
+                  "14252098:3"
+                ],
+                "action": [
+                  "delete"
+                ],
+                "packageSeq": [
+                  "1"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "132352",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "M800N06_Voice_1_132352_2"
+                ],
+                "componentSeq": [
+                  "2"
+                ],
+                "productCode": [
+                  "132352"
+                ],
+                "productName": [
+                  "Inside Wire Maintenance - No"
+                ],
+                "kenanComponentInstanceId": [
+                  "87934015:3"
+                ],
+                "packageId": [
+                  "130029"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

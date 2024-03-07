@@ -1,0 +1,2405 @@
+{
+  "externalId": "C806S60",
+  "requestedCompletionDate": "2024-01-19T00:00:00.000-1000",
+  "characteristic": [
+    {
+      "name": "sourceSystem",
+      "value": [
+        "SOE"
+      ]
+    },
+    {
+      "name": "BSSOrderNumber",
+      "value": [
+        "C806S60"
+      ]
+    },
+    {
+      "name": "orderVersion",
+      "value": [
+        "1"
+      ]
+    },
+    {
+      "name": "dueDate",
+      "value": [
+        "2024-01-19T00:00:00.000-1000"
+      ]
+    },
+    {
+      "name": "BSSOrderCapturer",
+      "value": [
+        "asur725"
+      ]
+    },
+    {
+      "name": "isRecordsOnly",
+      "value": [
+        "No"
+      ]
+    },
+    {
+      "name": "isLesseeChanged",
+      "value": [
+        "Yes"
+      ]
+    },
+    {
+      "name": "canBeReachedNumber",
+      "value": [
+        "1111111111"
+      ]
+    },
+    {
+      "name": "isONTSwapRequired",
+      "value": [
+        "No"
+      ]
+    }
+  ],
+  "relatedParty": [
+    {
+      "id": "200000000579744",
+      "firstName": "test",
+      "lastName": "test",
+      "role": "customer"
+    }
+  ],
+  "orderItem": [
+    {
+      "id": "C806S60_Billing",
+      "action": "modify",
+      "product": {
+        "id": "C806S60_Billing",
+        "productSpecification": {
+          "id": "Billing"
+        },
+        "characteristic": [
+          {
+            "name": "accountExternalId",
+            "value": [
+              "200000000579744"
+            ]
+          },
+          {
+            "name": "parentAccountExternalId",
+            "value": [
+              ""
+            ]
+          },
+          {
+            "name": "accountStatus",
+            "value": [
+              "ACT"
+            ]
+          },
+          {
+            "name": "accountType",
+            "value": [
+              "IND"
+            ]
+          },
+          {
+            "name": "ACNA",
+            "value": [
+              "AWL"
+            ]
+          },
+          {
+            "name": "billingTelephoneNumber",
+            "value": [
+              "8083940250"
+            ]
+          },
+          {
+            "name": "billAddress1",
+            "value": [
+              "162 Hoolako Pl"
+            ]
+          },
+          {
+            "name": "billAddress2",
+            "value": [
+              ""
+            ]
+          },
+          {
+            "name": "billCity",
+            "value": [
+              "Honolulu"
+            ]
+          },
+          {
+            "name": "billCountry",
+            "value": [
+              "USA"
+            ]
+          },
+          {
+            "name": "billDispMeth",
+            "value": [
+              "1"
+            ]
+          },
+          {
+            "name": "billFmtOpt",
+            "value": [
+              "100"
+            ]
+          },
+          {
+            "name": "billFranchiseTaxCode",
+            "value": [
+              "1"
+            ]
+          },
+          {
+            "name": "billPeriod",
+            "value": [
+              "M01"
+            ]
+          },
+          {
+            "name": "billState",
+            "value": [
+              "HI"
+            ]
+          },
+          {
+            "name": "billZip",
+            "value": [
+              "96825-3518"
+            ]
+          },
+          {
+            "name": "creditRating",
+            "value": [
+              "2"
+            ]
+          },
+          {
+            "name": "custFirstName",
+            "value": [
+              "test"
+            ]
+          },
+          {
+            "name": "custLastName",
+            "value": [
+              "test"
+            ]
+          },
+          {
+            "name": "custEmail",
+            "value": [
+              "Mail Receipt"
+            ]
+          },
+          {
+            "name": "dateActive",
+            "value": [
+              "2024-01-16T00:00:10.000-1000"
+            ]
+          },
+          {
+            "name": "directoryListId",
+            "value": [
+              "DL439086"
+            ]
+          },
+          {
+            "name": "mktCode",
+            "value": [
+              "1"
+            ]
+          },
+          {
+            "name": "payMethod",
+            "value": [
+              "INV"
+            ]
+          },
+          {
+            "name": "rateClassDefault",
+            "value": [
+              "1"
+            ]
+          },
+          {
+            "name": "VIPCode",
+            "value": [
+              "1"
+            ]
+          },
+          {
+            "name": "waiveTerminationObligation",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "waiveUnmetObligation",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "ExtendedData",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S60_Billing_NUMBER_OF_INVOICE_COPIES"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "paramName": [
+                  "NUMBER_OF_INVOICE_COPIES"
+                ],
+                "paramValue": [
+                  "1"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "ExtendedData",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S60_Billing_SHARED_SECRET_QUESTION"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "paramName": [
+                  "SHARED_SECRET_QUESTION"
+                ],
+                "paramValue": [
+                  "3"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "ExtendedData",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S60_Billing_SECRET_ANSWER"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "paramName": [
+                  "SECRET_ANSWER"
+                ],
+                "paramValue": [
+                  "test"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "ExtendedData",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S60_Billing_CREF"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "paramName": [
+                  "CREF"
+                ],
+                "paramValue": [
+                  "   "
+                ]
+              }
+            ]
+          },
+          {
+            "name": "ExtendedData",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S60_Billing_PASSWORD_PIN"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "paramName": [
+                  "PASSWORD_PIN"
+                ],
+                "paramValue": [
+                  "er32r324w"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "ExtendedData",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S60_Billing_SALESREP_FIRSTNAME"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "paramName": [
+                  "SALESREP_FIRSTNAME"
+                ],
+                "paramValue": [
+                  "Anthati"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "ExtendedData",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S60_Billing_SALESREP_LASTNAME"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "paramName": [
+                  "SALESREP_LASTNAME"
+                ],
+                "paramValue": [
+                  "Suresh"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "ExtendedData",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S60_Billing_SSN"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "paramName": [
+                  "SSN"
+                ],
+                "paramValue": [
+                  "zMP2pse1d+iGdaDMqzsWpg=="
+                ]
+              }
+            ]
+          },
+          {
+            "name": "ExtendedData",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S60_Billing_SALES_CODE"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "paramName": [
+                  "SALES_CODE"
+                ],
+                "paramValue": [
+                  "asur725"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "C806S60_Address",
+      "action": "noChange",
+      "product": {
+        "characteristic": [
+          {
+            "name": "Address",
+            "value": [
+              {
+                "action": [
+                  "noChange"
+                ],
+                "componentExternalId": [
+                  "C806S60_Address_69948"
+                ],
+                "serviceAddressId": [
+                  "69948"
+                ],
+                "streetNumber": [
+                  "162"
+                ],
+                "streetName": [
+                  "HOOLAKO"
+                ],
+                "preDirectional": [
+                  ""
+                ],
+                "postDirectional": [
+                  ""
+                ],
+                "streetType": [
+                  "PL"
+                ],
+                "streetAddress": [
+                  "162 HOOLAKO PL"
+                ],
+                "city": [
+                  "HONOLULU"
+                ],
+                "county": [
+                  "OAHU"
+                ],
+                "island": [
+                  "OAHU"
+                ],
+                "state": [
+                  "HI"
+                ],
+                "country": [
+                  "USA"
+                ],
+                "zip": [
+                  "96825"
+                ],
+                "subloc1": [
+                  ""
+                ],
+                "subloc2": [
+                  ""
+                ],
+                "subloc3": [
+                  ""
+                ],
+                "subloc": [
+                  ""
+                ],
+                "addressRemarks1": [
+                  ""
+                ],
+                "addressRemarks2": [
+                  "NGTV=FTTPB"
+                ],
+                "jurisdiction": [
+                  "1002000"
+                ],
+                "ACO": [
+                  "BBW"
+                ],
+                "CLLI": [
+                  "KOKOHICOSIP"
+                ],
+                "MDU": [
+                  "No"
+                ],
+                "centralOffice": [
+                  "2395"
+                ],
+                "copperServingCLLI": [
+                  "HNLNHIPY"
+                ],
+                "FTTPServingCLLI": [
+                  "KOKOHICO"
+                ],
+                "SIPProvisioningCLLI": [
+                  "KOKOHICOSIP"
+                ],
+                "FTTPDropInstalled": [
+                  "Yes"
+                ],
+                "cs2kLRN": [
+                  "8087991647"
+                ],
+                "copperLRN": [
+                  "8083946511"
+                ],
+                "wireCenterId": [
+                  "40800"
+                ],
+                "isMilitary": [
+                  "No"
+                ],
+                "stationWorkZone": [
+                  "Oahu"
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "C806S60_Address",
+        "productSpecification": {
+          "id": "Address"
+        }
+      }
+    },
+    {
+      "id": "C806S60_Internet_1",
+      "action": "modify",
+      "product": {
+        "id": "C806S60_Internet_1",
+        "productSpecification": {
+          "id": "Internet"
+        },
+        "characteristic": [
+          {
+            "name": "serviceAddressId",
+            "value": [
+              "69948"
+            ]
+          },
+          {
+            "name": "dueDate",
+            "value": [
+              "2024-01-19T00:00:00.000-1000"
+            ]
+          },
+          {
+            "name": "kenanServiceInstanceId",
+            "value": [
+              "3965444:0:12006234003"
+            ]
+          },
+          {
+            "name": "MDUEvent",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "expediteFlag",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "isBillingSuspend",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "isBillingResume",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "installAndMaintNotes",
+            "value": [
+              "CONTACT- test test, CBR 111-111-1111 \n\nLoose animals on-prem: (edit to include the number of loose animals and if they will be restrained upon arrival)\nAccess arrangements: (edit to include any special access arrangements for the tech - ie. gate code, property mgt access, etc)\n\n\nGateway Fee (Non-TV/HSI)\nRemove All Video"
+            ]
+          },
+          {
+            "name": "shipAddress1",
+            "value": [
+              "162 Hoolako Pl"
+            ]
+          },
+          {
+            "name": "shipAddress2",
+            "value": [
+              ""
+            ]
+          },
+          {
+            "name": "shipCity",
+            "value": [
+              "Honolulu"
+            ]
+          },
+          {
+            "name": "shipState",
+            "value": [
+              "HI"
+            ]
+          },
+          {
+            "name": "shipZip",
+            "value": [
+              "96825-3518"
+            ]
+          },
+          {
+            "name": "InternetBillingPackage",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S60_Internet_1_PK100017_0A"
+                ],
+                "packageId": [
+                  "100017"
+                ],
+                "kenanPackageInstanceId": [
+                  "15402966:3"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "packageSeq": [
+                  "1"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "120837",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "C806S60_Internet_1_120837_0B"
+                ],
+                "componentSeq": [
+                  "1"
+                ],
+                "productCode": [
+                  "120837"
+                ],
+                "productName": [
+                  "Gateway Fee (Non-TV/HSI)"
+                ],
+                "kenanComponentInstanceId": [
+                  ""
+                ],
+                "packageId": [
+                  "100017"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "InternetBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S60_Internet_1_120837_0B_PE120837"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "120837"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "120837"
+                ],
+                "componentSeq": [
+                  "1"
+                ],
+                "action": [
+                  "add"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "1"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "931022",
+            "value": [
+              {
+                "action": [
+                  "noChange"
+                ],
+                "componentExternalId": [
+                  "C806S60_Internet_1_931022_0A"
+                ],
+                "componentSeq": [
+                  "2"
+                ],
+                "productCode": [
+                  "931022"
+                ],
+                "productName": [
+                  "Premier Value Bundle"
+                ],
+                "kenanComponentInstanceId": [
+                  "95500413:3"
+                ],
+                "packageId": [
+                  "100017"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "InternetBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S60_Internet_1_931022_0A_PE931022"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "931022"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "931022"
+                ],
+                "componentSeq": [
+                  "2"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "2"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "InternetBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S60_Internet_1_931022_0A_PE931023"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "931023"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "931022"
+                ],
+                "componentSeq": [
+                  "2"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "3"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "InternetBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S60_Internet_1_931022_0A_PE931024"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "931024"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "931022"
+                ],
+                "componentSeq": [
+                  "2"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "4"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "100003686",
+            "value": [
+              {
+                "action": [
+                  "noChange"
+                ],
+                "componentExternalId": [
+                  "C806S60_Internet_1_100003686_0A"
+                ],
+                "componentSeq": [
+                  "3"
+                ],
+                "productCode": [
+                  "100003686"
+                ],
+                "productName": [
+                  "Gateway Discount - Free"
+                ],
+                "kenanComponentInstanceId": [
+                  "95654603:3"
+                ],
+                "packageId": [
+                  "100017"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "InternetBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S60_Internet_1_100003686_0A_CT100003166"
+                ],
+                "elementType": [
+                  "CT"
+                ],
+                "elementId": [
+                  "100003166"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "100003686"
+                ],
+                "componentSeq": [
+                  "3"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "5"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "InternetPromo",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "C806S60_Internet_1_100003686_0A_CT100003166_Promo_1"
+                ],
+                "elementType": [
+                  "CT"
+                ],
+                "elementId": [
+                  "100003166"
+                ],
+                "elementSeq": [
+                  "5"
+                ],
+                "promoSeq": [
+                  "1"
+                ],
+                "productOverrideRate": [
+                  "-1099"
+                ],
+                "promoDate": [
+                  "3000-12-31T00:00:00.000-1000"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "InternetBillingPackage",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S60_Internet_1_PK920001_0A"
+                ],
+                "packageId": [
+                  "920001"
+                ],
+                "kenanPackageInstanceId": [
+                  "13626667:3"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "packageSeq": [
+                  "2"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "920088",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "C806S60_Internet_1_920088_0A"
+                ],
+                "componentSeq": [
+                  "4"
+                ],
+                "productCode": [
+                  "920088"
+                ],
+                "productName": [
+                  "Gateway Fee (TV-HSI)"
+                ],
+                "kenanComponentInstanceId": [
+                  "84950126:3"
+                ],
+                "packageId": [
+                  "920001"
+                ],
+                "waiveTerminationObligation": [
+                  "Yes"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "InternetBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S60_Internet_1_920088_0A_PE920088"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "920088"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "920088"
+                ],
+                "componentSeq": [
+                  "4"
+                ],
+                "action": [
+                  "delete"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "6"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "InternetBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S60_Internet_1_920088_0A_CT921088"
+                ],
+                "elementType": [
+                  "CT"
+                ],
+                "elementId": [
+                  "921088"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "920088"
+                ],
+                "componentSeq": [
+                  "4"
+                ],
+                "action": [
+                  "delete"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "0"
+                ],
+                "elementSeq": [
+                  "7"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "100492",
+            "value": [
+              {
+                "action": [
+                  "noChange"
+                ],
+                "componentExternalId": [
+                  "C806S60_Internet_1_100492_0A"
+                ],
+                "componentSeq": [
+                  "5"
+                ],
+                "productCode": [
+                  "100492"
+                ],
+                "productName": [
+                  "Residential Internet Email"
+                ],
+                "kenanComponentInstanceId": [
+                  "84950114:3"
+                ],
+                "packageId": [
+                  "920001"
+                ],
+                "innovawareId": [
+                  "INS38532239"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "InternetBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S60_Internet_1_100492_0A_PE100492"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "100492"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "100492"
+                ],
+                "componentSeq": [
+                  "5"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "8"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "160721",
+            "value": [
+              {
+                "action": [
+                  "noChange"
+                ],
+                "componentExternalId": [
+                  "C806S60_Internet_1_160721_0A"
+                ],
+                "componentSeq": [
+                  "6"
+                ],
+                "productCode": [
+                  "160721"
+                ],
+                "productName": [
+                  "Fioptics 600"
+                ],
+                "kenanComponentInstanceId": [
+                  "95500420:3"
+                ],
+                "packageId": [
+                  "920001"
+                ],
+                "technologyType": [
+                  "Fiber"
+                ],
+                "downloadSpeed": [
+                  "600"
+                ],
+                "uploadSpeed": [
+                  "600"
+                ],
+                "HSIProduct": [
+                  "FIBER_600"
+                ],
+                "IPAddressType": [
+                  "Dynamic"
+                ],
+                "circuitId": [
+                  "91.SWXX.323045..HTBB"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "InternetBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S60_Internet_1_160721_0A_PE160721"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "160721"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "160721"
+                ],
+                "componentSeq": [
+                  "6"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "9"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "InternetPromo",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "C806S60_Internet_1_160721_0A_PE160721_Promo_1"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "160721"
+                ],
+                "elementSeq": [
+                  "9"
+                ],
+                "promoSeq": [
+                  "1"
+                ],
+                "productOverrideRate": [
+                  "6999"
+                ],
+                "promoDate": [
+                  "2024-01-31T00:00:00.000-1000"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "C806S60_Voice_1",
+      "action": "noChange",
+      "product": {
+        "id": "C806S60_Voice_1",
+        "productSpecification": {
+          "id": "Voice"
+        },
+        "characteristic": [
+          {
+            "name": "serviceAddressId",
+            "value": [
+              "69948"
+            ]
+          },
+          {
+            "name": "dueDate",
+            "value": [
+              "2024-01-19T00:00:00.000-1000"
+            ]
+          },
+          {
+            "name": "kenanServiceInstanceId",
+            "value": [
+              ""
+            ]
+          },
+          {
+            "name": "MDUEvent",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "expediteFlag",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "isBillingSuspend",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "isBillingResume",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "installAndMaintNotes",
+            "value": [
+              "CONTACT- test test, CBR 111-111-1111 \n\nLoose animals on-prem: (edit to include the number of loose animals and if they will be restrained upon arrival)\nAccess arrangements: (edit to include any special access arrangements for the tech - ie. gate code, property mgt access, etc)\n\n\nGateway Fee (Non-TV/HSI)\nRemove All Video"
+            ]
+          },
+          {
+            "name": "shipAddress1",
+            "value": [
+              "162 Hoolako Pl"
+            ]
+          },
+          {
+            "name": "shipAddress2",
+            "value": [
+              ""
+            ]
+          },
+          {
+            "name": "shipCity",
+            "value": [
+              "Honolulu"
+            ]
+          },
+          {
+            "name": "shipState",
+            "value": [
+              "HI"
+            ]
+          },
+          {
+            "name": "shipZip",
+            "value": [
+              "96825-3518"
+            ]
+          },
+          {
+            "name": "VoiceBillingPackage",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S60_Voice_1_PK130211_0A"
+                ],
+                "packageId": [
+                  "130211"
+                ],
+                "kenanPackageInstanceId": [
+                  "13626635:3"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "packageSeq": [
+                  "1"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "132804",
+            "value": [
+              {
+                "action": [
+                  "noChange"
+                ],
+                "componentExternalId": [
+                  "C806S60_Voice_1_132804_0A"
+                ],
+                "componentSeq": [
+                  "1"
+                ],
+                "productCode": [
+                  "132804"
+                ],
+                "productName": [
+                  "Dry Loop - Res"
+                ],
+                "kenanComponentInstanceId": [
+                  "84950008:3"
+                ],
+                "packageId": [
+                  "130211"
+                ],
+                "technologyType": [
+                  "Fiber"
+                ],
+                "telephoneNumber": [
+                  "8083940250"
+                ],
+                "accessPackageId": [
+                  "18354662"
+                ],
+                "intralataPIC": [
+                  "9000"
+                ],
+                "interlataPIC": [
+                  "9000"
+                ],
+                "internationalPIC": [
+                  "9000"
+                ],
+                "PICSourceCodeIntralata": [
+                  "O"
+                ],
+                "PICSourceCodeInterlata": [
+                  "O"
+                ],
+                "newServiceProviderId": [
+                  "3100"
+                ],
+                "oldServiceProviderId": [
+                  "3100"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VoiceBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S60_Voice_1_132804_0A_PE132804"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "132804"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "132804"
+                ],
+                "componentSeq": [
+                  "1"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "1"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "132806",
+            "value": [
+              {
+                "action": [
+                  "noChange"
+                ],
+                "componentExternalId": [
+                  "C806S60_Voice_1_132806_0A"
+                ],
+                "componentSeq": [
+                  "2"
+                ],
+                "productCode": [
+                  "132806"
+                ],
+                "productName": [
+                  "Announcement - 643-0023"
+                ],
+                "kenanComponentInstanceId": [
+                  "84950007:3"
+                ],
+                "packageId": [
+                  "130211"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VoiceBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S60_Voice_1_132806_0A_PE132806"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "132806"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "132806"
+                ],
+                "componentSeq": [
+                  "2"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "2"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "DirectoryListing",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "C806S60_Voice_1_DL439086_LS999042_DirectoryListing"
+                ],
+                "listingId": [
+                  "LS999042"
+                ],
+                "advanceListing": [
+                  "No"
+                ],
+                "listingType": [
+                  "PL"
+                ],
+                "publishingStatus": [
+                  "NOL"
+                ],
+                "customerType": [
+                  "R"
+                ],
+                "dlStatus": [
+                  "P"
+                ],
+                "dlCaptureType": [
+                  "SL"
+                ],
+                "bookId": [
+                  "016600"
+                ],
+                "primaryBook": [
+                  "016600"
+                ],
+                "lastExportDateTime": [
+                  "7/5/2017 3:50:06 AM"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "DirectoryListingDetails",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "C806S60_Voice_1_DL439086_LS999042_DirectoryListingDetails"
+                ],
+                "listingId": [
+                  "LS999042"
+                ],
+                "nonWordInd": [
+                  "No"
+                ],
+                "dlIndentLevel": [
+                  "0"
+                ],
+                "dlLastName": [
+                  "test"
+                ],
+                "dlFirstName": [
+                  "test"
+                ],
+                "dlAddress": [
+                  "162 Hoolako Pl"
+                ],
+                "dlCommunity": [
+                  ""
+                ],
+                "dlTelephoneNumber": [
+                  "8083940250"
+                ],
+                "dlText": [
+                  ""
+                ],
+                "dlAreaCode": [
+                  "No"
+                ],
+                "omitAddress": [
+                  "No"
+                ],
+                "omitCommunity": [
+                  "Yes"
+                ],
+                "dlLineType": [
+                  ""
+                ],
+                "clecId": [
+                  ""
+                ],
+                "dlLocality": [
+                  ""
+                ],
+                "directoryCount": [
+                  "0"
+                ],
+                "dlAction": [
+                  "C"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "C806S60_Video_1",
+      "action": "delete",
+      "product": {
+        "id": "C806S60_Video_1",
+        "productSpecification": {
+          "id": "Video"
+        },
+        "characteristic": [
+          {
+            "name": "serviceAddressId",
+            "value": [
+              "69948"
+            ]
+          },
+          {
+            "name": "dueDate",
+            "value": [
+              "2024-01-19T00:00:00.000-1000"
+            ]
+          },
+          {
+            "name": "kenanServiceInstanceId",
+            "value": [
+              "3965440:0:11985302003"
+            ]
+          },
+          {
+            "name": "MDUEvent",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "expediteFlag",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "isBillingSuspend",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "isBillingResume",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "installAndMaintNotes",
+            "value": [
+              "CONTACT- test test, CBR 111-111-1111 \n\nLoose animals on-prem: (edit to include the number of loose animals and if they will be restrained upon arrival)\nAccess arrangements: (edit to include any special access arrangements for the tech - ie. gate code, property mgt access, etc)\n\n\nGateway Fee (Non-TV/HSI)\nRemove All Video"
+            ]
+          },
+          {
+            "name": "disconnectReasonCode",
+            "value": [
+              "408"
+            ]
+          },
+          {
+            "name": "SOEDisconnectReasonCode",
+            "value": [
+              "H5"
+            ]
+          },
+          {
+            "name": "disconnectReasonDescription",
+            "value": [
+              "Price|Competitor Offer"
+            ]
+          },
+          {
+            "name": "shipAddress1",
+            "value": [
+              "162 Hoolako Pl"
+            ]
+          },
+          {
+            "name": "shipAddress2",
+            "value": [
+              ""
+            ]
+          },
+          {
+            "name": "shipCity",
+            "value": [
+              "Honolulu"
+            ]
+          },
+          {
+            "name": "shipState",
+            "value": [
+              "HI"
+            ]
+          },
+          {
+            "name": "shipZip",
+            "value": [
+              "96825-3518"
+            ]
+          },
+          {
+            "name": "VideoBillingPackage",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S60_Video_1_PK920000_0A"
+                ],
+                "packageId": [
+                  "920000"
+                ],
+                "kenanPackageInstanceId": [
+                  "13626658:3"
+                ],
+                "action": [
+                  "delete"
+                ],
+                "packageSeq": [
+                  "1"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "920022",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "C806S60_Video_1_920022_1A"
+                ],
+                "componentSeq": [
+                  "1"
+                ],
+                "productCode": [
+                  "920022"
+                ],
+                "productName": [
+                  "Additional Set Top Box"
+                ],
+                "kenanComponentInstanceId": [
+                  "93409581:3"
+                ],
+                "packageId": [
+                  "920000"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VideoBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S60_Video_1_920022_1A_PE920022"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "920022"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "920022"
+                ],
+                "componentSeq": [
+                  "1"
+                ],
+                "action": [
+                  "delete"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "Yes"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "1"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "920086",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "C806S60_Video_1_920086_0A"
+                ],
+                "componentSeq": [
+                  "2"
+                ],
+                "productCode": [
+                  "920086"
+                ],
+                "productName": [
+                  "1st Set Top Box"
+                ],
+                "kenanComponentInstanceId": [
+                  "84950081:3"
+                ],
+                "packageId": [
+                  "920000"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VideoBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S60_Video_1_920086_0A_PE920086"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "920086"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "920086"
+                ],
+                "componentSeq": [
+                  "2"
+                ],
+                "action": [
+                  "delete"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "2"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "920004",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "C806S60_Video_1_920004_0A"
+                ],
+                "componentSeq": [
+                  "3"
+                ],
+                "productCode": [
+                  "920004"
+                ],
+                "productName": [
+                  "Advantage Plus TV"
+                ],
+                "kenanComponentInstanceId": [
+                  "93588783:3"
+                ],
+                "packageId": [
+                  "920000"
+                ],
+                "technologyType": [
+                  "Fiber"
+                ],
+                "circuitId": [
+                  "91.SWXX.323045..HTBB"
+                ],
+                "creditRiskClass": [
+                  "Medium"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VideoBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S60_Video_1_920004_0A_PE920094"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "920094"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "920004"
+                ],
+                "componentSeq": [
+                  "3"
+                ],
+                "action": [
+                  "delete"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "3"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VideoBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S60_Video_1_920004_0A_PE1000733"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "1000733"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "920004"
+                ],
+                "componentSeq": [
+                  "3"
+                ],
+                "action": [
+                  "delete"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "4"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VideoBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S60_Video_1_920004_0A_PE1000537"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "1000537"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "920004"
+                ],
+                "componentSeq": [
+                  "3"
+                ],
+                "action": [
+                  "delete"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "5"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VideoBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S60_Video_1_920004_0A_PE1000436"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "1000436"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "920004"
+                ],
+                "componentSeq": [
+                  "3"
+                ],
+                "action": [
+                  "delete"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "6"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "920068",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "C806S60_Video_1_920068_0A"
+                ],
+                "componentSeq": [
+                  "4"
+                ],
+                "productCode": [
+                  "920068"
+                ],
+                "productName": [
+                  "Allow PPV/VOD"
+                ],
+                "kenanComponentInstanceId": [
+                  "96279900:3"
+                ],
+                "packageId": [
+                  "920000"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VideoBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S60_Video_1_920068_0A_PE920068"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "920068"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "920068"
+                ],
+                "componentSeq": [
+                  "4"
+                ],
+                "action": [
+                  "delete"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "7"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "920032",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "C806S60_Video_1_920032_0A"
+                ],
+                "componentSeq": [
+                  "5"
+                ],
+                "productCode": [
+                  "920032"
+                ],
+                "productName": [
+                  "HD"
+                ],
+                "kenanComponentInstanceId": [
+                  "84950076:3"
+                ],
+                "packageId": [
+                  "920000"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VideoBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S60_Video_1_920032_0A_PE920032"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "920032"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "920032"
+                ],
+                "componentSeq": [
+                  "5"
+                ],
+                "action": [
+                  "delete"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "8"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "920034",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "C806S60_Video_1_920034_0A"
+                ],
+                "componentSeq": [
+                  "6"
+                ],
+                "productCode": [
+                  "920034"
+                ],
+                "productName": [
+                  "Whole Home DVR"
+                ],
+                "kenanComponentInstanceId": [
+                  "84950077:3"
+                ],
+                "packageId": [
+                  "920000"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VideoBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S60_Video_1_920034_0A_PE920034"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "920034"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "920034"
+                ],
+                "componentSeq": [
+                  "6"
+                ],
+                "action": [
+                  "delete"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "9"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,3209 @@
+{
+  "externalId": "M800K41",
+  "requestedCompletionDate": "2023-09-14T00:00:00.000-1000",
+  "characteristic": [
+    {
+      "name": "sourceSystem",
+      "value": [
+        "SOE"
+      ]
+    },
+    {
+      "name": "BSSOrderNumber",
+      "value": [
+        "M800K41"
+      ]
+    },
+    {
+      "name": "orderVersion",
+      "value": [
+        "2"
+      ]
+    },
+    {
+      "name": "dueDate",
+      "value": [
+        "2023-09-14T00:00:00.000-1000"
+      ]
+    },
+    {
+      "name": "BSSOrderCapturer",
+      "value": [
+        "mmen640"
+      ]
+    },
+    {
+      "name": "isRecordsOnly",
+      "value": [
+        "No"
+      ]
+    }
+  ],
+  "relatedParty": [
+    {
+      "id": "200000000412386",
+      "firstName": "VIVIAN",
+      "middleName": "",
+      "lastName": "TAKAGAKI",
+      "role": "customer"
+    }
+  ],
+  "orderItem": [
+    {
+      "id": "M800K41_Billing",
+      "action": "modify",
+      "product": {
+        "id": "M800K41_Billing",
+        "productSpecification": {
+          "id": "Billing"
+        },
+        "characteristic": [
+          {
+            "name": "accountExternalId",
+            "value": [
+              "200000000412386"
+            ]
+          },
+          {
+            "name": "parentAccountExternalId",
+            "value": [
+              ""
+            ]
+          },
+          {
+            "name": "accountStatus",
+            "value": [
+              "ACT"
+            ]
+          },
+          {
+            "name": "accountType",
+            "value": [
+              "IND"
+            ]
+          },
+          {
+            "name": "ACNA",
+            "value": [
+              "AWL"
+            ]
+          },
+          {
+            "name": "billingTelephoneNumber",
+            "value": [
+              "8085330034"
+            ]
+          },
+          {
+            "name": "billAddress1",
+            "value": [
+              "1616 Kewalo St"
+            ]
+          },
+          {
+            "name": "billAddress2",
+            "value": [
+              "APT 308"
+            ]
+          },
+          {
+            "name": "billCity",
+            "value": [
+              "HONOLULU"
+            ]
+          },
+          {
+            "name": "billCountry",
+            "value": [
+              "USA"
+            ]
+          },
+          {
+            "name": "billDispMeth",
+            "value": [
+              "1"
+            ]
+          },
+          {
+            "name": "billFmtOpt",
+            "value": [
+              "100"
+            ]
+          },
+          {
+            "name": "billFranchiseTaxCode",
+            "value": [
+              "1"
+            ]
+          },
+          {
+            "name": "billPeriod",
+            "value": [
+              "M01"
+            ]
+          },
+          {
+            "name": "billState",
+            "value": [
+              "HI"
+            ]
+          },
+          {
+            "name": "billZip",
+            "value": [
+              "96822"
+            ]
+          },
+          {
+            "name": "creditRating",
+            "value": [
+              "2"
+            ]
+          },
+          {
+            "name": "custFirstName",
+            "value": [
+              "VIVIAN"
+            ]
+          },
+          {
+            "name": "custMiddleName",
+            "value": [
+              ""
+            ]
+          },
+          {
+            "name": "custLastName",
+            "value": [
+              "TAKAGAKI"
+            ]
+          },
+          {
+            "name": "custEmail",
+            "value": [
+              "Mail Receipt"
+            ]
+          },
+          {
+            "name": "dateActive",
+            "value": [
+              "2011-02-01T00:00:00.000-1000"
+            ]
+          },
+          {
+            "name": "mktCode",
+            "value": [
+              "1"
+            ]
+          },
+          {
+            "name": "payMethod",
+            "value": [
+              "INV"
+            ]
+          },
+          {
+            "name": "rateClassDefault",
+            "value": [
+              "1"
+            ]
+          },
+          {
+            "name": "VIPCode",
+            "value": [
+              "1"
+            ]
+          },
+          {
+            "name": "waiveTerminationObligation",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "waiveUnmetObligation",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "ExtendedData",
+            "value": [
+              {
+                "componentExternalId": [
+                  "M800K41_Billing_NUMBER_OF_INVOICE_COPIES"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "paramName": [
+                  "NUMBER_OF_INVOICE_COPIES"
+                ],
+                "paramValue": [
+                  "1"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "ExtendedData",
+            "value": [
+              {
+                "componentExternalId": [
+                  "M800K41_Billing_CREF"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "paramName": [
+                  "CREF"
+                ],
+                "paramValue": [
+                  "   "
+                ]
+              }
+            ]
+          },
+          {
+            "name": "ExtendedData",
+            "value": [
+              {
+                "componentExternalId": [
+                  "M800K41_Billing_SALESREP_FIRSTNAME"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "paramName": [
+                  "SALESREP_FIRSTNAME"
+                ],
+                "paramValue": [
+                  "Marco"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "ExtendedData",
+            "value": [
+              {
+                "componentExternalId": [
+                  "M800K41_Billing_SALESREP_LASTNAME"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "paramName": [
+                  "SALESREP_LASTNAME"
+                ],
+                "paramValue": [
+                  "Mendez"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "ExtendedData",
+            "value": [
+              {
+                "componentExternalId": [
+                  "M800K41_Billing_SSN"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "paramName": [
+                  "SSN"
+                ],
+                "paramValue": [
+                  "Ijfx7idnE5smQfe5CtV/2g=="
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "M800K41_Address",
+      "action": "noChange",
+      "product": {
+        "characteristic": [
+          {
+            "name": "Address",
+            "value": [
+              {
+                "action": [
+                  "noChange"
+                ],
+                "componentExternalId": [
+                  "M800K41_Address_457281"
+                ],
+                "serviceAddressId": [
+                  "457281"
+                ],
+                "streetNumber": [
+                  "1616"
+                ],
+                "streetName": [
+                  "KEWALO"
+                ],
+                "preDirectional": [
+                  ""
+                ],
+                "postDirectional": [
+                  ""
+                ],
+                "streetType": [
+                  "ST"
+                ],
+                "streetAddress": [
+                  "1616 KEWALO ST"
+                ],
+                "city": [
+                  "HONOLULU"
+                ],
+                "county": [
+                  "OAHU"
+                ],
+                "state": [
+                  "HI"
+                ],
+                "country": [
+                  "USA"
+                ],
+                "zip": [
+                  "96822"
+                ],
+                "subloc1": [
+                  "APT 308"
+                ],
+                "subloc2": [
+                  ""
+                ],
+                "subloc3": [
+                  ""
+                ],
+                "subloc": [
+                  "APT 308"
+                ],
+                "addressRemarks1": [
+                  ""
+                ],
+                "addressRemarks2": [
+                  ""
+                ],
+                "jurisdiction": [
+                  "1002000"
+                ],
+                "ACO": [
+                  "BCZ"
+                ],
+                "MDU": [
+                  "No"
+                ],
+                "centralOffice": [
+                  "1521"
+                ],
+                "copperServingCLLI": [
+                  "HNLLHIMN"
+                ],
+                "FTTPDropInstalled": [
+                  "No"
+                ],
+                "cs2kLRN": [
+                  "8087991647"
+                ],
+                "copperLRN": [
+                  "8085255238"
+                ],
+                "wireCenterId": [
+                  "40881"
+                ],
+                "stationWorkZone": [
+                  "Oahu"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Address",
+            "value": [
+              {
+                "action": [
+                  "noChange"
+                ],
+                "componentExternalId": [
+                  "M800K41_Address_416207"
+                ],
+                "serviceAddressId": [
+                  "416207"
+                ],
+                "streetNumber": [
+                  "2825"
+                ],
+                "streetName": [
+                  "KING"
+                ],
+                "preDirectional": [
+                  "S"
+                ],
+                "postDirectional": [
+                  ""
+                ],
+                "streetType": [
+                  "ST"
+                ],
+                "streetAddress": [
+                  "2825 S KING ST"
+                ],
+                "city": [
+                  "HONOLULU"
+                ],
+                "county": [
+                  "OAHU"
+                ],
+                "state": [
+                  "HI"
+                ],
+                "country": [
+                  "USA"
+                ],
+                "zip": [
+                  "96826"
+                ],
+                "subloc1": [
+                  "APT 2604"
+                ],
+                "subloc2": [
+                  ""
+                ],
+                "subloc3": [
+                  ""
+                ],
+                "subloc": [
+                  "APT 2604"
+                ],
+                "addressRemarks1": [
+                  ""
+                ],
+                "addressRemarks2": [
+                  "MDU - THE CONTESSA"
+                ],
+                "jurisdiction": [
+                  "1002000"
+                ],
+                "ACO": [
+                  "BCW"
+                ],
+                "CLLI": [
+                  "PNHOHICOSIP"
+                ],
+                "MDU": [
+                  "No"
+                ],
+                "centralOffice": [
+                  "2941"
+                ],
+                "copperServingCLLI": [
+                  "PNHOHICO"
+                ],
+                "FTTPServingCLLI": [
+                  "PNHOHICO"
+                ],
+                "SIPProvisioningCLLI": [
+                  "PNHOHICOSIP"
+                ],
+                "FTTPDropInstalled": [
+                  "Yes"
+                ],
+                "cs2kLRN": [
+                  "8087991647"
+                ],
+                "copperLRN": [
+                  "8085255238"
+                ],
+                "wireCenterId": [
+                  "40898"
+                ],
+                "stationWorkZone": [
+                  "Oahu"
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "M800K41_Address",
+        "productSpecification": {
+          "id": "Address"
+        }
+      }
+    },
+    {
+      "id": "M800K41_Voice_2",
+      "action": "add",
+      "product": {
+        "id": "M800K41_Voice_2",
+        "productSpecification": {
+          "id": "Voice"
+        },
+        "characteristic": [
+          {
+            "name": "serviceAddressId",
+            "value": [
+              "457281"
+            ]
+          },
+          {
+            "name": "installJobId",
+            "value": [
+              "N9CIV49H"
+            ]
+          },
+          {
+            "name": "dueDate",
+            "value": [
+              "2023-09-14T00:00:00.000-1000"
+            ]
+          },
+          {
+            "name": "kenanServiceInstanceId",
+            "value": [
+              ""
+            ]
+          },
+          {
+            "name": "MDUEvent",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "expediteFlag",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "isBillingSuspend",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "isBillingResume",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "installAndMaintNotes",
+            "value": [
+              "CONTACT- VIVIAN TAKAGAKI, CBR 111-111-1111 \n\nLoose animals on-prem: (edit to include the number of loose animals and if they will be restrained upon arrival)\nAccess arrangements: (edit to include any special access arrangements for the tech - ie. gate code, property mgt access, etc)\n\n\n900/976 Block\nHT Philippines 100 Plan\nHawaiian Telcom Go Local Plus\nResidence Line\nHawaiian Telcom LD(All LD)\nCR Opt 3 Block 700/900\nCall More Plan\nCall More Plan (InterIsland)\nCall More Plan (Mainland)\nmyChoice International\nGo Local Plus VM Discount\nUnlimited DA\nUnlimited DA\nUnlimited Local Dir Assistance\nAnonymous Call Block *77\nBusy Redial\nCall Block *60\nCall Forwarding\nCall Waiting ID\nCall Waiting/Canc Call Waiting\nCaller Id\nDo Not Disturb\nLast Call Return *69\nSelect Call Forwarding\nSpeed Dialing-8\nThree-Way Calling\nTouch Call\nVip Alert *61\nInside Wire Maintenance - No"
+            ]
+          },
+          {
+            "name": "VoiceBillingPackage",
+            "value": [
+              {
+                "componentExternalId": [
+                  "M800K41_Voice_2_PK130009_0"
+                ],
+                "packageId": [
+                  "130009"
+                ],
+                "kenanPackageInstanceId": [
+                  ""
+                ],
+                "action": [
+                  "add"
+                ],
+                "packageSeq": [
+                  "0"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130035",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "M800K41_Voice_2_130035_0"
+                ],
+                "componentSeq": [
+                  "0"
+                ],
+                "productCode": [
+                  "130035"
+                ],
+                "productName": [
+                  "Call Waiting/Canc Call Waiting"
+                ],
+                "kenanComponentInstanceId": [
+                  ""
+                ],
+                "packageId": [
+                  "130009"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130041",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "M800K41_Voice_2_130041_1"
+                ],
+                "componentSeq": [
+                  "1"
+                ],
+                "productCode": [
+                  "130041"
+                ],
+                "productName": [
+                  "Touch Call"
+                ],
+                "kenanComponentInstanceId": [
+                  ""
+                ],
+                "packageId": [
+                  "130009"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130067",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "M800K41_Voice_2_130067_2"
+                ],
+                "componentSeq": [
+                  "2"
+                ],
+                "productCode": [
+                  "130067"
+                ],
+                "productName": [
+                  "Call Waiting ID"
+                ],
+                "kenanComponentInstanceId": [
+                  ""
+                ],
+                "packageId": [
+                  "130009"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130068",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "M800K41_Voice_2_130068_3"
+                ],
+                "componentSeq": [
+                  "3"
+                ],
+                "productCode": [
+                  "130068"
+                ],
+                "productName": [
+                  "Three-Way Calling"
+                ],
+                "kenanComponentInstanceId": [
+                  ""
+                ],
+                "packageId": [
+                  "130009"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130070",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "M800K41_Voice_2_130070_4"
+                ],
+                "componentSeq": [
+                  "4"
+                ],
+                "productCode": [
+                  "130070"
+                ],
+                "productName": [
+                  "Call Forwarding"
+                ],
+                "kenanComponentInstanceId": [
+                  ""
+                ],
+                "packageId": [
+                  "130009"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130071",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "M800K41_Voice_2_130071_5"
+                ],
+                "componentSeq": [
+                  "5"
+                ],
+                "productCode": [
+                  "130071"
+                ],
+                "productName": [
+                  "Speed Dialing-8"
+                ],
+                "kenanComponentInstanceId": [
+                  ""
+                ],
+                "packageId": [
+                  "130009"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130073",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "M800K41_Voice_2_130073_6"
+                ],
+                "componentSeq": [
+                  "6"
+                ],
+                "productCode": [
+                  "130073"
+                ],
+                "productName": [
+                  "Busy Redial"
+                ],
+                "kenanComponentInstanceId": [
+                  ""
+                ],
+                "packageId": [
+                  "130009"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130074",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "M800K41_Voice_2_130074_7"
+                ],
+                "componentSeq": [
+                  "7"
+                ],
+                "productCode": [
+                  "130074"
+                ],
+                "productName": [
+                  "Last Call Return *69"
+                ],
+                "kenanComponentInstanceId": [
+                  ""
+                ],
+                "packageId": [
+                  "130009"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130075",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "M800K41_Voice_2_130075_8"
+                ],
+                "componentSeq": [
+                  "8"
+                ],
+                "productCode": [
+                  "130075"
+                ],
+                "productName": [
+                  "Vip Alert *61"
+                ],
+                "kenanComponentInstanceId": [
+                  ""
+                ],
+                "packageId": [
+                  "130009"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130076",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "M800K41_Voice_2_130076_9"
+                ],
+                "componentSeq": [
+                  "9"
+                ],
+                "productCode": [
+                  "130076"
+                ],
+                "productName": [
+                  "Select Call Forwarding"
+                ],
+                "kenanComponentInstanceId": [
+                  ""
+                ],
+                "packageId": [
+                  "130009"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130077",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "M800K41_Voice_2_130077_10"
+                ],
+                "componentSeq": [
+                  "10"
+                ],
+                "productCode": [
+                  "130077"
+                ],
+                "productName": [
+                  "Call Block *60"
+                ],
+                "kenanComponentInstanceId": [
+                  ""
+                ],
+                "packageId": [
+                  "130009"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130078",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "M800K41_Voice_2_130078_11"
+                ],
+                "componentSeq": [
+                  "11"
+                ],
+                "productCode": [
+                  "130078"
+                ],
+                "productName": [
+                  "Do Not Disturb"
+                ],
+                "kenanComponentInstanceId": [
+                  ""
+                ],
+                "packageId": [
+                  "130009"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130079",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "M800K41_Voice_2_130079_12"
+                ],
+                "componentSeq": [
+                  "12"
+                ],
+                "productCode": [
+                  "130079"
+                ],
+                "productName": [
+                  "Anonymous Call Block *77"
+                ],
+                "kenanComponentInstanceId": [
+                  ""
+                ],
+                "packageId": [
+                  "130009"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130083",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "M800K41_Voice_2_130083_13"
+                ],
+                "componentSeq": [
+                  "13"
+                ],
+                "productCode": [
+                  "130083"
+                ],
+                "productName": [
+                  "Caller Id"
+                ],
+                "kenanComponentInstanceId": [
+                  ""
+                ],
+                "packageId": [
+                  "130009"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130085",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "M800K41_Voice_2_130085_14"
+                ],
+                "componentSeq": [
+                  "14"
+                ],
+                "productCode": [
+                  "130085"
+                ],
+                "productName": [
+                  "Hawaiian Telcom Go Local Plus"
+                ],
+                "kenanComponentInstanceId": [
+                  ""
+                ],
+                "packageId": [
+                  "130009"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130087",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "M800K41_Voice_2_130087_15"
+                ],
+                "componentSeq": [
+                  "15"
+                ],
+                "productCode": [
+                  "130087"
+                ],
+                "productName": [
+                  "Unlimited DA"
+                ],
+                "kenanComponentInstanceId": [
+                  ""
+                ],
+                "packageId": [
+                  "130009"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130089",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "M800K41_Voice_2_130089_16"
+                ],
+                "componentSeq": [
+                  "16"
+                ],
+                "productCode": [
+                  "130089"
+                ],
+                "productName": [
+                  "Unlimited DA"
+                ],
+                "kenanComponentInstanceId": [
+                  ""
+                ],
+                "packageId": [
+                  "130009"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130101",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "M800K41_Voice_2_130101_17"
+                ],
+                "componentSeq": [
+                  "17"
+                ],
+                "productCode": [
+                  "130101"
+                ],
+                "productName": [
+                  "Residence Line"
+                ],
+                "kenanComponentInstanceId": [
+                  ""
+                ],
+                "packageId": [
+                  "130009"
+                ],
+                "technologyType": [
+                  "Copper"
+                ],
+                "telephoneNumber": [
+                  "8085330034"
+                ],
+                "intralataPIC": [
+                  "4853"
+                ],
+                "interlataPIC": [
+                  "4853"
+                ],
+                "internationalPIC": [
+                  "4853"
+                ],
+                "newServiceProviderId": [
+                  "3100"
+                ],
+                "oldServiceProviderId": [
+                  "3100"
+                ],
+                "LNPType": [
+                  "Port Within"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "132889",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "M800K41_Voice_2_132889_18"
+                ],
+                "componentSeq": [
+                  "18"
+                ],
+                "productCode": [
+                  "132889"
+                ],
+                "productName": [
+                  "Go Local Plus VM Discount"
+                ],
+                "kenanComponentInstanceId": [
+                  ""
+                ],
+                "packageId": [
+                  "130009"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "169158",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "M800K41_Voice_2_169158_19"
+                ],
+                "componentSeq": [
+                  "19"
+                ],
+                "productCode": [
+                  "169158"
+                ],
+                "productName": [
+                  "Unlimited Local Dir Assistance"
+                ],
+                "kenanComponentInstanceId": [
+                  ""
+                ],
+                "packageId": [
+                  "130009"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VoiceBillingPackage",
+            "value": [
+              {
+                "componentExternalId": [
+                  "M800K41_Voice_2_PK130023_1"
+                ],
+                "packageId": [
+                  "130023"
+                ],
+                "kenanPackageInstanceId": [
+                  ""
+                ],
+                "action": [
+                  "add"
+                ],
+                "packageSeq": [
+                  "1"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130363",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "M800K41_Voice_2_130363_20"
+                ],
+                "componentSeq": [
+                  "20"
+                ],
+                "productCode": [
+                  "130363"
+                ],
+                "productName": [
+                  "Subscriber Line Charge - Sgl Ln"
+                ],
+                "kenanComponentInstanceId": [
+                  ""
+                ],
+                "packageId": [
+                  "130023"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "131587",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "M800K41_Voice_2_131587_21"
+                ],
+                "componentSeq": [
+                  "21"
+                ],
+                "productCode": [
+                  "131587"
+                ],
+                "productName": [
+                  "CR Opt 3 Block 700/900"
+                ],
+                "kenanComponentInstanceId": [
+                  ""
+                ],
+                "packageId": [
+                  "130023"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "131232",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "M800K41_Voice_2_131232_22"
+                ],
+                "componentSeq": [
+                  "22"
+                ],
+                "productCode": [
+                  "131232"
+                ],
+                "productName": [
+                  "900/976 Block"
+                ],
+                "kenanComponentInstanceId": [
+                  ""
+                ],
+                "packageId": [
+                  "130023"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VoiceBillingPackage",
+            "value": [
+              {
+                "componentExternalId": [
+                  "M800K41_Voice_2_PK130029_2"
+                ],
+                "packageId": [
+                  "130029"
+                ],
+                "kenanPackageInstanceId": [
+                  ""
+                ],
+                "action": [
+                  "add"
+                ],
+                "packageSeq": [
+                  "2"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "132352",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "M800K41_Voice_2_132352_23"
+                ],
+                "componentSeq": [
+                  "23"
+                ],
+                "productCode": [
+                  "132352"
+                ],
+                "productName": [
+                  "Inside Wire Maintenance - No"
+                ],
+                "kenanComponentInstanceId": [
+                  ""
+                ],
+                "packageId": [
+                  "130029"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VoiceBillingPackage",
+            "value": [
+              {
+                "componentExternalId": [
+                  "M800K41_Voice_2_PK130034_3"
+                ],
+                "packageId": [
+                  "130034"
+                ],
+                "kenanPackageInstanceId": [
+                  ""
+                ],
+                "action": [
+                  "add"
+                ],
+                "packageSeq": [
+                  "3"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "135227",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "M800K41_Voice_2_135227_24"
+                ],
+                "componentSeq": [
+                  "24"
+                ],
+                "productCode": [
+                  "135227"
+                ],
+                "productName": [
+                  "Call More Plan"
+                ],
+                "kenanComponentInstanceId": [
+                  ""
+                ],
+                "packageId": [
+                  "130034"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VoiceBillingPackage",
+            "value": [
+              {
+                "componentExternalId": [
+                  "M800K41_Voice_2_PK130210_4"
+                ],
+                "packageId": [
+                  "130210"
+                ],
+                "kenanPackageInstanceId": [
+                  ""
+                ],
+                "action": [
+                  "add"
+                ],
+                "packageSeq": [
+                  "4"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "135300",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "M800K41_Voice_2_135300_25"
+                ],
+                "componentSeq": [
+                  "25"
+                ],
+                "productCode": [
+                  "135300"
+                ],
+                "productName": [
+                  "myChoice International"
+                ],
+                "kenanComponentInstanceId": [
+                  ""
+                ],
+                "packageId": [
+                  "130210"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "M800K41_Internet_1",
+      "action": "delete",
+      "product": {
+        "id": "M800K41_Internet_1",
+        "productSpecification": {
+          "id": "Internet"
+        },
+        "characteristic": [
+          {
+            "name": "serviceAddressId",
+            "value": [
+              "416207"
+            ]
+          },
+          {
+            "name": "dueDate",
+            "value": [
+              "2023-09-14T00:00:00.000-1000"
+            ]
+          },
+          {
+            "name": "kenanServiceInstanceId",
+            "value": [
+              "3619193:0:9893756003"
+            ]
+          },
+          {
+            "name": "MDUEvent",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "expediteFlag",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "isBillingSuspend",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "isBillingResume",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "installAndMaintNotes",
+            "value": [
+              "CONTACT- VIVIAN TAKAGAKI, CBR 111-111-1111 \n\nLoose animals on-prem: (edit to include the number of loose animals and if they will be restrained upon arrival)\nAccess arrangements: (edit to include any special access arrangements for the tech - ie. gate code, property mgt access, etc)\n\n\n900/976 Block\nHT Philippines 100 Plan\nHawaiian Telcom Go Local Plus\nResidence Line\nHawaiian Telcom LD(All LD)\nCR Opt 3 Block 700/900\nCall More Plan\nCall More Plan (InterIsland)\nCall More Plan (Mainland)\nmyChoice International\nGo Local Plus VM Discount\nUnlimited DA\nUnlimited DA\nUnlimited Local Dir Assistance\nAnonymous Call Block *77\nBusy Redial\nCall Block *60\nCall Forwarding\nCall Waiting ID\nCall Waiting/Canc Call Waiting\nCaller Id\nDo Not Disturb\nLast Call Return *69\nSelect Call Forwarding\nSpeed Dialing-8\nThree-Way Calling\nTouch Call\nVip Alert *61\nInside Wire Maintenance - No"
+            ]
+          },
+          {
+            "name": "disconnectReasonCode",
+            "value": [
+              "222"
+            ]
+          },
+          {
+            "name": "InternetBillingPackage",
+            "value": [
+              {
+                "componentExternalId": [
+                  "M800K41_Internet_1_PK130212_0"
+                ],
+                "packageId": [
+                  "130212"
+                ],
+                "kenanPackageInstanceId": [
+                  "14856704:3"
+                ],
+                "action": [
+                  "delete"
+                ],
+                "packageSeq": [
+                  "0"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "100002010",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "M800K41_Internet_1_100002010_0"
+                ],
+                "componentSeq": [
+                  "0"
+                ],
+                "productCode": [
+                  "100002010"
+                ],
+                "productName": [
+                  "(old) MDU Disc-HSI 400"
+                ],
+                "kenanComponentInstanceId": [
+                  "90700566:3"
+                ],
+                "packageId": [
+                  "130212"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "InternetBillingPackage",
+            "value": [
+              {
+                "componentExternalId": [
+                  "M800K41_Internet_1_PK920001_1"
+                ],
+                "packageId": [
+                  "920001"
+                ],
+                "kenanPackageInstanceId": [
+                  "12983837:3"
+                ],
+                "action": [
+                  "delete"
+                ],
+                "packageSeq": [
+                  "1"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "100492",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "M800K41_Internet_1_100492_1"
+                ],
+                "componentSeq": [
+                  "1"
+                ],
+                "productCode": [
+                  "100492"
+                ],
+                "productName": [
+                  "Residential Internet Email"
+                ],
+                "kenanComponentInstanceId": [
+                  "81433684:3"
+                ],
+                "packageId": [
+                  "920001"
+                ],
+                "innovawareId": [
+                  "INS32240542"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "920088",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "M800K41_Internet_1_920088_2"
+                ],
+                "componentSeq": [
+                  "2"
+                ],
+                "productCode": [
+                  "920088"
+                ],
+                "productName": [
+                  "Gateway Fee (TV-HSI)"
+                ],
+                "kenanComponentInstanceId": [
+                  "81433682:3"
+                ],
+                "packageId": [
+                  "920001"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "100001412",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "M800K41_Internet_1_100001412_3"
+                ],
+                "componentSeq": [
+                  "3"
+                ],
+                "productCode": [
+                  "100001412"
+                ],
+                "productName": [
+                  "Fioptics 400"
+                ],
+                "kenanComponentInstanceId": [
+                  "90700567:3"
+                ],
+                "packageId": [
+                  "920001"
+                ],
+                "technologyType": [
+                  "Fiber"
+                ],
+                "downloadSpeed": [
+                  "400"
+                ],
+                "uploadSpeed": [
+                  "400"
+                ],
+                "HSIProduct": [
+                  "FIBER_400"
+                ],
+                "IPAddressType": [
+                  "Dynamic"
+                ],
+                "circuitId": [
+                  "91.SWXX.252214..HTBB"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "M800K41_Voice_1",
+      "action": "delete",
+      "product": {
+        "id": "M800K41_Voice_1",
+        "productSpecification": {
+          "id": "Voice"
+        },
+        "characteristic": [
+          {
+            "name": "serviceAddressId",
+            "value": [
+              "416207"
+            ]
+          },
+          {
+            "name": "dueDate",
+            "value": [
+              "2023-09-14T00:00:00.000-1000"
+            ]
+          },
+          {
+            "name": "kenanServiceInstanceId",
+            "value": [
+              "3619194:0:9796625003"
+            ]
+          },
+          {
+            "name": "MDUEvent",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "expediteFlag",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "isBillingSuspend",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "isBillingResume",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "installAndMaintNotes",
+            "value": [
+              "CONTACT- VIVIAN TAKAGAKI, CBR 111-111-1111 \n\nLoose animals on-prem: (edit to include the number of loose animals and if they will be restrained upon arrival)\nAccess arrangements: (edit to include any special access arrangements for the tech - ie. gate code, property mgt access, etc)\n\n\n900/976 Block\nHT Philippines 100 Plan\nHawaiian Telcom Go Local Plus\nResidence Line\nHawaiian Telcom LD(All LD)\nCR Opt 3 Block 700/900\nCall More Plan\nCall More Plan (InterIsland)\nCall More Plan (Mainland)\nmyChoice International\nGo Local Plus VM Discount\nUnlimited DA\nUnlimited DA\nUnlimited Local Dir Assistance\nAnonymous Call Block *77\nBusy Redial\nCall Block *60\nCall Forwarding\nCall Waiting ID\nCall Waiting/Canc Call Waiting\nCaller Id\nDo Not Disturb\nLast Call Return *69\nSelect Call Forwarding\nSpeed Dialing-8\nThree-Way Calling\nTouch Call\nVip Alert *61\nInside Wire Maintenance - No"
+            ]
+          },
+          {
+            "name": "disconnectReasonCode",
+            "value": [
+              "285"
+            ]
+          },
+          {
+            "name": "VoiceBillingPackage",
+            "value": [
+              {
+                "componentExternalId": [
+                  "M800K41_Voice_1_PK130009_0"
+                ],
+                "packageId": [
+                  "130009"
+                ],
+                "kenanPackageInstanceId": [
+                  "12922658:3"
+                ],
+                "action": [
+                  "delete"
+                ],
+                "packageSeq": [
+                  "0"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130035",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "M800K41_Voice_1_130035_0"
+                ],
+                "componentSeq": [
+                  "0"
+                ],
+                "productCode": [
+                  "130035"
+                ],
+                "productName": [
+                  "Call Waiting/Canc Call Waiting"
+                ],
+                "kenanComponentInstanceId": [
+                  "81147454:3"
+                ],
+                "packageId": [
+                  "130009"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130041",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "M800K41_Voice_1_130041_1"
+                ],
+                "componentSeq": [
+                  "1"
+                ],
+                "productCode": [
+                  "130041"
+                ],
+                "productName": [
+                  "Touch Call"
+                ],
+                "kenanComponentInstanceId": [
+                  "81147471:3"
+                ],
+                "packageId": [
+                  "130009"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130067",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "M800K41_Voice_1_130067_2"
+                ],
+                "componentSeq": [
+                  "2"
+                ],
+                "productCode": [
+                  "130067"
+                ],
+                "productName": [
+                  "Call Waiting ID"
+                ],
+                "kenanComponentInstanceId": [
+                  "81147455:3"
+                ],
+                "packageId": [
+                  "130009"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130068",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "M800K41_Voice_1_130068_3"
+                ],
+                "componentSeq": [
+                  "3"
+                ],
+                "productCode": [
+                  "130068"
+                ],
+                "productName": [
+                  "Three-Way Calling"
+                ],
+                "kenanComponentInstanceId": [
+                  "81147456:3"
+                ],
+                "packageId": [
+                  "130009"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130070",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "M800K41_Voice_1_130070_4"
+                ],
+                "componentSeq": [
+                  "4"
+                ],
+                "productCode": [
+                  "130070"
+                ],
+                "productName": [
+                  "Call Forwarding"
+                ],
+                "kenanComponentInstanceId": [
+                  "81147457:3"
+                ],
+                "packageId": [
+                  "130009"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130071",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "M800K41_Voice_1_130071_5"
+                ],
+                "componentSeq": [
+                  "5"
+                ],
+                "productCode": [
+                  "130071"
+                ],
+                "productName": [
+                  "Speed Dialing-8"
+                ],
+                "kenanComponentInstanceId": [
+                  "81147458:3"
+                ],
+                "packageId": [
+                  "130009"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130073",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "M800K41_Voice_1_130073_6"
+                ],
+                "componentSeq": [
+                  "6"
+                ],
+                "productCode": [
+                  "130073"
+                ],
+                "productName": [
+                  "Busy Redial"
+                ],
+                "kenanComponentInstanceId": [
+                  "81147459:3"
+                ],
+                "packageId": [
+                  "130009"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130074",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "M800K41_Voice_1_130074_7"
+                ],
+                "componentSeq": [
+                  "7"
+                ],
+                "productCode": [
+                  "130074"
+                ],
+                "productName": [
+                  "Last Call Return *69"
+                ],
+                "kenanComponentInstanceId": [
+                  "81147460:3"
+                ],
+                "packageId": [
+                  "130009"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130075",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "M800K41_Voice_1_130075_8"
+                ],
+                "componentSeq": [
+                  "8"
+                ],
+                "productCode": [
+                  "130075"
+                ],
+                "productName": [
+                  "Vip Alert *61"
+                ],
+                "kenanComponentInstanceId": [
+                  "81147461:3"
+                ],
+                "packageId": [
+                  "130009"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130076",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "M800K41_Voice_1_130076_9"
+                ],
+                "componentSeq": [
+                  "9"
+                ],
+                "productCode": [
+                  "130076"
+                ],
+                "productName": [
+                  "Select Call Forwarding"
+                ],
+                "kenanComponentInstanceId": [
+                  "81147462:3"
+                ],
+                "packageId": [
+                  "130009"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130077",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "M800K41_Voice_1_130077_10"
+                ],
+                "componentSeq": [
+                  "10"
+                ],
+                "productCode": [
+                  "130077"
+                ],
+                "productName": [
+                  "Call Block *60"
+                ],
+                "kenanComponentInstanceId": [
+                  "81147463:3"
+                ],
+                "packageId": [
+                  "130009"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130078",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "M800K41_Voice_1_130078_11"
+                ],
+                "componentSeq": [
+                  "11"
+                ],
+                "productCode": [
+                  "130078"
+                ],
+                "productName": [
+                  "Do Not Disturb"
+                ],
+                "kenanComponentInstanceId": [
+                  "81147464:3"
+                ],
+                "packageId": [
+                  "130009"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130079",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "M800K41_Voice_1_130079_12"
+                ],
+                "componentSeq": [
+                  "12"
+                ],
+                "productCode": [
+                  "130079"
+                ],
+                "productName": [
+                  "Anonymous Call Block *77"
+                ],
+                "kenanComponentInstanceId": [
+                  "81147465:3"
+                ],
+                "packageId": [
+                  "130009"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130083",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "M800K41_Voice_1_130083_13"
+                ],
+                "componentSeq": [
+                  "13"
+                ],
+                "productCode": [
+                  "130083"
+                ],
+                "productName": [
+                  "Caller Id"
+                ],
+                "kenanComponentInstanceId": [
+                  "81147466:3"
+                ],
+                "packageId": [
+                  "130009"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130085",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "M800K41_Voice_1_130085_14"
+                ],
+                "componentSeq": [
+                  "14"
+                ],
+                "productCode": [
+                  "130085"
+                ],
+                "productName": [
+                  "Hawaiian Telcom Go Local Plus"
+                ],
+                "kenanComponentInstanceId": [
+                  "81147470:3"
+                ],
+                "packageId": [
+                  "130009"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130087",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "M800K41_Voice_1_130087_15"
+                ],
+                "componentSeq": [
+                  "15"
+                ],
+                "productCode": [
+                  "130087"
+                ],
+                "productName": [
+                  "Unlimited DA"
+                ],
+                "kenanComponentInstanceId": [
+                  "81147469:3"
+                ],
+                "packageId": [
+                  "130009"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130089",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "M800K41_Voice_1_130089_16"
+                ],
+                "componentSeq": [
+                  "16"
+                ],
+                "productCode": [
+                  "130089"
+                ],
+                "productName": [
+                  "Unlimited DA"
+                ],
+                "kenanComponentInstanceId": [
+                  "81147468:3"
+                ],
+                "packageId": [
+                  "130009"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130101",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "M800K41_Voice_1_130101_17"
+                ],
+                "componentSeq": [
+                  "17"
+                ],
+                "productCode": [
+                  "130101"
+                ],
+                "productName": [
+                  "Residence Line"
+                ],
+                "kenanComponentInstanceId": [
+                  "81147473:3"
+                ],
+                "packageId": [
+                  "130009"
+                ],
+                "technologyType": [
+                  "Fiber"
+                ],
+                "telephoneNumber": [
+                  "8085330034"
+                ],
+                "accessPackageId": [
+                  "11499493"
+                ],
+                "intralataPIC": [
+                  "4853"
+                ],
+                "interlataPIC": [
+                  "4853"
+                ],
+                "internationalPIC": [
+                  "4853"
+                ],
+                "newServiceProviderId": [
+                  "3100"
+                ],
+                "oldServiceProviderId": [
+                  "3100"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "132889",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "M800K41_Voice_1_132889_18"
+                ],
+                "componentSeq": [
+                  "18"
+                ],
+                "productCode": [
+                  "132889"
+                ],
+                "productName": [
+                  "Go Local Plus VM Discount"
+                ],
+                "kenanComponentInstanceId": [
+                  "81147467:3"
+                ],
+                "packageId": [
+                  "130009"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "169158",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "M800K41_Voice_1_169158_19"
+                ],
+                "componentSeq": [
+                  "19"
+                ],
+                "productCode": [
+                  "169158"
+                ],
+                "productName": [
+                  "Unlimited Local Dir Assistance"
+                ],
+                "kenanComponentInstanceId": [
+                  "81147472:3"
+                ],
+                "packageId": [
+                  "130009"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VoiceBillingPackage",
+            "value": [
+              {
+                "componentExternalId": [
+                  "M800K41_Voice_1_PK130023_1"
+                ],
+                "packageId": [
+                  "130023"
+                ],
+                "kenanPackageInstanceId": [
+                  "12922660:3"
+                ],
+                "action": [
+                  "delete"
+                ],
+                "packageSeq": [
+                  "1"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130363",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "M800K41_Voice_1_130363_20"
+                ],
+                "componentSeq": [
+                  "20"
+                ],
+                "productCode": [
+                  "130363"
+                ],
+                "productName": [
+                  "Subscriber Line Charge - Sgl Ln"
+                ],
+                "kenanComponentInstanceId": [
+                  "81147477:3"
+                ],
+                "packageId": [
+                  "130023"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "131587",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "M800K41_Voice_1_131587_21"
+                ],
+                "componentSeq": [
+                  "21"
+                ],
+                "productCode": [
+                  "131587"
+                ],
+                "productName": [
+                  "CR Opt 3 Block 700/900"
+                ],
+                "kenanComponentInstanceId": [
+                  "81147478:3"
+                ],
+                "packageId": [
+                  "130023"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VoiceBillingPackage",
+            "value": [
+              {
+                "componentExternalId": [
+                  "M800K41_Voice_1_PK130029_2"
+                ],
+                "packageId": [
+                  "130029"
+                ],
+                "kenanPackageInstanceId": [
+                  "12922661:3"
+                ],
+                "action": [
+                  "delete"
+                ],
+                "packageSeq": [
+                  "2"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "132293",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "M800K41_Voice_1_132293_22"
+                ],
+                "componentSeq": [
+                  "22"
+                ],
+                "productCode": [
+                  "132293"
+                ],
+                "productName": [
+                  "International Ocp Denied"
+                ],
+                "kenanComponentInstanceId": [
+                  "81147479:3"
+                ],
+                "packageId": [
+                  "130029"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "132352",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "M800K41_Voice_1_132352_23"
+                ],
+                "componentSeq": [
+                  "23"
+                ],
+                "productCode": [
+                  "132352"
+                ],
+                "productName": [
+                  "Inside Wire Maintenance - No"
+                ],
+                "kenanComponentInstanceId": [
+                  "81147480:3"
+                ],
+                "packageId": [
+                  "130029"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VoiceBillingPackage",
+            "value": [
+              {
+                "componentExternalId": [
+                  "M800K41_Voice_1_PK130034_3"
+                ],
+                "packageId": [
+                  "130034"
+                ],
+                "kenanPackageInstanceId": [
+                  "12922662:3"
+                ],
+                "action": [
+                  "delete"
+                ],
+                "packageSeq": [
+                  "3"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "135227",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "M800K41_Voice_1_135227_24"
+                ],
+                "componentSeq": [
+                  "24"
+                ],
+                "productCode": [
+                  "135227"
+                ],
+                "productName": [
+                  "Call More Plan"
+                ],
+                "kenanComponentInstanceId": [
+                  "81147481:3"
+                ],
+                "packageId": [
+                  "130034"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VoiceBillingPackage",
+            "value": [
+              {
+                "componentExternalId": [
+                  "M800K41_Voice_1_PK130210_4"
+                ],
+                "packageId": [
+                  "130210"
+                ],
+                "kenanPackageInstanceId": [
+                  "12922659:3"
+                ],
+                "action": [
+                  "delete"
+                ],
+                "packageSeq": [
+                  "4"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "135300",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "M800K41_Voice_1_135300_25"
+                ],
+                "componentSeq": [
+                  "25"
+                ],
+                "productCode": [
+                  "135300"
+                ],
+                "productName": [
+                  "myChoice International"
+                ],
+                "kenanComponentInstanceId": [
+                  "81147476:3"
+                ],
+                "packageId": [
+                  "130210"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "M800K41_Video_1",
+      "action": "delete",
+      "product": {
+        "id": "M800K41_Video_1",
+        "productSpecification": {
+          "id": "Video"
+        },
+        "characteristic": [
+          {
+            "name": "serviceAddressId",
+            "value": [
+              "416207"
+            ]
+          },
+          {
+            "name": "dueDate",
+            "value": [
+              "2023-09-14T00:00:00.000-1000"
+            ]
+          },
+          {
+            "name": "kenanServiceInstanceId",
+            "value": [
+              "3639478:0:9894005003"
+            ]
+          },
+          {
+            "name": "MDUEvent",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "expediteFlag",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "isBillingSuspend",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "isBillingResume",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "installAndMaintNotes",
+            "value": [
+              "CONTACT- VIVIAN TAKAGAKI, CBR 111-111-1111 \n\nLoose animals on-prem: (edit to include the number of loose animals and if they will be restrained upon arrival)\nAccess arrangements: (edit to include any special access arrangements for the tech - ie. gate code, property mgt access, etc)\n\n\n900/976 Block\nHT Philippines 100 Plan\nHawaiian Telcom Go Local Plus\nResidence Line\nHawaiian Telcom LD(All LD)\nCR Opt 3 Block 700/900\nCall More Plan\nCall More Plan (InterIsland)\nCall More Plan (Mainland)\nmyChoice International\nGo Local Plus VM Discount\nUnlimited DA\nUnlimited DA\nUnlimited Local Dir Assistance\nAnonymous Call Block *77\nBusy Redial\nCall Block *60\nCall Forwarding\nCall Waiting ID\nCall Waiting/Canc Call Waiting\nCaller Id\nDo Not Disturb\nLast Call Return *69\nSelect Call Forwarding\nSpeed Dialing-8\nThree-Way Calling\nTouch Call\nVip Alert *61\nInside Wire Maintenance - No"
+            ]
+          },
+          {
+            "name": "disconnectReasonCode",
+            "value": [
+              "243"
+            ]
+          },
+          {
+            "name": "VideoBillingPackage",
+            "value": [
+              {
+                "componentExternalId": [
+                  "M800K41_Video_1_PK130212_0"
+                ],
+                "packageId": [
+                  "130212"
+                ],
+                "kenanPackageInstanceId": [
+                  "12983832:3"
+                ],
+                "action": [
+                  "delete"
+                ],
+                "packageSeq": [
+                  "0"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "135372",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "M800K41_Video_1_135372_0"
+                ],
+                "componentSeq": [
+                  "0"
+                ],
+                "productCode": [
+                  "135372"
+                ],
+                "productName": [
+                  "MDU Disc-Addl STB ($6.99)"
+                ],
+                "kenanComponentInstanceId": [
+                  "81433715:3"
+                ],
+                "packageId": [
+                  "130212"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "920111",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "M800K41_Video_1_920111_1"
+                ],
+                "componentSeq": [
+                  "1"
+                ],
+                "productCode": [
+                  "920111"
+                ],
+                "productName": [
+                  "MDU Disc-Starz Pack"
+                ],
+                "kenanComponentInstanceId": [
+                  "81433716:3"
+                ],
+                "packageId": [
+                  "130212"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "920271",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "M800K41_Video_1_920271_2"
+                ],
+                "componentSeq": [
+                  "2"
+                ],
+                "productCode": [
+                  "920271"
+                ],
+                "productName": [
+                  "MDU Disc-DVR"
+                ],
+                "kenanComponentInstanceId": [
+                  "81433718:3"
+                ],
+                "packageId": [
+                  "130212"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "100001024",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "M800K41_Video_1_100001024_3"
+                ],
+                "componentSeq": [
+                  "3"
+                ],
+                "productCode": [
+                  "100001024"
+                ],
+                "productName": [
+                  "MDU Disc-Advantage Plus TV"
+                ],
+                "kenanComponentInstanceId": [
+                  "90702056:3"
+                ],
+                "packageId": [
+                  "130212"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "100001025",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "M800K41_Video_1_100001025_4"
+                ],
+                "componentSeq": [
+                  "4"
+                ],
+                "productCode": [
+                  "100001025"
+                ],
+                "productName": [
+                  "MDU Disc-HD"
+                ],
+                "kenanComponentInstanceId": [
+                  "81433679:3"
+                ],
+                "packageId": [
+                  "130212"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "100001289",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "M800K41_Video_1_100001289_5"
+                ],
+                "componentSeq": [
+                  "5"
+                ],
+                "productCode": [
+                  "100001289"
+                ],
+                "productName": [
+                  "MDU Disc-Addl STB $3.00"
+                ],
+                "kenanComponentInstanceId": [
+                  "90702057:3"
+                ],
+                "packageId": [
+                  "130212"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "100002013",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "M800K41_Video_1_100002013_6"
+                ],
+                "componentSeq": [
+                  "6"
+                ],
+                "productCode": [
+                  "100002013"
+                ],
+                "productName": [
+                  "MDU Disc-HBO"
+                ],
+                "kenanComponentInstanceId": [
+                  "90702058:3"
+                ],
+                "packageId": [
+                  "130212"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "100002583",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "M800K41_Video_1_100002583_7"
+                ],
+                "componentSeq": [
+                  "7"
+                ],
+                "productCode": [
+                  "100002583"
+                ],
+                "productName": [
+                  "MDU Disc-Wireless Gateway Incl"
+                ],
+                "kenanComponentInstanceId": [
+                  "91843335:3"
+                ],
+                "packageId": [
+                  "130212"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VideoBillingPackage",
+            "value": [
+              {
+                "componentExternalId": [
+                  "M800K41_Video_1_PK920000_1"
+                ],
+                "packageId": [
+                  "920000"
+                ],
+                "kenanPackageInstanceId": [
+                  "12983833:3"
+                ],
+                "action": [
+                  "delete"
+                ],
+                "packageSeq": [
+                  "1"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "920004",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "M800K41_Video_1_920004_8"
+                ],
+                "componentSeq": [
+                  "8"
+                ],
+                "productCode": [
+                  "920004"
+                ],
+                "productName": [
+                  "Advantage Plus TV"
+                ],
+                "kenanComponentInstanceId": [
+                  "90702059:3"
+                ],
+                "packageId": [
+                  "920000"
+                ],
+                "technologyType": [
+                  "Fiber"
+                ],
+                "circuitId": [
+                  "91.SWXX.252214..HTBB"
+                ],
+                "creditRiskClass": [
+                  "Medium"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "920012",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "M800K41_Video_1_920012_9"
+                ],
+                "componentSeq": [
+                  "9"
+                ],
+                "productCode": [
+                  "920012"
+                ],
+                "productName": [
+                  "HBO Pack"
+                ],
+                "kenanComponentInstanceId": [
+                  "90702075:3"
+                ],
+                "packageId": [
+                  "920000"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "920024",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "M800K41_Video_1_920024_10"
+                ],
+                "componentSeq": [
+                  "10"
+                ],
+                "productCode": [
+                  "920024"
+                ],
+                "productName": [
+                  "TV Japan"
+                ],
+                "kenanComponentInstanceId": [
+                  "81433722:3"
+                ],
+                "packageId": [
+                  "920000"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "920032",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "M800K41_Video_1_920032_11"
+                ],
+                "componentSeq": [
+                  "11"
+                ],
+                "productCode": [
+                  "920032"
+                ],
+                "productName": [
+                  "HD"
+                ],
+                "kenanComponentInstanceId": [
+                  "81433723:3"
+                ],
+                "packageId": [
+                  "920000"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "920034",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "M800K41_Video_1_920034_12"
+                ],
+                "componentSeq": [
+                  "12"
+                ],
+                "productCode": [
+                  "920034"
+                ],
+                "productName": [
+                  "Whole Home DVR"
+                ],
+                "kenanComponentInstanceId": [
+                  "81433724:3"
+                ],
+                "packageId": [
+                  "920000"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "920068",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "M800K41_Video_1_920068_13"
+                ],
+                "componentSeq": [
+                  "13"
+                ],
+                "productCode": [
+                  "920068"
+                ],
+                "productName": [
+                  "Allow PPV/VOD"
+                ],
+                "kenanComponentInstanceId": [
+                  "81433727:3"
+                ],
+                "packageId": [
+                  "920000"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "920086",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "M800K41_Video_1_920086_14"
+                ],
+                "componentSeq": [
+                  "14"
+                ],
+                "productCode": [
+                  "920086"
+                ],
+                "productName": [
+                  "1st Set Top Box"
+                ],
+                "kenanComponentInstanceId": [
+                  "81433729:3"
+                ],
+                "packageId": [
+                  "920000"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "920135",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "M800K41_Video_1_920135_15"
+                ],
+                "componentSeq": [
+                  "15"
+                ],
+                "productCode": [
+                  "920135"
+                ],
+                "productName": [
+                  "Starz Pack"
+                ],
+                "kenanComponentInstanceId": [
+                  "81433730:3"
+                ],
+                "packageId": [
+                  "920000"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

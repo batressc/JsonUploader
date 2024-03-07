@@ -1,0 +1,1333 @@
+{
+  "externalId": "I804G68",
+  "requestedCompletionDate": "2023-11-07T00:00:00.000-1000",
+  "characteristic": [
+    {
+      "name": "sourceSystem",
+      "value": [
+        "SOE"
+      ]
+    },
+    {
+      "name": "BSSOrderNumber",
+      "value": [
+        "I804G68"
+      ]
+    },
+    {
+      "name": "orderVersion",
+      "value": [
+        "2"
+      ]
+    },
+    {
+      "name": "dueDate",
+      "value": [
+        "2023-11-07T00:00:00.000-1000"
+      ]
+    },
+    {
+      "name": "BSSOrderCapturer",
+      "value": [
+        "jari622"
+      ]
+    },
+    {
+      "name": "isRecordsOnly",
+      "value": [
+        "No"
+      ]
+    },
+    {
+      "name": "canBeReachedNumber",
+      "value": [
+        "1111111111"
+      ]
+    }
+  ],
+  "relatedParty": [
+    {
+      "id": "280000000011256",
+      "firstName": "FName",
+      "middleName": "MName",
+      "lastName": "LName",
+      "role": "customer"
+    }
+  ],
+  "orderItem": [
+    {
+      "id": "I804G68_Billing",
+      "action": "add",
+      "product": {
+        "id": "I804G68_Billing",
+        "productSpecification": {
+          "id": "Billing"
+        },
+        "characteristic": [
+          {
+            "name": "accountExternalId",
+            "value": [
+              "280000000011256"
+            ]
+          },
+          {
+            "name": "accountStatus",
+            "value": [
+              "ACT"
+            ]
+          },
+          {
+            "name": "accountType",
+            "value": [
+              "IND"
+            ]
+          },
+          {
+            "name": "ACNA",
+            "value": [
+              "AWL"
+            ]
+          },
+          {
+            "name": "billingTelephoneNumber",
+            "value": [
+              "8082399085"
+            ]
+          },
+          {
+            "name": "billAddress1",
+            "value": [
+              "47-679 Ahuimanu Rd"
+            ]
+          },
+          {
+            "name": "billAddress2",
+            "value": [
+              ""
+            ]
+          },
+          {
+            "name": "billCity",
+            "value": [
+              "Kaneohe"
+            ]
+          },
+          {
+            "name": "billCountry",
+            "value": [
+              "USA"
+            ]
+          },
+          {
+            "name": "billDispMeth",
+            "value": [
+              "1"
+            ]
+          },
+          {
+            "name": "billFmtOpt",
+            "value": [
+              "100"
+            ]
+          },
+          {
+            "name": "billName",
+            "value": [
+              "FName LName"
+            ]
+          },
+          {
+            "name": "billFranchiseTaxCode",
+            "value": [
+              "1"
+            ]
+          },
+          {
+            "name": "billPeriod",
+            "value": [
+              "M13"
+            ]
+          },
+          {
+            "name": "billState",
+            "value": [
+              "HI"
+            ]
+          },
+          {
+            "name": "billZip",
+            "value": [
+              "96744"
+            ]
+          },
+          {
+            "name": "creditRating",
+            "value": [
+              "2"
+            ]
+          },
+          {
+            "name": "custFirstName",
+            "value": [
+              "FName"
+            ]
+          },
+          {
+            "name": "custMiddleName",
+            "value": [
+              "MName"
+            ]
+          },
+          {
+            "name": "custLastName",
+            "value": [
+              "LName"
+            ]
+          },
+          {
+            "name": "custEmail",
+            "value": [
+              "abc@123.com"
+            ]
+          },
+          {
+            "name": "dateActive",
+            "value": [
+              "2023-11-07T00:00:14.000-1000"
+            ]
+          },
+          {
+            "name": "directoryListId",
+            "value": [
+              "DL5024712"
+            ]
+          },
+          {
+            "name": "mktCode",
+            "value": [
+              "1"
+            ]
+          },
+          {
+            "name": "payMethod",
+            "value": [
+              "INV"
+            ]
+          },
+          {
+            "name": "rateClassDefault",
+            "value": [
+              "1"
+            ]
+          },
+          {
+            "name": "VIPCode",
+            "value": [
+              "1"
+            ]
+          },
+          {
+            "name": "waiveTerminationObligation",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "waiveUnmetObligation",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "ExtendedData",
+            "value": [
+              {
+                "componentExternalId": [
+                  "I804G68_Billing_NUMBER_OF_INVOICE_COPIES"
+                ],
+                "action": [
+                  "add"
+                ],
+                "paramName": [
+                  "NUMBER_OF_INVOICE_COPIES"
+                ],
+                "paramValue": [
+                  "1"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "ExtendedData",
+            "value": [
+              {
+                "componentExternalId": [
+                  "I804G68_Billing_SHARED_SECRET_QUESTION"
+                ],
+                "action": [
+                  "add"
+                ],
+                "paramName": [
+                  "SHARED_SECRET_QUESTION"
+                ],
+                "paramValue": [
+                  "1"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "ExtendedData",
+            "value": [
+              {
+                "componentExternalId": [
+                  "I804G68_Billing_SECRET_ANSWER"
+                ],
+                "action": [
+                  "add"
+                ],
+                "paramName": [
+                  "SECRET_ANSWER"
+                ],
+                "paramValue": [
+                  "red"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "ExtendedData",
+            "value": [
+              {
+                "componentExternalId": [
+                  "I804G68_Billing_PASSWORD_PIN"
+                ],
+                "action": [
+                  "add"
+                ],
+                "paramName": [
+                  "PASSWORD_PIN"
+                ],
+                "paramValue": [
+                  "Abc123"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "ExtendedData",
+            "value": [
+              {
+                "componentExternalId": [
+                  "I804G68_Billing_SALESREP_FIRSTNAME"
+                ],
+                "action": [
+                  "add"
+                ],
+                "paramName": [
+                  "SALESREP_FIRSTNAME"
+                ],
+                "paramValue": [
+                  "Jose"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "ExtendedData",
+            "value": [
+              {
+                "componentExternalId": [
+                  "I804G68_Billing_SALESREP_LASTNAME"
+                ],
+                "action": [
+                  "add"
+                ],
+                "paramName": [
+                  "SALESREP_LASTNAME"
+                ],
+                "paramValue": [
+                  "Roberto Arias"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "ExtendedData",
+            "value": [
+              {
+                "componentExternalId": [
+                  "I804G68_Billing_SSN"
+                ],
+                "action": [
+                  "add"
+                ],
+                "paramName": [
+                  "SSN"
+                ],
+                "paramValue": [
+                  "LS0tLS1CRUdJTiBQR1AgTUVTU0FHRS0tLS0tClZlcnNpb246IEJDUEcgdjEuNzQuMAoKd2NETUEwUTR2a2d1eW1pc0FRdi9hU1dnRW0wbndNUUpBVDF3YU9uWlA5Y0NMd1R2SWE3WHU2cWs2cnBTRzJ6SwphdmxlM2Y4NUxaQzdvQTNnMlArMG5RVGhQRk44SGl6dXl2NVR4YXY0ZmE4TENHbHM3d2txcEVVVC9YMm9xM3l5CmVyL0xLWm1RK2ZZRDlGdWJ6SUEzc2JnZ2tWeHNZY1UwL0k4OWZMUm9zSTFvb0hUVGZ4TWJuSDJvd21HOWdqblYKWEFKczk5bXVDaitGd1ZkdW5lRHppQTY1MmpsbFRqVWpGeVF0V2NKZE5MWmpkcWk3eU5pUE9xZWVmMUE1SGRFTwpCSmJ0QkRkVFVPdVR0L1dTeVlXd05BYW1xRU1EZFYrOEc0QUlUSHBBeVlDMUV3UFJUYjFQT2pEUlR4TFZxeVNoCmZGb005SWg4UDlsV2F5TVZkSTFZSmpHM3kvcXpvNmVjVy9VWEx3NUpMc3NvbU5ZR1M5TC84RENwZFAwdlA1azYKZzRYRkVYY0psVXJPWll4ZE5FbnRXaXB5Y1VSOGdXRVBjd2NVZVJueFJvU3VtNGw3MUZ1TFdNeW5OYXo2Wmppagp4Qlh1YTN4aXdBckZzZzl6Q1pNOVdHMzVLYXdEbWxKNjIyRUFTeDNRNlFtME94SlFxVW96Wm02ckxiMlVnZ0xLCkxZOExjMWRFNjBZREJMMVZRSWluMGtBQkZENG9pOEpQY2Nxb1Z2Y2FkVUxzWk5xbUcyS0p0ZnkyYVhpT1d5NjcKTjVQREh6RGJQT1R5cjJxZjVuY1EyRkNJRVFtZHJIRmlMQy81a253MDhmWVoKPVlwS0gKLS0tLS1FTkQgUEdQIE1FU1NBR0UtLS0tLQo="
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "I804G68_Address",
+      "action": "noChange",
+      "product": {
+        "characteristic": [
+          {
+            "name": "Address",
+            "value": [
+              {
+                "action": [
+                  "noChange"
+                ],
+                "componentExternalId": [
+                  "I804G68_Address_61035"
+                ],
+                "serviceAddressId": [
+                  "61035"
+                ],
+                "streetNumber": [
+                  "47-679"
+                ],
+                "streetName": [
+                  "AHUIMANU"
+                ],
+                "preDirectional": [
+                  ""
+                ],
+                "postDirectional": [
+                  ""
+                ],
+                "streetType": [
+                  "RD"
+                ],
+                "streetAddress": [
+                  "47-679 AHUIMANU RD"
+                ],
+                "city": [
+                  "KANEOHE"
+                ],
+                "county": [
+                  "OAHU"
+                ],
+                "state": [
+                  "HI"
+                ],
+                "country": [
+                  "USA"
+                ],
+                "zip": [
+                  "96744"
+                ],
+                "subloc1": [
+                  ""
+                ],
+                "subloc2": [
+                  ""
+                ],
+                "subloc3": [
+                  ""
+                ],
+                "subloc": [
+                  ""
+                ],
+                "addressRemarks1": [
+                  ""
+                ],
+                "addressRemarks2": [
+                  "NGTV=FTTPB"
+                ],
+                "jurisdiction": [
+                  "1002000"
+                ],
+                "ACO": [
+                  "BC1"
+                ],
+                "CLLI": [
+                  "KHLUHICOSIP"
+                ],
+                "MDU": [
+                  "No"
+                ],
+                "centralOffice": [
+                  "1239"
+                ],
+                "copperServingCLLI": [
+                  "KHLUHICO"
+                ],
+                "FTTPServingCLLI": [
+                  "KHLUHICO"
+                ],
+                "SIPProvisioningCLLI": [
+                  "KHLUHICOSIP"
+                ],
+                "FTTPDropInstalled": [
+                  "Yes"
+                ],
+                "cs2kLRN": [
+                  "8087991647"
+                ],
+                "copperLRN": [
+                  "8082398107"
+                ],
+                "wireCenterId": [
+                  "40820"
+                ],
+                "stationWorkZone": [
+                  "Oahu"
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "I804G68_Address",
+        "productSpecification": {
+          "id": "Address"
+        }
+      }
+    },
+    {
+      "id": "I804G68_Internet_1",
+      "action": "add",
+      "product": {
+        "id": "I804G68_Internet_1",
+        "productSpecification": {
+          "id": "Internet"
+        },
+        "characteristic": [
+          {
+            "name": "serviceAddressId",
+            "value": [
+              "61035"
+            ]
+          },
+          {
+            "name": "dueDate",
+            "value": [
+              "2023-11-07T00:00:00.000-1000"
+            ]
+          },
+          {
+            "name": "kenanServiceInstanceId",
+            "value": [
+              ""
+            ]
+          },
+          {
+            "name": "MDUEvent",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "expediteFlag",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "isBillingSuspend",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "isBillingResume",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "installAndMaintNotes",
+            "value": [
+              "CONTACT- FName LName, CBR 111-111-1111 \n\nLoose animals on-prem: (edit to include the number of loose animals and if they will be restrained upon arrival)\nAccess arrangements: (edit to include any special access arrangements for the tech - ie. gate code, property mgt access, etc)\n\n\nDry Loop - Res\nAnnouncement - 643-0023\nNo Pic Selected (NPS)(All LD)\nFioptics 800\nGateway Fee (Non-TV/HSI)\nResidential Internet Email\nInside Wire Maintenance - No\n\nInstall SAHSI Fioptics 800 on TN 8082399085\nONT Action Needed: Install"
+            ]
+          },
+          {
+            "name": "InternetBillingPackage",
+            "value": [
+              {
+                "componentExternalId": [
+                  "I804G68_Internet_1_PK100017_1"
+                ],
+                "packageId": [
+                  "100017"
+                ],
+                "kenanPackageInstanceId": [
+                  ""
+                ],
+                "action": [
+                  "add"
+                ],
+                "packageSeq": [
+                  "1"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "120837",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "I804G68_Internet_1_120837_0B"
+                ],
+                "componentSeq": [
+                  "1"
+                ],
+                "productCode": [
+                  "120837"
+                ],
+                "productName": [
+                  "Gateway Fee (Non-TV/HSI)"
+                ],
+                "kenanComponentInstanceId": [
+                  ""
+                ],
+                "packageId": [
+                  "100017"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "InternetBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "I804G68_Internet_1_120837_0B_PE120837"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "120837"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "120837"
+                ],
+                "componentSeq": [
+                  "1"
+                ],
+                "action": [
+                  "add"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "1"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "InternetBillingPackage",
+            "value": [
+              {
+                "componentExternalId": [
+                  "I804G68_Internet_1_PK920001_2"
+                ],
+                "packageId": [
+                  "920001"
+                ],
+                "kenanPackageInstanceId": [
+                  ""
+                ],
+                "action": [
+                  "add"
+                ],
+                "packageSeq": [
+                  "2"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "100492",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "I804G68_Internet_1_100492_0B"
+                ],
+                "componentSeq": [
+                  "2"
+                ],
+                "productCode": [
+                  "100492"
+                ],
+                "productName": [
+                  "Residential Internet Email"
+                ],
+                "kenanComponentInstanceId": [
+                  ""
+                ],
+                "packageId": [
+                  "920001"
+                ],
+                "innovawareId": [
+                  "INS67987227"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "InternetBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "I804G68_Internet_1_100492_0B_PE100492"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "100492"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "100492"
+                ],
+                "componentSeq": [
+                  "2"
+                ],
+                "action": [
+                  "add"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "2"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "InternetBillingPackage",
+            "value": [
+              {
+                "componentExternalId": [
+                  "I804G68_Internet_1_PK100034_3"
+                ],
+                "packageId": [
+                  "100034"
+                ],
+                "kenanPackageInstanceId": [
+                  ""
+                ],
+                "action": [
+                  "add"
+                ],
+                "packageSeq": [
+                  "3"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "100002622",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "I804G68_Internet_1_100002622_0B"
+                ],
+                "componentSeq": [
+                  "3"
+                ],
+                "productCode": [
+                  "100002622"
+                ],
+                "productName": [
+                  "HSI Activation Fee"
+                ],
+                "kenanComponentInstanceId": [
+                  ""
+                ],
+                "packageId": [
+                  "100034"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "InternetBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "I804G68_Internet_1_100002622_0B_CT100001976"
+                ],
+                "elementType": [
+                  "CT"
+                ],
+                "elementId": [
+                  "100001976"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "100002622"
+                ],
+                "componentSeq": [
+                  "3"
+                ],
+                "action": [
+                  "add"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "3"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "170821",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "I804G68_Internet_1_170821_0B"
+                ],
+                "componentSeq": [
+                  "4"
+                ],
+                "productCode": [
+                  "170821"
+                ],
+                "productName": [
+                  "Fioptics 800"
+                ],
+                "kenanComponentInstanceId": [
+                  ""
+                ],
+                "packageId": [
+                  "100034"
+                ],
+                "technologyType": [
+                  "Fiber"
+                ],
+                "downloadSpeed": [
+                  "800"
+                ],
+                "uploadSpeed": [
+                  "600"
+                ],
+                "HSIProduct": [
+                  "FIBER_800"
+                ],
+                "IPAddressType": [
+                  "Dynamic"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "InternetBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "I804G68_Internet_1_170821_0B_PE170821"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "170821"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "170821"
+                ],
+                "componentSeq": [
+                  "4"
+                ],
+                "action": [
+                  "add"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "4"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "InternetBillingPackage",
+            "value": [
+              {
+                "componentExternalId": [
+                  "I804G68_Internet_1_PK130029_4"
+                ],
+                "packageId": [
+                  "130029"
+                ],
+                "kenanPackageInstanceId": [
+                  ""
+                ],
+                "action": [
+                  "add"
+                ],
+                "packageSeq": [
+                  "4"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "132352",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "I804G68_Internet_1_132352_0B"
+                ],
+                "componentSeq": [
+                  "5"
+                ],
+                "productCode": [
+                  "132352"
+                ],
+                "productName": [
+                  "Inside Wire Maintenance - No"
+                ],
+                "kenanComponentInstanceId": [
+                  ""
+                ],
+                "packageId": [
+                  "130029"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "InternetBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "I804G68_Internet_1_132352_0B_PE132352"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "132352"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "132352"
+                ],
+                "componentSeq": [
+                  "5"
+                ],
+                "action": [
+                  "add"
+                ],
+                "rateByQuantity": [
+                  "Yes"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "5"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "I804G68_Voice_1",
+      "action": "add",
+      "product": {
+        "id": "I804G68_Voice_1",
+        "productSpecification": {
+          "id": "Voice"
+        },
+        "characteristic": [
+          {
+            "name": "serviceAddressId",
+            "value": [
+              "61035"
+            ]
+          },
+          {
+            "name": "dueDate",
+            "value": [
+              "2023-11-07T00:00:00.000-1000"
+            ]
+          },
+          {
+            "name": "kenanServiceInstanceId",
+            "value": [
+              ""
+            ]
+          },
+          {
+            "name": "MDUEvent",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "expediteFlag",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "isBillingSuspend",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "isBillingResume",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "installAndMaintNotes",
+            "value": [
+              "CONTACT- FName LName, CBR 111-111-1111 \n\nLoose animals on-prem: (edit to include the number of loose animals and if they will be restrained upon arrival)\nAccess arrangements: (edit to include any special access arrangements for the tech - ie. gate code, property mgt access, etc)\n\n\nDry Loop - Res\nAnnouncement - 643-0023\nNo Pic Selected (NPS)(All LD)\nFioptics 800\nGateway Fee (Non-TV/HSI)\nResidential Internet Email\nInside Wire Maintenance - No\n\nInstall SAHSI Fioptics 800 on TN 8082399085\nONT Action Needed: Install"
+            ]
+          },
+          {
+            "name": "VoiceBillingPackage",
+            "value": [
+              {
+                "componentExternalId": [
+                  "I804G68_Voice_1_PK130211_1"
+                ],
+                "packageId": [
+                  "130211"
+                ],
+                "kenanPackageInstanceId": [
+                  ""
+                ],
+                "action": [
+                  "add"
+                ],
+                "packageSeq": [
+                  "1"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "132806",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "I804G68_Voice_1_132806_0B"
+                ],
+                "componentSeq": [
+                  "1"
+                ],
+                "productCode": [
+                  "132806"
+                ],
+                "productName": [
+                  "Announcement - 643-0023"
+                ],
+                "kenanComponentInstanceId": [
+                  ""
+                ],
+                "packageId": [
+                  "130211"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VoiceBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "I804G68_Voice_1_132806_0B_PE132806"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "132806"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "132806"
+                ],
+                "componentSeq": [
+                  "1"
+                ],
+                "action": [
+                  "add"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "1"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "132804",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "I804G68_Voice_1_132804_0B"
+                ],
+                "componentSeq": [
+                  "2"
+                ],
+                "productCode": [
+                  "132804"
+                ],
+                "productName": [
+                  "Dry Loop - Res"
+                ],
+                "kenanComponentInstanceId": [
+                  ""
+                ],
+                "packageId": [
+                  "130211"
+                ],
+                "technologyType": [
+                  "Fiber"
+                ],
+                "telephoneNumber": [
+                  "8082399085"
+                ],
+                "intralataPIC": [
+                  "9000"
+                ],
+                "interlataPIC": [
+                  "9000"
+                ],
+                "internationalPIC": [
+                  "9000"
+                ],
+                "newServiceProviderId": [
+                  "3100"
+                ],
+                "oldServiceProviderId": [
+                  "3100"
+                ],
+                "LNPType": [
+                  "Port Within"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VoiceBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "I804G68_Voice_1_132804_0B_PE132804"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "132804"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "132804"
+                ],
+                "componentSeq": [
+                  "2"
+                ],
+                "action": [
+                  "add"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "2"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "DirectoryListing",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "I804G68_Voice_1_DL5024712_LS50031620_DirectoryListing"
+                ],
+                "listingId": [
+                  "LS50031620"
+                ],
+                "advanceListing": [
+                  "No"
+                ],
+                "listingType": [
+                  "PL"
+                ],
+                "publishingStatus": [
+                  "NOL"
+                ],
+                "customerType": [
+                  "R"
+                ],
+                "dlStatus": [
+                  "P"
+                ],
+                "dlCaptureType": [
+                  "SL"
+                ],
+                "bookId": [
+                  "016884"
+                ],
+                "primaryBook": [
+                  "016600"
+                ],
+                "lastExportDateTime": [
+                  ""
+                ]
+              }
+            ]
+          },
+          {
+            "name": "DirectoryListingDetails",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "I804G68_Voice_1_DL5024712_LS50031620_DirectoryListingDetails"
+                ],
+                "listingId": [
+                  "LS50031620"
+                ],
+                "nonWordInd": [
+                  "No"
+                ],
+                "dlIndentLevel": [
+                  "0"
+                ],
+                "dlLastName": [
+                  "LName"
+                ],
+                "dlFirstName": [
+                  "FName"
+                ],
+                "dlTitle": [
+                  ""
+                ],
+                "dlAddress": [
+                  "47-679 Ahuimanu Rd"
+                ],
+                "dlCommunity": [
+                  ""
+                ],
+                "dlTelephoneNumber": [
+                  "8082399085"
+                ],
+                "dlText": [
+                  ""
+                ],
+                "dlAreaCode": [
+                  "No"
+                ],
+                "omitAddress": [
+                  "No"
+                ],
+                "omitCommunity": [
+                  "Yes"
+                ],
+                "dlLineType": [
+                  ""
+                ],
+                "clecId": [
+                  ""
+                ],
+                "dlLocality": [
+                  ""
+                ],
+                "directoryCount": [
+                  "0"
+                ],
+                "dlAction": [
+                  "A"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

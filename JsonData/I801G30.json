@@ -1,0 +1,726 @@
+{
+  "externalId": "I801G30",
+  "requestedCompletionDate": "2023-04-27T04:00:00.000+0000",
+  "characteristic": [
+    {
+      "name": "sourceSystem",
+      "value": [
+        "SOE"
+      ]
+    },
+    {
+      "name": "BSSOrderNumber",
+      "value": [
+        "I801G30"
+      ]
+    },
+    {
+      "name": "orderVersion",
+      "value": [
+        "0"
+      ]
+    },
+    {
+      "name": "dueDate",
+      "value": [
+        "2023-04-27T04:00:00.000+0000"
+      ]
+    },
+    {
+      "name": "BSSOrderCapturer",
+      "value": [
+        "lbat244"
+      ]
+    },
+    {
+      "name": "isRecordsOnly",
+      "value": [
+        "No"
+      ]
+    },
+    {
+      "name": "canBeReachedNumber",
+      "value": [
+        "1111111111"
+      ]
+    },
+    {
+      "name": "isONTSwapRequired",
+      "value": [
+        "Yes"
+      ]
+    }
+  ],
+  "relatedParty": [
+    {
+      "id": "280000000003361",
+      "firstName": "address",
+      "middleName": "validation",
+      "lastName": "validation name",
+      "role": "customer"
+    }
+  ],
+  "orderItem": [
+    {
+      "id": "I801G30_Billing",
+      "action": "add",
+      "product": {
+        "id": "I801G30_Billing",
+        "productSpecification": {
+          "id": "Billing"
+        },
+        "characteristic": [
+          {
+            "name": "accountExternalId",
+            "value": [
+              "280000000003361"
+            ]
+          },
+          {
+            "name": "accountStatus",
+            "value": [
+              "ACT"
+            ]
+          },
+          {
+            "name": "accountType",
+            "value": [
+              "IND"
+            ]
+          },
+          {
+            "name": "ACNA",
+            "value": [
+              "AWL"
+            ]
+          },
+          {
+            "name": "billingTelephoneNumber",
+            "value": [
+              "8086742748"
+            ]
+          },
+          {
+            "name": "billAddress1",
+            "value": [
+              "91-3598 Nana Hope St"
+            ]
+          },
+          {
+            "name": "billAddress2",
+            "value": [
+              "RM LBBY11"
+            ]
+          },
+          {
+            "name": "billCity",
+            "value": [
+              "Ewa Beach"
+            ]
+          },
+          {
+            "name": "billCountry",
+            "value": [
+              "USA"
+            ]
+          },
+          {
+            "name": "billDispMeth",
+            "value": [
+              "1"
+            ]
+          },
+          {
+            "name": "billFmtOpt",
+            "value": [
+              "100"
+            ]
+          },
+          {
+            "name": "billFranchiseTaxCode",
+            "value": [
+              "1"
+            ]
+          },
+          {
+            "name": "billPeriod",
+            "value": [
+              "M29"
+            ]
+          },
+          {
+            "name": "billState",
+            "value": [
+              "HI"
+            ]
+          },
+          {
+            "name": "billZip",
+            "value": [
+              "96706"
+            ]
+          },
+          {
+            "name": "creditRating",
+            "value": [
+              "2"
+            ]
+          },
+          {
+            "name": "custFirstName",
+            "value": [
+              "address"
+            ]
+          },
+          {
+            "name": "custMiddleName",
+            "value": [
+              "validation"
+            ]
+          },
+          {
+            "name": "custLastName",
+            "value": [
+              "validation name"
+            ]
+          },
+          {
+            "name": "custEmail",
+            "value": [
+              "address.validation@altafiber.com"
+            ]
+          },
+          {
+            "name": "dateActive",
+            "value": [
+              "2023-04-25T14:28:24.516+0000"
+            ]
+          },
+          {
+            "name": "mktCode",
+            "value": [
+              "1"
+            ]
+          },
+          {
+            "name": "payMethod",
+            "value": [
+              "INV"
+            ]
+          },
+          {
+            "name": "rateClassDefault",
+            "value": [
+              "1"
+            ]
+          },
+          {
+            "name": "SSN",
+            "value": [
+              "999999999"
+            ]
+          },
+          {
+            "name": "VIPCode",
+            "value": [
+              "1"
+            ]
+          },
+          {
+            "name": "waiveTerminationObligation",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "waiveUnmetObligation",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "ExtendedData",
+            "value": [
+              {
+                "componentExternalId": [
+                  "I801G30_Billing_NUMBER_OF_INVOICE_COPIES"
+                ],
+                "action": [
+                  "add"
+                ],
+                "paramName": [
+                  "NUMBER_OF_INVOICE_COPIES"
+                ],
+                "paramValue": [
+                  "1"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "ExtendedData",
+            "value": [
+              {
+                "componentExternalId": [
+                  "I801G30_Billing_SALESREP_FIRSTNAME"
+                ],
+                "action": [
+                  "add"
+                ],
+                "paramName": [
+                  "SALESREP_FIRSTNAME"
+                ],
+                "paramValue": [
+                  "Luis"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "ExtendedData",
+            "value": [
+              {
+                "componentExternalId": [
+                  "I801G30_Billing_SALESREP_LASTNAME"
+                ],
+                "action": [
+                  "add"
+                ],
+                "paramName": [
+                  "SALESREP_LASTNAME"
+                ],
+                "paramValue": [
+                  "Batres"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "I801G30_Address",
+      "action": "add",
+      "product": {
+        "id": "I801G30_Address",
+        "productSpecification": {
+          "id": "Address"
+        },
+        "characteristic": [
+          {
+            "name": "Address",
+            "value": [
+              {
+                "componentExternalId": [
+                  "I801G30_Address_1171968"
+                ],
+                "serviceAddressId": [
+                  "1171968"
+                ],
+                "streetNumber": [
+                  "91-3598"
+                ],
+                "streetName": [
+                  "NANA HOPE"
+                ],
+                "preDirectional": [
+                  ""
+                ],
+                "postDirectional": [
+                  ""
+                ],
+                "streetType": [
+                  "ST"
+                ],
+                "streetAddress": [
+                  "91-3598 NANA HOPE ST"
+                ],
+                "city": [
+                  "EWA BEACH"
+                ],
+                "county": [
+                  "OAHU"
+                ],
+                "state": [
+                  "HI"
+                ],
+                "country": [
+                  "USA"
+                ],
+                "zip": [
+                  "96706"
+                ],
+                "subloc1": [
+                  "RM LBBY11"
+                ],
+                "subloc2": [
+                  ""
+                ],
+                "subloc3": [
+                  ""
+                ],
+                "subloc": [
+                  "RM LBBY11"
+                ],
+                "addressRemarks1": [
+                  ""
+                ],
+                "addressRemarks2": [
+                  "MDU - THE ELEMENT"
+                ],
+                "jurisdiction": [
+                  "1002000"
+                ],
+                "ACO": [
+                  "BCN"
+                ],
+                "CLLI": [
+                  "PKAPHIXASIP"
+                ],
+                "MDU": [
+                  "No"
+                ],
+                "centralOffice": [
+                  "3674"
+                ],
+                "FTTPServingCLLI": [
+                  "PKAPHIXA"
+                ],
+                "SIPProvisioningCLLI": [
+                  "PKAPHIXASIP"
+                ],
+                "FTTPDropInstalled": [
+                  "No"
+                ],
+                "cs2kLRN": [
+                  "HNLLHIMNPS2"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "I801G30_Internet",
+      "action": "add",
+      "product": {
+        "id": "I801G30_Internet",
+        "productSpecification": {
+          "id": "Internet"
+        },
+        "characteristic": [
+          {
+            "name": "serviceAddressId",
+            "value": [
+              "1171968"
+            ]
+          },
+          {
+            "name": "dueDate",
+            "value": [
+              "2023-04-27T04:00:00.000+0000"
+            ]
+          },
+          {
+            "name": "MDUEvent",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "expediteFlag",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "isBillingSuspend",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "isBillingResume",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "installAndMaintNotes",
+            "value": [
+              "CONTACT- address validation name, CBR 111-111-1111 \n\nLoose animals on-prem: (edit to include the number of loose animals and if they will be restrained upon arrival)\nAccess arrangements: (edit to include any special access arrangements for the tech - ie. gate code, property mgt access, etc)\n\n\nDry Loop - Res\nAnnouncement - 643-0023\nNo Pic Selected (NPS)(All LD)\nFioptics Symmetrical 500\nGateway Fee (Non-TV/HSI)\nMDU HSI Upgrade - TV+300M\nResidential Internet Email\nHSI Activation Fee 100% Discount\nInside Wire Maintenance - No\n\nInstall SAHSI Fioptics Symmetrical 500 on TN 8086742748\nONT Action Needed: Install"
+            ]
+          },
+          {
+            "name": "100002541",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "I801G30_Internet_100002541_0"
+                ],
+                "productCode": [
+                  "100002541"
+                ],
+                "productName": [
+                  "MDU HSI Upgrade - TV+300M"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "100002625",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "I801G30_Internet_100002625_0"
+                ],
+                "productCode": [
+                  "100002625"
+                ],
+                "productName": [
+                  "HSI Activation Fee 100% Discount"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "100002622",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "I801G30_Internet_100002622_1"
+                ],
+                "productCode": [
+                  "100002622"
+                ],
+                "productName": [
+                  "HSI Activation Fee"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "160745",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "I801G30_Internet_160745_0"
+                ],
+                "productCode": [
+                  "160745"
+                ],
+                "productName": [
+                  "Fioptics Symmetrical 500"
+                ],
+                "technologyType": [
+                  "Fiber"
+                ],
+                "downloadSpeed": [
+                  "500"
+                ],
+                "uploadSpeed": [
+                  "500"
+                ],
+                "HSIProduct": [
+                  "FIBER_500"
+                ],
+                "IPAddressType": [
+                  "Dynamic"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "100492",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "I801G30_Internet_100492_1"
+                ],
+                "productCode": [
+                  "100492"
+                ],
+                "productName": [
+                  "Residential Internet Email"
+                ],
+                "innovawareId": [
+                  "INS71665420"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "120837",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "I801G30_Internet_120837_0"
+                ],
+                "productCode": [
+                  "120837"
+                ],
+                "productName": [
+                  "Gateway Fee (Non-TV/HSI)"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "132352",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "I801G30_Internet_132352_0"
+                ],
+                "productCode": [
+                  "132352"
+                ],
+                "productName": [
+                  "Inside Wire Maintenance - No"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "I801G30_Voice",
+      "action": "add",
+      "product": {
+        "id": "I801G30_Voice",
+        "productSpecification": {
+          "id": "Voice"
+        },
+        "characteristic": [
+          {
+            "name": "serviceAddressId",
+            "value": [
+              "1171968"
+            ]
+          },
+          {
+            "name": "dueDate",
+            "value": [
+              "2023-04-27T04:00:00.000+0000"
+            ]
+          },
+          {
+            "name": "MDUEvent",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "expediteFlag",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "isBillingSuspend",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "isBillingResume",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "installAndMaintNotes",
+            "value": [
+              "CONTACT- address validation name, CBR 111-111-1111 \n\nLoose animals on-prem: (edit to include the number of loose animals and if they will be restrained upon arrival)\nAccess arrangements: (edit to include any special access arrangements for the tech - ie. gate code, property mgt access, etc)\n\n\nDry Loop - Res\nAnnouncement - 643-0023\nNo Pic Selected (NPS)(All LD)\nFioptics Symmetrical 500\nGateway Fee (Non-TV/HSI)\nMDU HSI Upgrade - TV+300M\nResidential Internet Email\nHSI Activation Fee 100% Discount\nInside Wire Maintenance - No\n\nInstall SAHSI Fioptics Symmetrical 500 on TN 8086742748\nONT Action Needed: Install"
+            ]
+          },
+          {
+            "name": "132804",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "I801G30_Voice_132804_0"
+                ],
+                "productCode": [
+                  "132804"
+                ],
+                "productName": [
+                  "Dry Loop - Res"
+                ],
+                "technologyType": [
+                  "Fiber"
+                ],
+                "telephoneNumber": [
+                  "8086742748"
+                ],
+                "intralataPIC": [
+                  "9000"
+                ],
+                "interlataPIC": [
+                  "9000"
+                ],
+                "internationalPIC": [
+                  "9000"
+                ],
+                "newServiceProviderId": [
+                  "3100"
+                ],
+                "oldServiceProviderId": [
+                  "3100"
+                ],
+                "LNPType": [
+                  "Port Within"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "132806",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "I801G30_Voice_132806_1"
+                ],
+                "productCode": [
+                  "132806"
+                ],
+                "productName": [
+                  "Announcement - 643-0023"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

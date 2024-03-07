@@ -1,0 +1,6777 @@
+{
+  "externalId": "C806S54",
+  "requestedCompletionDate": "2024-01-19T00:00:00.000-1000",
+  "characteristic": [
+    {
+      "name": "sourceSystem",
+      "value": [
+        "SOE"
+      ]
+    },
+    {
+      "name": "BSSOrderNumber",
+      "value": [
+        "C806S54"
+      ]
+    },
+    {
+      "name": "orderVersion",
+      "value": [
+        "1"
+      ]
+    },
+    {
+      "name": "dueDate",
+      "value": [
+        "2024-01-19T00:00:00.000-1000"
+      ]
+    },
+    {
+      "name": "BSSOrderCapturer",
+      "value": [
+        "thamada"
+      ]
+    },
+    {
+      "name": "isRecordsOnly",
+      "value": [
+        "No"
+      ]
+    },
+    {
+      "name": "isLesseeChanged",
+      "value": [
+        "No"
+      ]
+    },
+    {
+      "name": "isONTSwapRequired",
+      "value": [
+        "No"
+      ]
+    }
+  ],
+  "relatedParty": [
+    {
+      "id": "104221633900010",
+      "firstName": "MARIANO",
+      "middleName": "",
+      "lastName": "ALFARO",
+      "role": "customer"
+    }
+  ],
+  "orderItem": [
+    {
+      "id": "C806S54_Billing",
+      "action": "noChange",
+      "product": {
+        "id": "C806S54_Billing",
+        "productSpecification": {
+          "id": "Billing"
+        },
+        "characteristic": [
+          {
+            "name": "accountExternalId",
+            "value": [
+              "104221633900010"
+            ]
+          },
+          {
+            "name": "parentAccountExternalId",
+            "value": [
+              ""
+            ]
+          },
+          {
+            "name": "accountStatus",
+            "value": [
+              "ACT"
+            ]
+          },
+          {
+            "name": "accountType",
+            "value": [
+              "IND"
+            ]
+          },
+          {
+            "name": "ACNA",
+            "value": [
+              "AWL"
+            ]
+          },
+          {
+            "name": "billingTelephoneNumber",
+            "value": [
+              "8086776335"
+            ]
+          },
+          {
+            "name": "billAddress1",
+            "value": [
+              "91-1004 KOKA ST"
+            ]
+          },
+          {
+            "name": "billAddress2",
+            "value": [
+              ""
+            ]
+          },
+          {
+            "name": "billCity",
+            "value": [
+              "Ewa Beach"
+            ]
+          },
+          {
+            "name": "billCountry",
+            "value": [
+              "USA"
+            ]
+          },
+          {
+            "name": "billDispMeth",
+            "value": [
+              "1"
+            ]
+          },
+          {
+            "name": "billFmtOpt",
+            "value": [
+              "100"
+            ]
+          },
+          {
+            "name": "billFranchiseTaxCode",
+            "value": [
+              "1"
+            ]
+          },
+          {
+            "name": "billPeriod",
+            "value": [
+              "M13"
+            ]
+          },
+          {
+            "name": "billState",
+            "value": [
+              "HI"
+            ]
+          },
+          {
+            "name": "billZip",
+            "value": [
+              "96706"
+            ]
+          },
+          {
+            "name": "creditRating",
+            "value": [
+              "2"
+            ]
+          },
+          {
+            "name": "custFirstName",
+            "value": [
+              "MARIANO"
+            ]
+          },
+          {
+            "name": "custMiddleName",
+            "value": [
+              ""
+            ]
+          },
+          {
+            "name": "custLastName",
+            "value": [
+              "ALFARO"
+            ]
+          },
+          {
+            "name": "custEmail",
+            "value": [
+              "Mail Receipt"
+            ]
+          },
+          {
+            "name": "dateActive",
+            "value": [
+              "2002-05-16T00:00:00.000-1000"
+            ]
+          },
+          {
+            "name": "directoryListId",
+            "value": [
+              "DL0215040"
+            ]
+          },
+          {
+            "name": "mktCode",
+            "value": [
+              "1"
+            ]
+          },
+          {
+            "name": "payMethod",
+            "value": [
+              "INV"
+            ]
+          },
+          {
+            "name": "rateClassDefault",
+            "value": [
+              "1"
+            ]
+          },
+          {
+            "name": "VIPCode",
+            "value": [
+              "1"
+            ]
+          },
+          {
+            "name": "waiveTerminationObligation",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "waiveUnmetObligation",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "ExtendedData",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Billing_NUMBER_OF_INVOICE_COPIES"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "paramName": [
+                  "NUMBER_OF_INVOICE_COPIES"
+                ],
+                "paramValue": [
+                  "1"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "ExtendedData",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Billing_CREF"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "paramName": [
+                  "CREF"
+                ],
+                "paramValue": [
+                  "   "
+                ]
+              }
+            ]
+          },
+          {
+            "name": "ExtendedData",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Billing_SALESREP_FIRSTNAME"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "paramName": [
+                  "SALESREP_FIRSTNAME"
+                ],
+                "paramValue": [
+                  "TRAVIS"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "ExtendedData",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Billing_SALESREP_LASTNAME"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "paramName": [
+                  "SALESREP_LASTNAME"
+                ],
+                "paramValue": [
+                  "HAMADA"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "ExtendedData",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Billing_SSN"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "paramName": [
+                  "SSN"
+                ],
+                "paramValue": [
+                  "zMP2pse1d+iGdaDMqzsWpg=="
+                ]
+              }
+            ]
+          },
+          {
+            "name": "ExtendedData",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Billing_SALES_CODE"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "paramName": [
+                  "SALES_CODE"
+                ],
+                "paramValue": [
+                  "thamada"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "C806S54_Address",
+      "action": "noChange",
+      "product": {
+        "characteristic": [
+          {
+            "name": "Address",
+            "value": [
+              {
+                "action": [
+                  "noChange"
+                ],
+                "componentExternalId": [
+                  "C806S54_Address_749679"
+                ],
+                "serviceAddressId": [
+                  "749679"
+                ],
+                "streetNumber": [
+                  "91-1004"
+                ],
+                "streetName": [
+                  "KOKA"
+                ],
+                "preDirectional": [
+                  ""
+                ],
+                "postDirectional": [
+                  ""
+                ],
+                "streetType": [
+                  "ST"
+                ],
+                "streetAddress": [
+                  "91-1004 KOKA ST"
+                ],
+                "city": [
+                  "EWA BEACH"
+                ],
+                "county": [
+                  "OAHU"
+                ],
+                "island": [
+                  "OAHU"
+                ],
+                "state": [
+                  "HI"
+                ],
+                "country": [
+                  "USA"
+                ],
+                "zip": [
+                  "96706"
+                ],
+                "subloc1": [
+                  ""
+                ],
+                "subloc2": [
+                  ""
+                ],
+                "subloc3": [
+                  ""
+                ],
+                "subloc": [
+                  ""
+                ],
+                "addressRemarks1": [
+                  ""
+                ],
+                "addressRemarks2": [
+                  "NGTV=FTTPB"
+                ],
+                "jurisdiction": [
+                  "1002000"
+                ],
+                "ACO": [
+                  "BCO"
+                ],
+                "CLLI": [
+                  "EWAAHIXASIP"
+                ],
+                "MDU": [
+                  "No"
+                ],
+                "centralOffice": [
+                  "3683"
+                ],
+                "copperServingCLLI": [
+                  "EWGNHIAC"
+                ],
+                "FTTPServingCLLI": [
+                  "EWA_HIXA"
+                ],
+                "SIPProvisioningCLLI": [
+                  "EWAAHIXASIP"
+                ],
+                "FTTPDropInstalled": [
+                  "No"
+                ],
+                "cs2kLRN": [
+                  "8087991647"
+                ],
+                "copperLRN": [
+                  "8086853419"
+                ],
+                "wireCenterId": [
+                  "40871"
+                ],
+                "isMilitary": [
+                  "No"
+                ],
+                "stationWorkZone": [
+                  "Oahu"
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "C806S54_Address",
+        "productSpecification": {
+          "id": "Address"
+        }
+      }
+    },
+    {
+      "id": "C806S54_Internet_2",
+      "action": "add",
+      "product": {
+        "id": "C806S54_Internet_2",
+        "productSpecification": {
+          "id": "Internet"
+        },
+        "characteristic": [
+          {
+            "name": "serviceAddressId",
+            "value": [
+              "749679"
+            ]
+          },
+          {
+            "name": "installJobId",
+            "value": [
+              "O1HFG2QJ"
+            ]
+          },
+          {
+            "name": "dueDate",
+            "value": [
+              "2024-01-19T00:00:00.000-1000"
+            ]
+          },
+          {
+            "name": "kenanServiceInstanceId",
+            "value": [
+              ""
+            ]
+          },
+          {
+            "name": "MDUEvent",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "expediteFlag",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "isBillingSuspend",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "isBillingResume",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "installAndMaintNotes",
+            "value": [
+              "CONTACT- MARIANO ALFARO, CBR 555-555-5555 \n\nLoose animals on-prem: (edit to include the number of loose animals and if they will be restrained upon arrival)\nAccess arrangements: (edit to include any special access arrangements for the tech - ie. gate code, property mgt access, etc)\n\n\nFioptics 1G/500M\nResidential Internet Email\n\nInstall Fioptics 1G/500M on TN 8086776335\nONT Action Needed: Install"
+            ]
+          },
+          {
+            "name": "shipAddress1",
+            "value": [
+              "91-1004 KOKA ST"
+            ]
+          },
+          {
+            "name": "shipAddress2",
+            "value": [
+              ""
+            ]
+          },
+          {
+            "name": "shipCity",
+            "value": [
+              "Ewa Beach"
+            ]
+          },
+          {
+            "name": "shipState",
+            "value": [
+              "HI"
+            ]
+          },
+          {
+            "name": "shipZip",
+            "value": [
+              "96706"
+            ]
+          },
+          {
+            "name": "InternetBillingPackage",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Internet_2_PK920001_0B"
+                ],
+                "packageId": [
+                  "920001"
+                ],
+                "kenanPackageInstanceId": [
+                  ""
+                ],
+                "action": [
+                  "add"
+                ],
+                "packageSeq": [
+                  "1"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "170823",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "C806S54_Internet_2_170823_0B"
+                ],
+                "componentSeq": [
+                  "1"
+                ],
+                "productCode": [
+                  "170823"
+                ],
+                "productName": [
+                  "Fioptics 1G/500M"
+                ],
+                "kenanComponentInstanceId": [
+                  ""
+                ],
+                "packageId": [
+                  "920001"
+                ],
+                "technologyType": [
+                  "Fiber"
+                ],
+                "downloadSpeed": [
+                  "1000"
+                ],
+                "uploadSpeed": [
+                  "500"
+                ],
+                "HSIProduct": [
+                  "FIBER_1G"
+                ],
+                "IPAddressType": [
+                  "Dynamic"
+                ],
+                "circuitId": [
+                  "91.SWXX.256172..HTBB"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "InternetBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Internet_2_170823_0B_PE170823"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "170823"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "170823"
+                ],
+                "componentSeq": [
+                  "1"
+                ],
+                "action": [
+                  "add"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "1"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "100492",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "C806S54_Internet_2_100492_0B"
+                ],
+                "componentSeq": [
+                  "2"
+                ],
+                "productCode": [
+                  "100492"
+                ],
+                "productName": [
+                  "Residential Internet Email"
+                ],
+                "kenanComponentInstanceId": [
+                  ""
+                ],
+                "packageId": [
+                  "920001"
+                ],
+                "innovawareId": [
+                  "INS79487514"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "InternetBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Internet_2_100492_0B_PE100492"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "100492"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "100492"
+                ],
+                "componentSeq": [
+                  "2"
+                ],
+                "action": [
+                  "add"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "2"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "920088",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "C806S54_Internet_2_920088_0B"
+                ],
+                "componentSeq": [
+                  "3"
+                ],
+                "productCode": [
+                  "920088"
+                ],
+                "productName": [
+                  "Gateway Fee (TV-HSI)"
+                ],
+                "kenanComponentInstanceId": [
+                  ""
+                ],
+                "packageId": [
+                  "920001"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "InternetBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Internet_2_920088_0B_PE920088"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "920088"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "920088"
+                ],
+                "componentSeq": [
+                  "3"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "3"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "InternetBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Internet_2_920088_0B_CT921088"
+                ],
+                "elementType": [
+                  "CT"
+                ],
+                "elementId": [
+                  "921088"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "920088"
+                ],
+                "componentSeq": [
+                  "3"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "0"
+                ],
+                "elementSeq": [
+                  "4"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "C806S54_Voice_2",
+      "action": "add",
+      "product": {
+        "id": "C806S54_Voice_2",
+        "productSpecification": {
+          "id": "Voice"
+        },
+        "characteristic": [
+          {
+            "name": "serviceAddressId",
+            "value": [
+              "749679"
+            ]
+          },
+          {
+            "name": "installJobId",
+            "value": [
+              "O1HFG2QJ"
+            ]
+          },
+          {
+            "name": "dueDate",
+            "value": [
+              "2024-01-19T00:00:00.000-1000"
+            ]
+          },
+          {
+            "name": "kenanServiceInstanceId",
+            "value": [
+              ""
+            ]
+          },
+          {
+            "name": "MDUEvent",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "expediteFlag",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "isBillingSuspend",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "isBillingResume",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "installAndMaintNotes",
+            "value": [
+              "CONTACT- MARIANO ALFARO, CBR 555-555-5555 \n\nLoose animals on-prem: (edit to include the number of loose animals and if they will be restrained upon arrival)\nAccess arrangements: (edit to include any special access arrangements for the tech - ie. gate code, property mgt access, etc)\n\n\nFioptics 1G/500M\nResidential Internet Email\n\nInstall Fioptics 1G/500M on TN 8086776335\nONT Action Needed: Install"
+            ]
+          },
+          {
+            "name": "shipAddress1",
+            "value": [
+              "91-1004 KOKA ST"
+            ]
+          },
+          {
+            "name": "shipAddress2",
+            "value": [
+              ""
+            ]
+          },
+          {
+            "name": "shipCity",
+            "value": [
+              "Ewa Beach"
+            ]
+          },
+          {
+            "name": "shipState",
+            "value": [
+              "HI"
+            ]
+          },
+          {
+            "name": "shipZip",
+            "value": [
+              "96706"
+            ]
+          },
+          {
+            "name": "VoiceBillingPackage",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Voice_2_PK130009_0B"
+                ],
+                "packageId": [
+                  "130009"
+                ],
+                "kenanPackageInstanceId": [
+                  ""
+                ],
+                "action": [
+                  "add"
+                ],
+                "packageSeq": [
+                  "1"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130035",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "C806S54_Voice_2_130035_0B"
+                ],
+                "componentSeq": [
+                  "1"
+                ],
+                "productCode": [
+                  "130035"
+                ],
+                "productName": [
+                  "Call Waiting/Canc Call Waiting"
+                ],
+                "kenanComponentInstanceId": [
+                  ""
+                ],
+                "packageId": [
+                  "130009"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VoiceBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Voice_2_130035_0B_PE130014"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "130014"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "130035"
+                ],
+                "componentSeq": [
+                  "1"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "1"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130041",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "C806S54_Voice_2_130041_0B"
+                ],
+                "componentSeq": [
+                  "2"
+                ],
+                "productCode": [
+                  "130041"
+                ],
+                "productName": [
+                  "Touch Call"
+                ],
+                "kenanComponentInstanceId": [
+                  ""
+                ],
+                "packageId": [
+                  "130009"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VoiceBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Voice_2_130041_0B_PE130020"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "130020"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "130041"
+                ],
+                "componentSeq": [
+                  "2"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "Yes"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "2"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130067",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "C806S54_Voice_2_130067_0B"
+                ],
+                "componentSeq": [
+                  "3"
+                ],
+                "productCode": [
+                  "130067"
+                ],
+                "productName": [
+                  "Call Waiting ID"
+                ],
+                "kenanComponentInstanceId": [
+                  ""
+                ],
+                "packageId": [
+                  "130009"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VoiceBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Voice_2_130067_0B_PE130046"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "130046"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "130067"
+                ],
+                "componentSeq": [
+                  "3"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "3"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130068",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "C806S54_Voice_2_130068_0B"
+                ],
+                "componentSeq": [
+                  "4"
+                ],
+                "productCode": [
+                  "130068"
+                ],
+                "productName": [
+                  "Three-Way Calling"
+                ],
+                "kenanComponentInstanceId": [
+                  ""
+                ],
+                "packageId": [
+                  "130009"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VoiceBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Voice_2_130068_0B_PE130047"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "130047"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "130068"
+                ],
+                "componentSeq": [
+                  "4"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "4"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130070",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "C806S54_Voice_2_130070_0B"
+                ],
+                "componentSeq": [
+                  "5"
+                ],
+                "productCode": [
+                  "130070"
+                ],
+                "productName": [
+                  "Call Forwarding"
+                ],
+                "kenanComponentInstanceId": [
+                  ""
+                ],
+                "packageId": [
+                  "130009"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VoiceBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Voice_2_130070_0B_PE130049"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "130049"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "130070"
+                ],
+                "componentSeq": [
+                  "5"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "5"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130071",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "C806S54_Voice_2_130071_0B"
+                ],
+                "componentSeq": [
+                  "6"
+                ],
+                "productCode": [
+                  "130071"
+                ],
+                "productName": [
+                  "Speed Dialing-8"
+                ],
+                "kenanComponentInstanceId": [
+                  ""
+                ],
+                "packageId": [
+                  "130009"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VoiceBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Voice_2_130071_0B_PE130050"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "130050"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "130071"
+                ],
+                "componentSeq": [
+                  "6"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "6"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130073",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "C806S54_Voice_2_130073_0B"
+                ],
+                "componentSeq": [
+                  "7"
+                ],
+                "productCode": [
+                  "130073"
+                ],
+                "productName": [
+                  "Busy Redial"
+                ],
+                "kenanComponentInstanceId": [
+                  ""
+                ],
+                "packageId": [
+                  "130009"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VoiceBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Voice_2_130073_0B_PE130052"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "130052"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "130073"
+                ],
+                "componentSeq": [
+                  "7"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "7"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130074",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "C806S54_Voice_2_130074_0B"
+                ],
+                "componentSeq": [
+                  "8"
+                ],
+                "productCode": [
+                  "130074"
+                ],
+                "productName": [
+                  "Last Call Return *69"
+                ],
+                "kenanComponentInstanceId": [
+                  ""
+                ],
+                "packageId": [
+                  "130009"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VoiceBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Voice_2_130074_0B_PE130053"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "130053"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "130074"
+                ],
+                "componentSeq": [
+                  "8"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "8"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130075",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "C806S54_Voice_2_130075_0B"
+                ],
+                "componentSeq": [
+                  "9"
+                ],
+                "productCode": [
+                  "130075"
+                ],
+                "productName": [
+                  "Vip Alert *61"
+                ],
+                "kenanComponentInstanceId": [
+                  ""
+                ],
+                "packageId": [
+                  "130009"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VoiceBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Voice_2_130075_0B_PE130054"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "130054"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "130075"
+                ],
+                "componentSeq": [
+                  "9"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "9"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130076",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "C806S54_Voice_2_130076_0B"
+                ],
+                "componentSeq": [
+                  "10"
+                ],
+                "productCode": [
+                  "130076"
+                ],
+                "productName": [
+                  "Select Call Forwarding"
+                ],
+                "kenanComponentInstanceId": [
+                  ""
+                ],
+                "packageId": [
+                  "130009"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VoiceBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Voice_2_130076_0B_PE130055"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "130055"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "130076"
+                ],
+                "componentSeq": [
+                  "10"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "10"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130077",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "C806S54_Voice_2_130077_0B"
+                ],
+                "componentSeq": [
+                  "11"
+                ],
+                "productCode": [
+                  "130077"
+                ],
+                "productName": [
+                  "Call Block *60"
+                ],
+                "kenanComponentInstanceId": [
+                  ""
+                ],
+                "packageId": [
+                  "130009"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VoiceBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Voice_2_130077_0B_PE130056"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "130056"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "130077"
+                ],
+                "componentSeq": [
+                  "11"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "11"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130078",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "C806S54_Voice_2_130078_0B"
+                ],
+                "componentSeq": [
+                  "12"
+                ],
+                "productCode": [
+                  "130078"
+                ],
+                "productName": [
+                  "Do Not Disturb"
+                ],
+                "kenanComponentInstanceId": [
+                  ""
+                ],
+                "packageId": [
+                  "130009"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VoiceBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Voice_2_130078_0B_PE130057"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "130057"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "130078"
+                ],
+                "componentSeq": [
+                  "12"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "12"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130079",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "C806S54_Voice_2_130079_0B"
+                ],
+                "componentSeq": [
+                  "13"
+                ],
+                "productCode": [
+                  "130079"
+                ],
+                "productName": [
+                  "Anonymous Call Block *77"
+                ],
+                "kenanComponentInstanceId": [
+                  ""
+                ],
+                "packageId": [
+                  "130009"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VoiceBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Voice_2_130079_0B_PE130058"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "130058"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "130079"
+                ],
+                "componentSeq": [
+                  "13"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "13"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130083",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "C806S54_Voice_2_130083_0B"
+                ],
+                "componentSeq": [
+                  "14"
+                ],
+                "productCode": [
+                  "130083"
+                ],
+                "productName": [
+                  "Caller Id"
+                ],
+                "kenanComponentInstanceId": [
+                  ""
+                ],
+                "packageId": [
+                  "130009"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VoiceBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Voice_2_130083_0B_PE130062"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "130062"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "130083"
+                ],
+                "componentSeq": [
+                  "14"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "14"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130085",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "C806S54_Voice_2_130085_0B"
+                ],
+                "componentSeq": [
+                  "15"
+                ],
+                "productCode": [
+                  "130085"
+                ],
+                "productName": [
+                  "Hawaiian Telcom Go Local Plus"
+                ],
+                "kenanComponentInstanceId": [
+                  ""
+                ],
+                "packageId": [
+                  "130009"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VoiceBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Voice_2_130085_0B_PE130064"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "130064"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "130085"
+                ],
+                "componentSeq": [
+                  "15"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "15"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130087",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "C806S54_Voice_2_130087_0B"
+                ],
+                "componentSeq": [
+                  "16"
+                ],
+                "productCode": [
+                  "130087"
+                ],
+                "productName": [
+                  "Unlimited DA"
+                ],
+                "kenanComponentInstanceId": [
+                  ""
+                ],
+                "packageId": [
+                  "130009"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VoiceBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Voice_2_130087_0B_PE130066"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "130066"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "130087"
+                ],
+                "componentSeq": [
+                  "16"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "16"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VoiceBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Voice_2_130087_0B_CT169158"
+                ],
+                "elementType": [
+                  "CT"
+                ],
+                "elementId": [
+                  "169158"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "130087"
+                ],
+                "componentSeq": [
+                  "16"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "0"
+                ],
+                "elementSeq": [
+                  "17"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130089",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "C806S54_Voice_2_130089_0B"
+                ],
+                "componentSeq": [
+                  "17"
+                ],
+                "productCode": [
+                  "130089"
+                ],
+                "productName": [
+                  "Unlimited DA"
+                ],
+                "kenanComponentInstanceId": [
+                  ""
+                ],
+                "packageId": [
+                  "130009"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VoiceBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Voice_2_130089_0B_PE130068"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "130068"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "130089"
+                ],
+                "componentSeq": [
+                  "17"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "18"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VoiceBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Voice_2_130089_0B_CT169158"
+                ],
+                "elementType": [
+                  "CT"
+                ],
+                "elementId": [
+                  "169158"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "130089"
+                ],
+                "componentSeq": [
+                  "17"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "0"
+                ],
+                "elementSeq": [
+                  "19"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130101",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "C806S54_Voice_2_130101_0B"
+                ],
+                "componentSeq": [
+                  "18"
+                ],
+                "productCode": [
+                  "130101"
+                ],
+                "productName": [
+                  "Residence Line"
+                ],
+                "kenanComponentInstanceId": [
+                  ""
+                ],
+                "packageId": [
+                  "130009"
+                ],
+                "technologyType": [
+                  "Fiber"
+                ],
+                "telephoneNumber": [
+                  "8086776335"
+                ],
+                "accessPackageId": [
+                  "11325644"
+                ],
+                "intralataPIC": [
+                  "9000"
+                ],
+                "interlataPIC": [
+                  "9000"
+                ],
+                "internationalPIC": [
+                  "9000"
+                ],
+                "PICSourceCodeIntralata": [
+                  "O"
+                ],
+                "PICSourceCodeInterlata": [
+                  "O"
+                ],
+                "newServiceProviderId": [
+                  "3100"
+                ],
+                "oldServiceProviderId": [
+                  "3100"
+                ],
+                "LNPType": [
+                  "Port Within"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VoiceBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Voice_2_130101_0B_PE130080"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "130080"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "130101"
+                ],
+                "componentSeq": [
+                  "18"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "Yes"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "20"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "132889",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "C806S54_Voice_2_132889_0B"
+                ],
+                "componentSeq": [
+                  "19"
+                ],
+                "productCode": [
+                  "132889"
+                ],
+                "productName": [
+                  "Go Local Plus VM Discount"
+                ],
+                "kenanComponentInstanceId": [
+                  ""
+                ],
+                "packageId": [
+                  "130009"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VoiceBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Voice_2_132889_0B_CT132889"
+                ],
+                "elementType": [
+                  "CT"
+                ],
+                "elementId": [
+                  "132889"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "132889"
+                ],
+                "componentSeq": [
+                  "19"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "21"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "169158",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "C806S54_Voice_2_169158_0B"
+                ],
+                "componentSeq": [
+                  "20"
+                ],
+                "productCode": [
+                  "169158"
+                ],
+                "productName": [
+                  "Unlimited Local Dir Assistance"
+                ],
+                "kenanComponentInstanceId": [
+                  ""
+                ],
+                "packageId": [
+                  "130009"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VoiceBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Voice_2_169158_0B_CT169158"
+                ],
+                "elementType": [
+                  "CT"
+                ],
+                "elementId": [
+                  "169158"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "169158"
+                ],
+                "componentSeq": [
+                  "20"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "0"
+                ],
+                "elementSeq": [
+                  "22"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VoiceBillingPackage",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Voice_2_PK130023_0B"
+                ],
+                "packageId": [
+                  "130023"
+                ],
+                "kenanPackageInstanceId": [
+                  ""
+                ],
+                "action": [
+                  "add"
+                ],
+                "packageSeq": [
+                  "2"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "131019",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "C806S54_Voice_2_131019_0B"
+                ],
+                "componentSeq": [
+                  "21"
+                ],
+                "productCode": [
+                  "131019"
+                ],
+                "productName": [
+                  "Complete Block -Std"
+                ],
+                "kenanComponentInstanceId": [
+                  ""
+                ],
+                "packageId": [
+                  "130023"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VoiceBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Voice_2_131019_0B_PE131019"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "131019"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "131019"
+                ],
+                "componentSeq": [
+                  "21"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "23"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "131408",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "C806S54_Voice_2_131408_0B"
+                ],
+                "componentSeq": [
+                  "22"
+                ],
+                "productCode": [
+                  "131408"
+                ],
+                "productName": [
+                  "Subscriber Line Charge/Sl Non Prime"
+                ],
+                "kenanComponentInstanceId": [
+                  ""
+                ],
+                "packageId": [
+                  "130023"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VoiceBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Voice_2_131408_0B_PE131408"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "131408"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "131408"
+                ],
+                "componentSeq": [
+                  "22"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "Yes"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "24"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VoiceBillingPackage",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Voice_2_PK130029_0B"
+                ],
+                "packageId": [
+                  "130029"
+                ],
+                "kenanPackageInstanceId": [
+                  ""
+                ],
+                "action": [
+                  "add"
+                ],
+                "packageSeq": [
+                  "3"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "132372",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "C806S54_Voice_2_132372_0B"
+                ],
+                "componentSeq": [
+                  "23"
+                ],
+                "productCode": [
+                  "132372"
+                ],
+                "productName": [
+                  "Fioptics Care - Yes"
+                ],
+                "kenanComponentInstanceId": [
+                  ""
+                ],
+                "packageId": [
+                  "130029"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VoiceBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Voice_2_132372_0B_PE132372"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "132372"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "132372"
+                ],
+                "componentSeq": [
+                  "23"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "Yes"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "25"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VoiceBillingPackage",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Voice_2_PK130030_0B"
+                ],
+                "packageId": [
+                  "130030"
+                ],
+                "kenanPackageInstanceId": [
+                  ""
+                ],
+                "action": [
+                  "add"
+                ],
+                "packageSeq": [
+                  "4"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "169400",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "C806S54_Voice_2_169400_0B"
+                ],
+                "componentSeq": [
+                  "24"
+                ],
+                "productCode": [
+                  "169400"
+                ],
+                "productName": [
+                  "BnC Call Block (Solix Discount)"
+                ],
+                "kenanComponentInstanceId": [
+                  ""
+                ],
+                "packageId": [
+                  "130030"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VoiceBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Voice_2_169400_0B_CT169400"
+                ],
+                "elementType": [
+                  "CT"
+                ],
+                "elementId": [
+                  "169400"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "169400"
+                ],
+                "componentSeq": [
+                  "24"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "0"
+                ],
+                "elementSeq": [
+                  "26"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "DirectoryListing",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "C806S54_Voice_2_DL0215040_LS00237191_DirectoryListing"
+                ],
+                "listingId": [
+                  "LS00237191"
+                ],
+                "advanceListing": [
+                  "No"
+                ],
+                "listingType": [
+                  "PL"
+                ],
+                "publishingStatus": [
+                  "PUB"
+                ],
+                "customerType": [
+                  "R"
+                ],
+                "dlStatus": [
+                  "P"
+                ],
+                "dlCaptureType": [
+                  "SL"
+                ],
+                "bookId": [
+                  "016600"
+                ],
+                "primaryBook": [
+                  "016600"
+                ],
+                "lastExportDateTime": [
+                  "7/4/2017 5:02:58 AM"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "DirectoryListingDetails",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "C806S54_Voice_2_DL0215040_LS00237191_DirectoryListingDetails"
+                ],
+                "listingId": [
+                  "LS00237191"
+                ],
+                "nonWordInd": [
+                  "No"
+                ],
+                "dlIndentLevel": [
+                  "0"
+                ],
+                "dlLastName": [
+                  "Alfaro"
+                ],
+                "dlFirstName": [
+                  "M"
+                ],
+                "dlTitle": [
+                  ""
+                ],
+                "dlAddress": [
+                  "91-1004 Koka St"
+                ],
+                "dlCommunity": [
+                  ""
+                ],
+                "dlTelephoneNumber": [
+                  "8086776335"
+                ],
+                "dlText": [
+                  ""
+                ],
+                "dlAreaCode": [
+                  "No"
+                ],
+                "omitAddress": [
+                  "No"
+                ],
+                "omitCommunity": [
+                  "Yes"
+                ],
+                "dlLineType": [
+                  ""
+                ],
+                "clecId": [
+                  ""
+                ],
+                "dlLocality": [
+                  ""
+                ],
+                "directoryCount": [
+                  "1"
+                ],
+                "dlAction": [
+                  "C"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "C806S54_Video_2",
+      "action": "add",
+      "product": {
+        "id": "C806S54_Video_2",
+        "productSpecification": {
+          "id": "Video"
+        },
+        "characteristic": [
+          {
+            "name": "serviceAddressId",
+            "value": [
+              "749679"
+            ]
+          },
+          {
+            "name": "installJobId",
+            "value": [
+              "O1HFG2QJ"
+            ]
+          },
+          {
+            "name": "dueDate",
+            "value": [
+              "2024-01-19T00:00:00.000-1000"
+            ]
+          },
+          {
+            "name": "kenanServiceInstanceId",
+            "value": [
+              ""
+            ]
+          },
+          {
+            "name": "MDUEvent",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "expediteFlag",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "isBillingSuspend",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "isBillingResume",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "installAndMaintNotes",
+            "value": [
+              "CONTACT- MARIANO ALFARO, CBR 555-555-5555 \n\nLoose animals on-prem: (edit to include the number of loose animals and if they will be restrained upon arrival)\nAccess arrangements: (edit to include any special access arrangements for the tech - ie. gate code, property mgt access, etc)\n\n\nFioptics 1G/500M\nResidential Internet Email\n\nInstall Fioptics 1G/500M on TN 8086776335\nONT Action Needed: Install"
+            ]
+          },
+          {
+            "name": "shipAddress1",
+            "value": [
+              "91-1004 KOKA ST"
+            ]
+          },
+          {
+            "name": "shipAddress2",
+            "value": [
+              ""
+            ]
+          },
+          {
+            "name": "shipCity",
+            "value": [
+              "Ewa Beach"
+            ]
+          },
+          {
+            "name": "shipState",
+            "value": [
+              "HI"
+            ]
+          },
+          {
+            "name": "shipZip",
+            "value": [
+              "96706"
+            ]
+          },
+          {
+            "name": "VideoBillingPackage",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Video_2_PK920000_0B"
+                ],
+                "packageId": [
+                  "920000"
+                ],
+                "kenanPackageInstanceId": [
+                  ""
+                ],
+                "action": [
+                  "add"
+                ],
+                "packageSeq": [
+                  "1"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "920000",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "C806S54_Video_2_920000_0B"
+                ],
+                "componentSeq": [
+                  "1"
+                ],
+                "productCode": [
+                  "920000"
+                ],
+                "productName": [
+                  "Basic TV"
+                ],
+                "kenanComponentInstanceId": [
+                  ""
+                ],
+                "packageId": [
+                  "920000"
+                ],
+                "technologyType": [
+                  "Fiber"
+                ],
+                "circuitId": [
+                  "91.SWXX.256172..HTBB"
+                ],
+                "creditRiskClass": [
+                  "Medium"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VideoBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Video_2_920000_0B_PE920084"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "920084"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "920000"
+                ],
+                "componentSeq": [
+                  "1"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "1"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VideoBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Video_2_920000_0B_PE1000733"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "1000733"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "920000"
+                ],
+                "componentSeq": [
+                  "1"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "2"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VideoBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Video_2_920000_0B_PE1000436"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "1000436"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "920000"
+                ],
+                "componentSeq": [
+                  "1"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "3"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "920022",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "C806S54_Video_2_920022_1B"
+                ],
+                "componentSeq": [
+                  "2"
+                ],
+                "productCode": [
+                  "920022"
+                ],
+                "productName": [
+                  "Additional Set Top Box"
+                ],
+                "kenanComponentInstanceId": [
+                  ""
+                ],
+                "packageId": [
+                  "920000"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VideoBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Video_2_920022_1B_PE920022"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "920022"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "920022"
+                ],
+                "componentSeq": [
+                  "2"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "Yes"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "4"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "920022",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "C806S54_Video_2_920022_2B"
+                ],
+                "componentSeq": [
+                  "3"
+                ],
+                "productCode": [
+                  "920022"
+                ],
+                "productName": [
+                  "Additional Set Top Box"
+                ],
+                "kenanComponentInstanceId": [
+                  ""
+                ],
+                "packageId": [
+                  "920000"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VideoBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Video_2_920022_2B_PE920022"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "920022"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "920022"
+                ],
+                "componentSeq": [
+                  "3"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "Yes"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "5"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "920032",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "C806S54_Video_2_920032_0B"
+                ],
+                "componentSeq": [
+                  "4"
+                ],
+                "productCode": [
+                  "920032"
+                ],
+                "productName": [
+                  "HD"
+                ],
+                "kenanComponentInstanceId": [
+                  ""
+                ],
+                "packageId": [
+                  "920000"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VideoBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Video_2_920032_0B_PE920032"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "920032"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "920032"
+                ],
+                "componentSeq": [
+                  "4"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "6"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "920034",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "C806S54_Video_2_920034_0B"
+                ],
+                "componentSeq": [
+                  "5"
+                ],
+                "productCode": [
+                  "920034"
+                ],
+                "productName": [
+                  "Whole Home DVR"
+                ],
+                "kenanComponentInstanceId": [
+                  ""
+                ],
+                "packageId": [
+                  "920000"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VideoBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Video_2_920034_0B_PE920034"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "920034"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "920034"
+                ],
+                "componentSeq": [
+                  "5"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "7"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "920068",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "C806S54_Video_2_920068_0B"
+                ],
+                "componentSeq": [
+                  "6"
+                ],
+                "productCode": [
+                  "920068"
+                ],
+                "productName": [
+                  "Allow PPV/VOD"
+                ],
+                "kenanComponentInstanceId": [
+                  ""
+                ],
+                "packageId": [
+                  "920000"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VideoBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Video_2_920068_0B_PE920068"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "920068"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "920068"
+                ],
+                "componentSeq": [
+                  "6"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "8"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "920086",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "C806S54_Video_2_920086_0B"
+                ],
+                "componentSeq": [
+                  "7"
+                ],
+                "productCode": [
+                  "920086"
+                ],
+                "productName": [
+                  "1st Set Top Box"
+                ],
+                "kenanComponentInstanceId": [
+                  ""
+                ],
+                "packageId": [
+                  "920000"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VideoBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Video_2_920086_0B_PE920086"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "920086"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "920086"
+                ],
+                "componentSeq": [
+                  "7"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "9"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "C806S54_Internet_1",
+      "action": "delete",
+      "product": {
+        "id": "C806S54_Internet_1",
+        "productSpecification": {
+          "id": "Internet"
+        },
+        "characteristic": [
+          {
+            "name": "serviceAddressId",
+            "value": [
+              "749679"
+            ]
+          },
+          {
+            "name": "installJobId",
+            "value": [
+              "O1HFG2QJ"
+            ]
+          },
+          {
+            "name": "dueDate",
+            "value": [
+              "2024-01-19T00:00:00.000-1000"
+            ]
+          },
+          {
+            "name": "kenanServiceInstanceId",
+            "value": [
+              "3631001:0:12139490003"
+            ]
+          },
+          {
+            "name": "MDUEvent",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "expediteFlag",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "isBillingSuspend",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "isBillingResume",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "installAndMaintNotes",
+            "value": [
+              "CONTACT- MARIANO ALFARO, CBR 555-555-5555 \n\nLoose animals on-prem: (edit to include the number of loose animals and if they will be restrained upon arrival)\nAccess arrangements: (edit to include any special access arrangements for the tech - ie. gate code, property mgt access, etc)\n\n\nFioptics 1G/500M\nResidential Internet Email\n\nInstall Fioptics 1G/500M on TN 8086776335\nONT Action Needed: Install"
+            ]
+          },
+          {
+            "name": "shipAddress1",
+            "value": [
+              "91-1004 KOKA ST"
+            ]
+          },
+          {
+            "name": "shipAddress2",
+            "value": [
+              ""
+            ]
+          },
+          {
+            "name": "shipCity",
+            "value": [
+              "Ewa Beach"
+            ]
+          },
+          {
+            "name": "shipState",
+            "value": [
+              "HI"
+            ]
+          },
+          {
+            "name": "shipZip",
+            "value": [
+              "96706"
+            ]
+          },
+          {
+            "name": "InternetBillingPackage",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Internet_1_PK920001_0A"
+                ],
+                "packageId": [
+                  "920001"
+                ],
+                "kenanPackageInstanceId": [
+                  "13872995:3"
+                ],
+                "action": [
+                  "delete"
+                ],
+                "packageSeq": [
+                  "1"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "160726",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "C806S54_Internet_1_160726_0A"
+                ],
+                "componentSeq": [
+                  "1"
+                ],
+                "productCode": [
+                  "160726"
+                ],
+                "productName": [
+                  "High Speed Internet (21mbps)"
+                ],
+                "kenanComponentInstanceId": [
+                  "96536619:3"
+                ],
+                "packageId": [
+                  "920001"
+                ],
+                "technologyType": [
+                  "Copper"
+                ],
+                "downloadSpeed": [
+                  "21"
+                ],
+                "uploadSpeed": [
+                  "3"
+                ],
+                "HSIProduct": [
+                  "21MB"
+                ],
+                "IPAddressType": [
+                  "Dynamic"
+                ],
+                "circuitId": [
+                  "91.SWXX.256172..HTBB"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "InternetBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Internet_1_160726_0A_PE160726"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "160726"
+                ],
+                "kenanElementInstanceId": [
+                  "89476223:3:129331043003"
+                ],
+                "componentProductCode": [
+                  "160726"
+                ],
+                "componentSeq": [
+                  "1"
+                ],
+                "action": [
+                  "delete"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "1"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "InternetPromo",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "C806S54_Internet_1_160726_0A_PE160726_Promo_1"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "160726"
+                ],
+                "elementSeq": [
+                  "1"
+                ],
+                "promoSeq": [
+                  "1"
+                ],
+                "productOverrideRate": [
+                  "2515"
+                ],
+                "promoDate": [
+                  "2025-04-27T00:00:00.000-1000"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "920088",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "C806S54_Internet_1_920088_0A"
+                ],
+                "componentSeq": [
+                  "2"
+                ],
+                "productCode": [
+                  "920088"
+                ],
+                "productName": [
+                  "Gateway Fee (TV-HSI)"
+                ],
+                "kenanComponentInstanceId": [
+                  "96536618:3"
+                ],
+                "packageId": [
+                  "920001"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "InternetBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Internet_1_920088_0A_PE920088"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "920088"
+                ],
+                "kenanElementInstanceId": [
+                  "89476222:3:129331042003"
+                ],
+                "componentProductCode": [
+                  "920088"
+                ],
+                "componentSeq": [
+                  "2"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "2"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "InternetBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Internet_1_920088_0A_CT921088"
+                ],
+                "elementType": [
+                  "CT"
+                ],
+                "elementId": [
+                  "921088"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "920088"
+                ],
+                "componentSeq": [
+                  "2"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "0"
+                ],
+                "elementSeq": [
+                  "3"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "C806S54_Voice_1",
+      "action": "delete",
+      "product": {
+        "id": "C806S54_Voice_1",
+        "productSpecification": {
+          "id": "Voice"
+        },
+        "characteristic": [
+          {
+            "name": "serviceAddressId",
+            "value": [
+              "749679"
+            ]
+          },
+          {
+            "name": "installJobId",
+            "value": [
+              "O1HFG2QJ"
+            ]
+          },
+          {
+            "name": "dueDate",
+            "value": [
+              "2024-01-19T00:00:00.000-1000"
+            ]
+          },
+          {
+            "name": "kenanServiceInstanceId",
+            "value": [
+              "3631014:0:12139381003"
+            ]
+          },
+          {
+            "name": "MDUEvent",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "expediteFlag",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "isBillingSuspend",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "isBillingResume",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "installAndMaintNotes",
+            "value": [
+              "CONTACT- MARIANO ALFARO, CBR 555-555-5555 \n\nLoose animals on-prem: (edit to include the number of loose animals and if they will be restrained upon arrival)\nAccess arrangements: (edit to include any special access arrangements for the tech - ie. gate code, property mgt access, etc)\n\n\nFioptics 1G/500M\nResidential Internet Email\n\nInstall Fioptics 1G/500M on TN 8086776335\nONT Action Needed: Install"
+            ]
+          },
+          {
+            "name": "shipAddress1",
+            "value": [
+              "91-1004 KOKA ST"
+            ]
+          },
+          {
+            "name": "shipAddress2",
+            "value": [
+              ""
+            ]
+          },
+          {
+            "name": "shipCity",
+            "value": [
+              "Ewa Beach"
+            ]
+          },
+          {
+            "name": "shipState",
+            "value": [
+              "HI"
+            ]
+          },
+          {
+            "name": "shipZip",
+            "value": [
+              "96706"
+            ]
+          },
+          {
+            "name": "VoiceBillingPackage",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Voice_1_PK130009_0A"
+                ],
+                "packageId": [
+                  "130009"
+                ],
+                "kenanPackageInstanceId": [
+                  "12962298:3"
+                ],
+                "action": [
+                  "delete"
+                ],
+                "packageSeq": [
+                  "1"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130035",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "C806S54_Voice_1_130035_0A"
+                ],
+                "componentSeq": [
+                  "1"
+                ],
+                "productCode": [
+                  "130035"
+                ],
+                "productName": [
+                  "Call Waiting/Canc Call Waiting"
+                ],
+                "kenanComponentInstanceId": [
+                  "81324318:3"
+                ],
+                "packageId": [
+                  "130009"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VoiceBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Voice_1_130035_0A_PE130014"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "130014"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "130035"
+                ],
+                "componentSeq": [
+                  "1"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "1"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130041",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "C806S54_Voice_1_130041_0A"
+                ],
+                "componentSeq": [
+                  "2"
+                ],
+                "productCode": [
+                  "130041"
+                ],
+                "productName": [
+                  "Touch Call"
+                ],
+                "kenanComponentInstanceId": [
+                  "81324334:3"
+                ],
+                "packageId": [
+                  "130009"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VoiceBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Voice_1_130041_0A_PE130020"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "130020"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "130041"
+                ],
+                "componentSeq": [
+                  "2"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "Yes"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "2"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130067",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "C806S54_Voice_1_130067_0A"
+                ],
+                "componentSeq": [
+                  "3"
+                ],
+                "productCode": [
+                  "130067"
+                ],
+                "productName": [
+                  "Call Waiting ID"
+                ],
+                "kenanComponentInstanceId": [
+                  "81324322:3"
+                ],
+                "packageId": [
+                  "130009"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VoiceBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Voice_1_130067_0A_PE130046"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "130046"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "130067"
+                ],
+                "componentSeq": [
+                  "3"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "3"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130068",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "C806S54_Voice_1_130068_0A"
+                ],
+                "componentSeq": [
+                  "4"
+                ],
+                "productCode": [
+                  "130068"
+                ],
+                "productName": [
+                  "Three-Way Calling"
+                ],
+                "kenanComponentInstanceId": [
+                  "81324332:3"
+                ],
+                "packageId": [
+                  "130009"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VoiceBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Voice_1_130068_0A_PE130047"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "130047"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "130068"
+                ],
+                "componentSeq": [
+                  "4"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "4"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130070",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "C806S54_Voice_1_130070_0A"
+                ],
+                "componentSeq": [
+                  "5"
+                ],
+                "productCode": [
+                  "130070"
+                ],
+                "productName": [
+                  "Call Forwarding"
+                ],
+                "kenanComponentInstanceId": [
+                  "81324311:3"
+                ],
+                "packageId": [
+                  "130009"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VoiceBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Voice_1_130070_0A_PE130049"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "130049"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "130070"
+                ],
+                "componentSeq": [
+                  "5"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "5"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130071",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "C806S54_Voice_1_130071_0A"
+                ],
+                "componentSeq": [
+                  "6"
+                ],
+                "productCode": [
+                  "130071"
+                ],
+                "productName": [
+                  "Speed Dialing-8"
+                ],
+                "kenanComponentInstanceId": [
+                  "81324316:3"
+                ],
+                "packageId": [
+                  "130009"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VoiceBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Voice_1_130071_0A_PE130050"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "130050"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "130071"
+                ],
+                "componentSeq": [
+                  "6"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "6"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130073",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "C806S54_Voice_1_130073_0A"
+                ],
+                "componentSeq": [
+                  "7"
+                ],
+                "productCode": [
+                  "130073"
+                ],
+                "productName": [
+                  "Busy Redial"
+                ],
+                "kenanComponentInstanceId": [
+                  "81324315:3"
+                ],
+                "packageId": [
+                  "130009"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VoiceBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Voice_1_130073_0A_PE130052"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "130052"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "130073"
+                ],
+                "componentSeq": [
+                  "7"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "7"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130074",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "C806S54_Voice_1_130074_0A"
+                ],
+                "componentSeq": [
+                  "8"
+                ],
+                "productCode": [
+                  "130074"
+                ],
+                "productName": [
+                  "Last Call Return *69"
+                ],
+                "kenanComponentInstanceId": [
+                  "81324310:3"
+                ],
+                "packageId": [
+                  "130009"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VoiceBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Voice_1_130074_0A_PE130053"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "130053"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "130074"
+                ],
+                "componentSeq": [
+                  "8"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "8"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130075",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "C806S54_Voice_1_130075_0A"
+                ],
+                "componentSeq": [
+                  "9"
+                ],
+                "productCode": [
+                  "130075"
+                ],
+                "productName": [
+                  "Vip Alert *61"
+                ],
+                "kenanComponentInstanceId": [
+                  "81324319:3"
+                ],
+                "packageId": [
+                  "130009"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VoiceBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Voice_1_130075_0A_PE130054"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "130054"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "130075"
+                ],
+                "componentSeq": [
+                  "9"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "9"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130076",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "C806S54_Voice_1_130076_0A"
+                ],
+                "componentSeq": [
+                  "10"
+                ],
+                "productCode": [
+                  "130076"
+                ],
+                "productName": [
+                  "Select Call Forwarding"
+                ],
+                "kenanComponentInstanceId": [
+                  "81324317:3"
+                ],
+                "packageId": [
+                  "130009"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VoiceBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Voice_1_130076_0A_PE130055"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "130055"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "130076"
+                ],
+                "componentSeq": [
+                  "10"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "10"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130077",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "C806S54_Voice_1_130077_0A"
+                ],
+                "componentSeq": [
+                  "11"
+                ],
+                "productCode": [
+                  "130077"
+                ],
+                "productName": [
+                  "Call Block *60"
+                ],
+                "kenanComponentInstanceId": [
+                  "81324313:3"
+                ],
+                "packageId": [
+                  "130009"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VoiceBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Voice_1_130077_0A_PE130056"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "130056"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "130077"
+                ],
+                "componentSeq": [
+                  "11"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "11"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130078",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "C806S54_Voice_1_130078_0A"
+                ],
+                "componentSeq": [
+                  "12"
+                ],
+                "productCode": [
+                  "130078"
+                ],
+                "productName": [
+                  "Do Not Disturb"
+                ],
+                "kenanComponentInstanceId": [
+                  "81324320:3"
+                ],
+                "packageId": [
+                  "130009"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VoiceBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Voice_1_130078_0A_PE130057"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "130057"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "130078"
+                ],
+                "componentSeq": [
+                  "12"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "12"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130079",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "C806S54_Voice_1_130079_0A"
+                ],
+                "componentSeq": [
+                  "13"
+                ],
+                "productCode": [
+                  "130079"
+                ],
+                "productName": [
+                  "Anonymous Call Block *77"
+                ],
+                "kenanComponentInstanceId": [
+                  "81324324:3"
+                ],
+                "packageId": [
+                  "130009"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VoiceBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Voice_1_130079_0A_PE130058"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "130058"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "130079"
+                ],
+                "componentSeq": [
+                  "13"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "13"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130083",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "C806S54_Voice_1_130083_0A"
+                ],
+                "componentSeq": [
+                  "14"
+                ],
+                "productCode": [
+                  "130083"
+                ],
+                "productName": [
+                  "Caller Id"
+                ],
+                "kenanComponentInstanceId": [
+                  "81324312:3"
+                ],
+                "packageId": [
+                  "130009"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VoiceBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Voice_1_130083_0A_PE130062"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "130062"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "130083"
+                ],
+                "componentSeq": [
+                  "14"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "14"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130085",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "C806S54_Voice_1_130085_0A"
+                ],
+                "componentSeq": [
+                  "15"
+                ],
+                "productCode": [
+                  "130085"
+                ],
+                "productName": [
+                  "Hawaiian Telcom Go Local Plus"
+                ],
+                "kenanComponentInstanceId": [
+                  "96536428:3"
+                ],
+                "packageId": [
+                  "130009"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VoiceBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Voice_1_130085_0A_PE130064"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "130064"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "130085"
+                ],
+                "componentSeq": [
+                  "15"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "15"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130087",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "C806S54_Voice_1_130087_0A"
+                ],
+                "componentSeq": [
+                  "16"
+                ],
+                "productCode": [
+                  "130087"
+                ],
+                "productName": [
+                  "Unlimited DA"
+                ],
+                "kenanComponentInstanceId": [
+                  "81324330:3"
+                ],
+                "packageId": [
+                  "130009"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VoiceBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Voice_1_130087_0A_PE130066"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "130066"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "130087"
+                ],
+                "componentSeq": [
+                  "16"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "16"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VoiceBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Voice_1_130087_0A_CT169158"
+                ],
+                "elementType": [
+                  "CT"
+                ],
+                "elementId": [
+                  "169158"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "130087"
+                ],
+                "componentSeq": [
+                  "16"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "0"
+                ],
+                "elementSeq": [
+                  "17"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130089",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "C806S54_Voice_1_130089_0A"
+                ],
+                "componentSeq": [
+                  "17"
+                ],
+                "productCode": [
+                  "130089"
+                ],
+                "productName": [
+                  "Unlimited DA"
+                ],
+                "kenanComponentInstanceId": [
+                  "81324331:3"
+                ],
+                "packageId": [
+                  "130009"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VoiceBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Voice_1_130089_0A_PE130068"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "130068"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "130089"
+                ],
+                "componentSeq": [
+                  "17"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "18"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VoiceBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Voice_1_130089_0A_CT169158"
+                ],
+                "elementType": [
+                  "CT"
+                ],
+                "elementId": [
+                  "169158"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "130089"
+                ],
+                "componentSeq": [
+                  "17"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "0"
+                ],
+                "elementSeq": [
+                  "19"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130101",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "C806S54_Voice_1_130101_0A"
+                ],
+                "componentSeq": [
+                  "18"
+                ],
+                "productCode": [
+                  "130101"
+                ],
+                "productName": [
+                  "Residence Line"
+                ],
+                "kenanComponentInstanceId": [
+                  "81324323:3"
+                ],
+                "packageId": [
+                  "130009"
+                ],
+                "technologyType": [
+                  "Copper"
+                ],
+                "telephoneNumber": [
+                  "8086776335"
+                ],
+                "accessPackageId": [
+                  "11325644"
+                ],
+                "intralataPIC": [
+                  "9000"
+                ],
+                "interlataPIC": [
+                  "9000"
+                ],
+                "internationalPIC": [
+                  "9000"
+                ],
+                "PICSourceCodeIntralata": [
+                  "O"
+                ],
+                "PICSourceCodeInterlata": [
+                  "O"
+                ],
+                "newServiceProviderId": [
+                  "3100"
+                ],
+                "oldServiceProviderId": [
+                  "3100"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VoiceBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Voice_1_130101_0A_PE130080"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "130080"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "130101"
+                ],
+                "componentSeq": [
+                  "18"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "Yes"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "20"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "132889",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "C806S54_Voice_1_132889_0A"
+                ],
+                "componentSeq": [
+                  "19"
+                ],
+                "productCode": [
+                  "132889"
+                ],
+                "productName": [
+                  "Go Local Plus VM Discount"
+                ],
+                "kenanComponentInstanceId": [
+                  "81324314:3"
+                ],
+                "packageId": [
+                  "130009"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VoiceBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Voice_1_132889_0A_CT132889"
+                ],
+                "elementType": [
+                  "CT"
+                ],
+                "elementId": [
+                  "132889"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "132889"
+                ],
+                "componentSeq": [
+                  "19"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "21"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "169158",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "C806S54_Voice_1_169158_0A"
+                ],
+                "componentSeq": [
+                  "20"
+                ],
+                "productCode": [
+                  "169158"
+                ],
+                "productName": [
+                  "Unlimited Local Dir Assistance"
+                ],
+                "kenanComponentInstanceId": [
+                  "81324321:3"
+                ],
+                "packageId": [
+                  "130009"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VoiceBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Voice_1_169158_0A_CT169158"
+                ],
+                "elementType": [
+                  "CT"
+                ],
+                "elementId": [
+                  "169158"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "169158"
+                ],
+                "componentSeq": [
+                  "20"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "0"
+                ],
+                "elementSeq": [
+                  "22"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VoiceBillingPackage",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Voice_1_PK130023_0A"
+                ],
+                "packageId": [
+                  "130023"
+                ],
+                "kenanPackageInstanceId": [
+                  "12962301:3"
+                ],
+                "action": [
+                  "delete"
+                ],
+                "packageSeq": [
+                  "2"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "131019",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "C806S54_Voice_1_131019_0A"
+                ],
+                "componentSeq": [
+                  "21"
+                ],
+                "productCode": [
+                  "131019"
+                ],
+                "productName": [
+                  "Complete Block -Std"
+                ],
+                "kenanComponentInstanceId": [
+                  "81324340:3"
+                ],
+                "packageId": [
+                  "130023"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VoiceBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Voice_1_131019_0A_PE131019"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "131019"
+                ],
+                "kenanElementInstanceId": [
+                  "75422947:3:96677817003"
+                ],
+                "componentProductCode": [
+                  "131019"
+                ],
+                "componentSeq": [
+                  "21"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "23"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "131408",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "C806S54_Voice_1_131408_0A"
+                ],
+                "componentSeq": [
+                  "22"
+                ],
+                "productCode": [
+                  "131408"
+                ],
+                "productName": [
+                  "Subscriber Line Charge/Sl Non Prime"
+                ],
+                "kenanComponentInstanceId": [
+                  "81324341:3"
+                ],
+                "packageId": [
+                  "130023"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VoiceBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Voice_1_131408_0A_PE131408"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "131408"
+                ],
+                "kenanElementInstanceId": [
+                  "75422948:3:96677818003"
+                ],
+                "componentProductCode": [
+                  "131408"
+                ],
+                "componentSeq": [
+                  "22"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "Yes"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "24"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VoiceBillingPackage",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Voice_1_PK130029_0A"
+                ],
+                "packageId": [
+                  "130029"
+                ],
+                "kenanPackageInstanceId": [
+                  "16234302:3"
+                ],
+                "action": [
+                  "delete"
+                ],
+                "packageSeq": [
+                  "3"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "132372",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "C806S54_Voice_1_132372_0A"
+                ],
+                "componentSeq": [
+                  "23"
+                ],
+                "productCode": [
+                  "132372"
+                ],
+                "productName": [
+                  "Fioptics Care - Yes"
+                ],
+                "kenanComponentInstanceId": [
+                  "96536427:3"
+                ],
+                "packageId": [
+                  "130029"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VoiceBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Voice_1_132372_0A_PE132372"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "132372"
+                ],
+                "kenanElementInstanceId": [
+                  "89476009:3:129330427003"
+                ],
+                "componentProductCode": [
+                  "132372"
+                ],
+                "componentSeq": [
+                  "23"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "Yes"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "25"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VoiceBillingPackage",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Voice_1_PK130030_0A"
+                ],
+                "packageId": [
+                  "130030"
+                ],
+                "kenanPackageInstanceId": [
+                  "13905862:3"
+                ],
+                "action": [
+                  "delete"
+                ],
+                "packageSeq": [
+                  "4"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "169400",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "C806S54_Voice_1_169400_0A"
+                ],
+                "componentSeq": [
+                  "24"
+                ],
+                "productCode": [
+                  "169400"
+                ],
+                "productName": [
+                  "BnC Call Block (Solix Discount)"
+                ],
+                "kenanComponentInstanceId": [
+                  "86216557:3"
+                ],
+                "packageId": [
+                  "130030"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VoiceBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Voice_1_169400_0A_CT169400"
+                ],
+                "elementType": [
+                  "CT"
+                ],
+                "elementId": [
+                  "169400"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "169400"
+                ],
+                "componentSeq": [
+                  "24"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "0"
+                ],
+                "elementSeq": [
+                  "26"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "C806S54_Video_1",
+      "action": "delete",
+      "product": {
+        "id": "C806S54_Video_1",
+        "productSpecification": {
+          "id": "Video"
+        },
+        "characteristic": [
+          {
+            "name": "serviceAddressId",
+            "value": [
+              "749679"
+            ]
+          },
+          {
+            "name": "installJobId",
+            "value": [
+              "O1HFG2QJ"
+            ]
+          },
+          {
+            "name": "dueDate",
+            "value": [
+              "2024-01-19T00:00:00.000-1000"
+            ]
+          },
+          {
+            "name": "kenanServiceInstanceId",
+            "value": [
+              "4062726:0:12139425003"
+            ]
+          },
+          {
+            "name": "MDUEvent",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "expediteFlag",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "isBillingSuspend",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "isBillingResume",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "installAndMaintNotes",
+            "value": [
+              "CONTACT- MARIANO ALFARO, CBR 555-555-5555 \n\nLoose animals on-prem: (edit to include the number of loose animals and if they will be restrained upon arrival)\nAccess arrangements: (edit to include any special access arrangements for the tech - ie. gate code, property mgt access, etc)\n\n\nFioptics 1G/500M\nResidential Internet Email\n\nInstall Fioptics 1G/500M on TN 8086776335\nONT Action Needed: Install"
+            ]
+          },
+          {
+            "name": "shipAddress1",
+            "value": [
+              "91-1004 KOKA ST"
+            ]
+          },
+          {
+            "name": "shipAddress2",
+            "value": [
+              ""
+            ]
+          },
+          {
+            "name": "shipCity",
+            "value": [
+              "Ewa Beach"
+            ]
+          },
+          {
+            "name": "shipState",
+            "value": [
+              "HI"
+            ]
+          },
+          {
+            "name": "shipZip",
+            "value": [
+              "96706"
+            ]
+          },
+          {
+            "name": "VideoBillingPackage",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Video_1_PK920000_0A"
+                ],
+                "packageId": [
+                  "920000"
+                ],
+                "kenanPackageInstanceId": [
+                  "13872989:3"
+                ],
+                "action": [
+                  "delete"
+                ],
+                "packageSeq": [
+                  "1"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "920000",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "C806S54_Video_1_920000_0A"
+                ],
+                "componentSeq": [
+                  "1"
+                ],
+                "productCode": [
+                  "920000"
+                ],
+                "productName": [
+                  "Basic TV"
+                ],
+                "kenanComponentInstanceId": [
+                  "96536483:3"
+                ],
+                "packageId": [
+                  "920000"
+                ],
+                "technologyType": [
+                  "Copper"
+                ],
+                "circuitId": [
+                  "91.SWXX.256172..HTBB"
+                ],
+                "creditRiskClass": [
+                  "Medium"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VideoBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Video_1_920000_0A_PE920084"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "920084"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "920000"
+                ],
+                "componentSeq": [
+                  "1"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "1"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VideoBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Video_1_920000_0A_PE1000733"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "1000733"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "920000"
+                ],
+                "componentSeq": [
+                  "1"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "2"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VideoBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Video_1_920000_0A_PE1000436"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "1000436"
+                ],
+                "kenanElementInstanceId": [
+                  ""
+                ],
+                "componentProductCode": [
+                  "920000"
+                ],
+                "componentSeq": [
+                  "1"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "3"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "920022",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "C806S54_Video_1_920022_1A"
+                ],
+                "componentSeq": [
+                  "2"
+                ],
+                "productCode": [
+                  "920022"
+                ],
+                "productName": [
+                  "Additional Set Top Box"
+                ],
+                "kenanComponentInstanceId": [
+                  "96536491:3"
+                ],
+                "packageId": [
+                  "920000"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VideoBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Video_1_920022_1A_PE920022"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "920022"
+                ],
+                "kenanElementInstanceId": [
+                  "89476096:3:129330810003"
+                ],
+                "componentProductCode": [
+                  "920022"
+                ],
+                "componentSeq": [
+                  "2"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "Yes"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "4"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "920022",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "C806S54_Video_1_920022_2A"
+                ],
+                "componentSeq": [
+                  "3"
+                ],
+                "productCode": [
+                  "920022"
+                ],
+                "productName": [
+                  "Additional Set Top Box"
+                ],
+                "kenanComponentInstanceId": [
+                  "96536492:3"
+                ],
+                "packageId": [
+                  "920000"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VideoBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Video_1_920022_2A_PE920022"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "920022"
+                ],
+                "kenanElementInstanceId": [
+                  "89476097:3:129330811003"
+                ],
+                "componentProductCode": [
+                  "920022"
+                ],
+                "componentSeq": [
+                  "3"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "Yes"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "5"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "920032",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "C806S54_Video_1_920032_0A"
+                ],
+                "componentSeq": [
+                  "4"
+                ],
+                "productCode": [
+                  "920032"
+                ],
+                "productName": [
+                  "HD"
+                ],
+                "kenanComponentInstanceId": [
+                  "96536484:3"
+                ],
+                "packageId": [
+                  "920000"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VideoBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Video_1_920032_0A_PE920032"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "920032"
+                ],
+                "kenanElementInstanceId": [
+                  "89476094:3:129330808003"
+                ],
+                "componentProductCode": [
+                  "920032"
+                ],
+                "componentSeq": [
+                  "4"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "6"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "920034",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "C806S54_Video_1_920034_0A"
+                ],
+                "componentSeq": [
+                  "5"
+                ],
+                "productCode": [
+                  "920034"
+                ],
+                "productName": [
+                  "Whole Home DVR"
+                ],
+                "kenanComponentInstanceId": [
+                  "96536493:3"
+                ],
+                "packageId": [
+                  "920000"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VideoBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Video_1_920034_0A_PE920034"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "920034"
+                ],
+                "kenanElementInstanceId": [
+                  "89476098:3:129330812003"
+                ],
+                "componentProductCode": [
+                  "920034"
+                ],
+                "componentSeq": [
+                  "5"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "7"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "920068",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "C806S54_Video_1_920068_0A"
+                ],
+                "componentSeq": [
+                  "6"
+                ],
+                "productCode": [
+                  "920068"
+                ],
+                "productName": [
+                  "Allow PPV/VOD"
+                ],
+                "kenanComponentInstanceId": [
+                  "88391798:3"
+                ],
+                "packageId": [
+                  "920000"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VideoBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Video_1_920068_0A_PE920068"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "920068"
+                ],
+                "kenanElementInstanceId": [
+                  "81742796:3:110581161003"
+                ],
+                "componentProductCode": [
+                  "920068"
+                ],
+                "componentSeq": [
+                  "6"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "8"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "920086",
+            "value": [
+              {
+                "action": [
+                  "delete"
+                ],
+                "componentExternalId": [
+                  "C806S54_Video_1_920086_0A"
+                ],
+                "componentSeq": [
+                  "7"
+                ],
+                "productCode": [
+                  "920086"
+                ],
+                "productName": [
+                  "1st Set Top Box"
+                ],
+                "kenanComponentInstanceId": [
+                  "96536490:3"
+                ],
+                "packageId": [
+                  "920000"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "VideoBillingElement",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C806S54_Video_1_920086_0A_PE920086"
+                ],
+                "elementType": [
+                  "PE"
+                ],
+                "elementId": [
+                  "920086"
+                ],
+                "kenanElementInstanceId": [
+                  "89476095:3:129330809003"
+                ],
+                "componentProductCode": [
+                  "920086"
+                ],
+                "componentSeq": [
+                  "7"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "inArrearsOverride": [
+                  "No"
+                ],
+                "rateByQuantity": [
+                  "No"
+                ],
+                "rateByJurisdiction": [
+                  "No"
+                ],
+                "quantity": [
+                  "1"
+                ],
+                "elementSeq": [
+                  "9"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

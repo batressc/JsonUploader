@@ -1,0 +1,1452 @@
+{
+  "externalId": "C800W14",
+  "requestedCompletionDate": "2023-04-06T04:00:00.000+0000",
+  "characteristic": [
+    {
+      "name": "sourceSystem",
+      "value": [
+        "SOE"
+      ]
+    },
+    {
+      "name": "BSSOrderNumber",
+      "value": [
+        "C800W14"
+      ]
+    },
+    {
+      "name": "orderVersion",
+      "value": [
+        "2"
+      ]
+    },
+    {
+      "name": "dueDate",
+      "value": [
+        "2023-04-06T04:00:00.000+0000"
+      ]
+    },
+    {
+      "name": "BSSOrderCapturer",
+      "value": [
+        "jfer175"
+      ]
+    },
+    {
+      "name": "isRecordsOnly",
+      "value": [
+        "No"
+      ]
+    },
+    {
+      "name": "isONTSwapRequired",
+      "value": [
+        "Yes"
+      ]
+    }
+  ],
+  "relatedParty": [
+    {
+      "id": "107301810500010",
+      "firstName": "KENNETH",
+      "middleName": "",
+      "lastName": "BLOOM",
+      "role": "customer"
+    }
+  ],
+  "orderItem": [
+    {
+      "id": "C800W14",
+      "action": "noChange",
+      "product": {
+        "id": "Billing",
+        "productSpecification": {
+          "id": "Billing"
+        },
+        "characteristic": [
+          {
+            "name": "accountExternalId",
+            "value": [
+              "107301810500010"
+            ]
+          },
+          {
+            "name": "accountStatus",
+            "value": [
+              "ACT"
+            ]
+          },
+          {
+            "name": "accountType",
+            "value": [
+              "IND"
+            ]
+          },
+          {
+            "name": "ACNA",
+            "value": [
+              "AWL"
+            ]
+          },
+          {
+            "name": "billingTelephoneNumber",
+            "value": [
+              "8083253456"
+            ]
+          },
+          {
+            "name": "billAddress1",
+            "value": [
+              "73-1412 Kaloko Dr"
+            ]
+          },
+          {
+            "name": "billAddress2",
+            "value": [
+              ""
+            ]
+          },
+          {
+            "name": "billCity",
+            "value": [
+              "Kailua Kona"
+            ]
+          },
+          {
+            "name": "billCountry",
+            "value": [
+              "USA"
+            ]
+          },
+          {
+            "name": "billDispMeth",
+            "value": [
+              "0"
+            ]
+          },
+          {
+            "name": "billFmtOpt",
+            "value": [
+              "100"
+            ]
+          },
+          {
+            "name": "billFranchiseTaxCode",
+            "value": [
+              "1"
+            ]
+          },
+          {
+            "name": "billPeriod",
+            "value": [
+              "M04"
+            ]
+          },
+          {
+            "name": "billState",
+            "value": [
+              "HI"
+            ]
+          },
+          {
+            "name": "billZip",
+            "value": [
+              "96740-9159"
+            ]
+          },
+          {
+            "name": "creditRating",
+            "value": [
+              "0"
+            ]
+          },
+          {
+            "name": "creditThresh",
+            "value": [
+              ""
+            ]
+          },
+          {
+            "name": "custFirstName",
+            "value": [
+              "KENNETH"
+            ]
+          },
+          {
+            "name": "custMiddleName",
+            "value": [
+              ""
+            ]
+          },
+          {
+            "name": "custLastName",
+            "value": [
+              "BLOOM"
+            ]
+          },
+          {
+            "name": "custEmail",
+            "value": [
+              "Mail Receipt"
+            ]
+          },
+          {
+            "name": "dateActive",
+            "value": [
+              "0001-01-01T05:00:00.000+0000"
+            ]
+          },
+          {
+            "name": "mktCode",
+            "value": [
+              "0"
+            ]
+          },
+          {
+            "name": "payMethod",
+            "value": [
+              "INV"
+            ]
+          },
+          {
+            "name": "rateClassDefault",
+            "value": [
+              "1"
+            ]
+          },
+          {
+            "name": "SSN",
+            "value": [
+              "999999999"
+            ]
+          },
+          {
+            "name": "VIPCode",
+            "value": [
+              "1"
+            ]
+          },
+          {
+            "name": "waiveTerminationObligation",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "waiveUnmetObligation",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "ExtendedData",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C800W14_Billing_NUMBER_OF_INVOICE_COPIES"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "paramName": [
+                  "NUMBER_OF_INVOICE_COPIES"
+                ],
+                "paramValue": [
+                  "1"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "ExtendedData",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C800W14_Billing_SHARED_SECRET_QUESTION"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "paramName": [
+                  "SHARED_SECRET_QUESTION"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "ExtendedData",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C800W14_Billing_SECRET_ANSWER"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "paramName": [
+                  "SECRET_ANSWER"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "C800W14",
+      "action": "noChange",
+      "product": {
+        "id": "Address",
+        "productSpecification": {
+          "id": "Address"
+        },
+        "characteristic": [
+          {
+            "name": "Address",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C800W14_Address_606179"
+                ],
+                "serviceAddressId": [
+                  "606179"
+                ],
+                "streetNumber": [
+                  "1410"
+                ],
+                "streetName": [
+                  "KALOKO"
+                ],
+                "preDirectional": [
+                  ""
+                ],
+                "postDirectional": [
+                  ""
+                ],
+                "streetType": [
+                  "DR"
+                ],
+                "streetAddress": [
+                  "73-1410 KALOKO DR"
+                ],
+                "city": [
+                  "KAILUA KONA"
+                ],
+                "county": [
+                  "HAWAII"
+                ],
+                "state": [
+                  "HI"
+                ],
+                "country": [
+                  "USA"
+                ],
+                "zip": [
+                  "96740"
+                ],
+                "subloc1": [
+                  ""
+                ],
+                "subloc2": [
+                  ""
+                ],
+                "subloc3": [
+                  ""
+                ],
+                "subloc": [
+                  ""
+                ],
+                "addressRemarks1": [
+                  ""
+                ],
+                "addressRemarks2": [
+                  "FTTPB"
+                ],
+                "jurisdiction": [
+                  "1002001"
+                ],
+                "ACO": [
+                  "BB4"
+                ],
+                "CLLI": [
+                  "KLAOHICOSIP"
+                ],
+                "MDU": [
+                  "No"
+                ],
+                "centralOffice": [
+                  "BB4"
+                ],
+                "copperServingCLLI": [
+                  "KLAOHIAI"
+                ],
+                "FTTPServingCLLI": [
+                  "KLAOHICO"
+                ],
+                "SIPProvisioningCLLI": [
+                  "KLAOHICOSIP"
+                ],
+                "FTTPDropInstalled": [
+                  "No"
+                ],
+                "cs2kLRN": [
+                  "HILOHIMN7MD"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "C800W14",
+      "action": "modify",
+      "product": {
+        "id": "Internet",
+        "productSpecification": {
+          "id": "Internet"
+        },
+        "characteristic": [
+          {
+            "name": "IPAddressType",
+            "value": [
+              "static"
+            ]
+          },
+          {
+            "name": "serviceAddressId",
+            "value": [
+              "606179"
+            ]
+          },
+          {
+            "name": "dueDate",
+            "value": [
+              "2023-04-06T04:00:00.000+0000"
+            ]
+          },
+          {
+            "name": "MDUEvent",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "expediteFlag",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "isBillingSuspend",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "isBillingResume",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "installAndMaintNotes",
+            "value": [
+              "CONTACT- KENNETH BLOOM, CBR 111-111-1111 \n\nLoose animals on-prem: (edit to include the number of loose animals and if they will be restrained upon arrival)\nAccess arrangements: (edit to include any special access arrangements for the tech - ie. gate code, property mgt access, etc)\n\n\nFioptics 1G/500M\nGateway Fee (Non-TV/HSI)\nResidential Internet Email\n\nInstall Fioptics 1G/500M on TN 8083253456\nONT Action Needed: Install"
+            ]
+          },
+          {
+            "name": "100492",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "name": [
+                  "100492"
+                ],
+                "componentExternalId": [
+                  "C800W14_Internet_100492_0"
+                ],
+                "productCode": [
+                  "100492"
+                ],
+                "productName": [
+                  "Residential Internet Email"
+                ],
+                "IPAddressType": [
+                  "Static"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "170823",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "name": [
+                  "170823"
+                ],
+                "componentExternalId": [
+                  "C800W14_Internet_170823_1"
+                ],
+                "productCode": [
+                  "170823"
+                ],
+                "productName": [
+                  "Fioptics 1G/500M"
+                ],
+                "technologyType": [
+                  "Fiber"
+                ],
+                "downloadSpeed": [
+                  "500"
+                ],
+                "uploadSpeed": [
+                  "500"
+                ],
+                "HSIProduct": [
+                  "FIBER_1G"
+                ],
+                "IPAddressType": [
+                  "Static"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "160745",
+            "value": [
+              {
+                "action": [
+                  "rmv"
+                ],
+                "name": [
+                  "160745"
+                ],
+                "componentExternalId": [
+                  "C800W14_Internet_160745_2"
+                ],
+                "productCode": [
+                  "160745"
+                ],
+                "productName": [
+                  "Fioptics Symmetrical 500"
+                ],
+                "technologyType": [
+                  "Fiber"
+                ],
+                "downloadSpeed": [
+                  "500"
+                ],
+                "uploadSpeed": [
+                  "500"
+                ],
+                "HSIProduct": [
+                  "FIBER_500"
+                ],
+                "IPAddressType": [
+                  "Static"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "100492",
+            "value": [
+              {
+                "action": [
+                  "rmv"
+                ],
+                "name": [
+                  "100492"
+                ],
+                "componentExternalId": [
+                  "C800W14_Internet_100492_3"
+                ],
+                "productCode": [
+                  "100492"
+                ],
+                "productName": [
+                  "Residential Internet Email"
+                ],
+                "IPAddressType": [
+                  "Static"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "120837",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "name": [
+                  "120837"
+                ],
+                "componentExternalId": [
+                  "C800W14_Internet_120837_0"
+                ],
+                "productCode": [
+                  "120837"
+                ],
+                "productName": [
+                  "Gateway Fee (Non-TV/HSI)"
+                ],
+                "IPAddressType": [
+                  "Static"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "120837",
+            "value": [
+              {
+                "action": [
+                  "rmv"
+                ],
+                "name": [
+                  "120837"
+                ],
+                "componentExternalId": [
+                  "C800W14_Internet_120837_1"
+                ],
+                "productCode": [
+                  "120837"
+                ],
+                "productName": [
+                  "Gateway Fee (Non-TV/HSI)"
+                ],
+                "IPAddressType": [
+                  "Static"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "931022",
+            "value": [
+              {
+                "action": [
+                  "rmv"
+                ],
+                "name": [
+                  "931022"
+                ],
+                "componentExternalId": [
+                  "C800W14_Internet_931022_2"
+                ],
+                "productCode": [
+                  "931022"
+                ],
+                "productName": [
+                  "Premier Value Bundle"
+                ],
+                "IPAddressType": [
+                  "Static"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "100003686",
+            "value": [
+              {
+                "action": [
+                  "rmv"
+                ],
+                "name": [
+                  "100003686"
+                ],
+                "componentExternalId": [
+                  "C800W14_Internet_100003686_3"
+                ],
+                "productCode": [
+                  "100003686"
+                ],
+                "productName": [
+                  "Gateway Discount - Free"
+                ],
+                "IPAddressType": [
+                  "Static"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "C800W14",
+      "action": "modify",
+      "product": {
+        "id": "Voice",
+        "productSpecification": {
+          "id": "Voice"
+        },
+        "characteristic": [
+          {
+            "name": "serviceAddressId",
+            "value": [
+              "606179"
+            ]
+          },
+          {
+            "name": "dueDate",
+            "value": [
+              "2023-04-06T04:00:00.000+0000"
+            ]
+          },
+          {
+            "name": "MDUEvent",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "expediteFlag",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "isBillingSuspend",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "isBillingResume",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "installAndMaintNotes",
+            "value": [
+              "CONTACT- KENNETH BLOOM, CBR 111-111-1111 \n\nLoose animals on-prem: (edit to include the number of loose animals and if they will be restrained upon arrival)\nAccess arrangements: (edit to include any special access arrangements for the tech - ie. gate code, property mgt access, etc)\n\n\nFioptics 1G/500M\nGateway Fee (Non-TV/HSI)\nResidential Internet Email\n\nInstall Fioptics 1G/500M on TN 8083253456\nONT Action Needed: Install"
+            ]
+          },
+          {
+            "name": "130035",
+            "value": [
+              {
+                "action": [
+                  "noChange"
+                ],
+                "name": [
+                  "130035"
+                ],
+                "componentExternalId": [
+                  "C800W14_Voice_130035_-1"
+                ],
+                "productCode": [
+                  "130035"
+                ],
+                "productName": [
+                  "Call Waiting/Canc Call Waiting"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130041",
+            "value": [
+              {
+                "action": [
+                  "noChange"
+                ],
+                "name": [
+                  "130041"
+                ],
+                "componentExternalId": [
+                  "C800W14_Voice_130041_-1"
+                ],
+                "productCode": [
+                  "130041"
+                ],
+                "productName": [
+                  "Touch Call"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130067",
+            "value": [
+              {
+                "action": [
+                  "noChange"
+                ],
+                "name": [
+                  "130067"
+                ],
+                "componentExternalId": [
+                  "C800W14_Voice_130067_-1"
+                ],
+                "productCode": [
+                  "130067"
+                ],
+                "productName": [
+                  "Call Waiting ID"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130068",
+            "value": [
+              {
+                "action": [
+                  "noChange"
+                ],
+                "name": [
+                  "130068"
+                ],
+                "componentExternalId": [
+                  "C800W14_Voice_130068_-1"
+                ],
+                "productCode": [
+                  "130068"
+                ],
+                "productName": [
+                  "Three-Way Calling"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130070",
+            "value": [
+              {
+                "action": [
+                  "noChange"
+                ],
+                "name": [
+                  "130070"
+                ],
+                "componentExternalId": [
+                  "C800W14_Voice_130070_-1"
+                ],
+                "productCode": [
+                  "130070"
+                ],
+                "productName": [
+                  "Call Forwarding"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130071",
+            "value": [
+              {
+                "action": [
+                  "noChange"
+                ],
+                "name": [
+                  "130071"
+                ],
+                "componentExternalId": [
+                  "C800W14_Voice_130071_-1"
+                ],
+                "productCode": [
+                  "130071"
+                ],
+                "productName": [
+                  "Speed Dialing-8"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130073",
+            "value": [
+              {
+                "action": [
+                  "noChange"
+                ],
+                "name": [
+                  "130073"
+                ],
+                "componentExternalId": [
+                  "C800W14_Voice_130073_-1"
+                ],
+                "productCode": [
+                  "130073"
+                ],
+                "productName": [
+                  "Busy Redial"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130074",
+            "value": [
+              {
+                "action": [
+                  "noChange"
+                ],
+                "name": [
+                  "130074"
+                ],
+                "componentExternalId": [
+                  "C800W14_Voice_130074_-1"
+                ],
+                "productCode": [
+                  "130074"
+                ],
+                "productName": [
+                  "Last Call Return *69"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130075",
+            "value": [
+              {
+                "action": [
+                  "noChange"
+                ],
+                "name": [
+                  "130075"
+                ],
+                "componentExternalId": [
+                  "C800W14_Voice_130075_-1"
+                ],
+                "productCode": [
+                  "130075"
+                ],
+                "productName": [
+                  "Vip Alert *61"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130076",
+            "value": [
+              {
+                "action": [
+                  "noChange"
+                ],
+                "name": [
+                  "130076"
+                ],
+                "componentExternalId": [
+                  "C800W14_Voice_130076_-1"
+                ],
+                "productCode": [
+                  "130076"
+                ],
+                "productName": [
+                  "Select Call Forwarding"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130077",
+            "value": [
+              {
+                "action": [
+                  "noChange"
+                ],
+                "name": [
+                  "130077"
+                ],
+                "componentExternalId": [
+                  "C800W14_Voice_130077_-1"
+                ],
+                "productCode": [
+                  "130077"
+                ],
+                "productName": [
+                  "Call Block *60"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130078",
+            "value": [
+              {
+                "action": [
+                  "noChange"
+                ],
+                "name": [
+                  "130078"
+                ],
+                "componentExternalId": [
+                  "C800W14_Voice_130078_-1"
+                ],
+                "productCode": [
+                  "130078"
+                ],
+                "productName": [
+                  "Do Not Disturb"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130079",
+            "value": [
+              {
+                "action": [
+                  "noChange"
+                ],
+                "name": [
+                  "130079"
+                ],
+                "componentExternalId": [
+                  "C800W14_Voice_130079_-1"
+                ],
+                "productCode": [
+                  "130079"
+                ],
+                "productName": [
+                  "Anonymous Call Block *77"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130083",
+            "value": [
+              {
+                "action": [
+                  "noChange"
+                ],
+                "name": [
+                  "130083"
+                ],
+                "componentExternalId": [
+                  "C800W14_Voice_130083_-1"
+                ],
+                "productCode": [
+                  "130083"
+                ],
+                "productName": [
+                  "Caller Id"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130085",
+            "value": [
+              {
+                "action": [
+                  "noChange"
+                ],
+                "name": [
+                  "130085"
+                ],
+                "componentExternalId": [
+                  "C800W14_Voice_130085_-1"
+                ],
+                "productCode": [
+                  "130085"
+                ],
+                "productName": [
+                  "Hawaiian Telcom Go Local Plus"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130087",
+            "value": [
+              {
+                "action": [
+                  "noChange"
+                ],
+                "name": [
+                  "130087"
+                ],
+                "componentExternalId": [
+                  "C800W14_Voice_130087_-1"
+                ],
+                "productCode": [
+                  "130087"
+                ],
+                "productName": [
+                  "Unlimited DA"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130089",
+            "value": [
+              {
+                "action": [
+                  "noChange"
+                ],
+                "name": [
+                  "130089"
+                ],
+                "componentExternalId": [
+                  "C800W14_Voice_130089_-1"
+                ],
+                "productCode": [
+                  "130089"
+                ],
+                "productName": [
+                  "Unlimited DA"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130101",
+            "value": [
+              {
+                "action": [
+                  "noChange"
+                ],
+                "name": [
+                  "130101"
+                ],
+                "componentExternalId": [
+                  "C800W14_Voice_130101_-1"
+                ],
+                "productCode": [
+                  "130101"
+                ],
+                "productName": [
+                  "Residence Line"
+                ],
+                "technologyType": [
+                  "Fiber"
+                ],
+                "telephoneNumber": [
+                  "8083253456"
+                ],
+                "intralataPIC": [
+                  "7979"
+                ],
+                "interlataPIC": [
+                  "288"
+                ],
+                "internationalPIC": [
+                  "288"
+                ],
+                "winback": [
+                  "PI"
+                ],
+                "SPID": [
+                  "3100"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "132889",
+            "value": [
+              {
+                "action": [
+                  "noChange"
+                ],
+                "name": [
+                  "132889"
+                ],
+                "componentExternalId": [
+                  "C800W14_Voice_132889_-1"
+                ],
+                "productCode": [
+                  "132889"
+                ],
+                "productName": [
+                  "Go Local Plus VM Discount"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "169158",
+            "value": [
+              {
+                "action": [
+                  "noChange"
+                ],
+                "name": [
+                  "169158"
+                ],
+                "componentExternalId": [
+                  "C800W14_Voice_169158_-1"
+                ],
+                "productCode": [
+                  "169158"
+                ],
+                "productName": [
+                  "Unlimited Local Dir Assistance"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "131232",
+            "value": [
+              {
+                "action": [
+                  "noChange"
+                ],
+                "name": [
+                  "131232"
+                ],
+                "componentExternalId": [
+                  "C800W14_Voice_131232_-1"
+                ],
+                "productCode": [
+                  "131232"
+                ],
+                "productName": [
+                  "900/976 Block"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "131587",
+            "value": [
+              {
+                "action": [
+                  "noChange"
+                ],
+                "name": [
+                  "131587"
+                ],
+                "componentExternalId": [
+                  "C800W14_Voice_131587_-1"
+                ],
+                "productCode": [
+                  "131587"
+                ],
+                "productName": [
+                  "CR Opt 3 Block 700/900"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130363",
+            "value": [
+              {
+                "action": [
+                  "noChange"
+                ],
+                "name": [
+                  "130363"
+                ],
+                "componentExternalId": [
+                  "C800W14_Voice_130363_-1"
+                ],
+                "productCode": [
+                  "130363"
+                ],
+                "productName": [
+                  "Subscriber Line Charge - Sgl Ln"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130301",
+            "value": [
+              {
+                "action": [
+                  "noChange"
+                ],
+                "name": [
+                  "130301"
+                ],
+                "componentExternalId": [
+                  "C800W14_Voice_130301_-1"
+                ],
+                "productCode": [
+                  "130301"
+                ],
+                "productName": [
+                  "Non-Published Listing"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130105",
+            "value": [
+              {
+                "action": [
+                  "noChange"
+                ],
+                "name": [
+                  "130105"
+                ],
+                "componentExternalId": [
+                  "C800W14_Voice_130105_-1"
+                ],
+                "productCode": [
+                  "130105"
+                ],
+                "productName": [
+                  "Touch Call"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "130124",
+            "value": [
+              {
+                "action": [
+                  "rmv"
+                ],
+                "name": [
+                  "130124"
+                ],
+                "componentExternalId": [
+                  "C800W14_Voice_130124_0"
+                ],
+                "productCode": [
+                  "130124"
+                ],
+                "productName": [
+                  "Residence Line"
+                ],
+                "technologyType": [
+                  "Fiber"
+                ],
+                "telephoneNumber": [
+                  "8083253456"
+                ],
+                "intralataPIC": [
+                  "7979"
+                ],
+                "interlataPIC": [
+                  "288"
+                ],
+                "internationalPIC": [
+                  "288"
+                ],
+                "winback": [
+                  "PI"
+                ],
+                "SPID": [
+                  "3100"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "132352",
+            "value": [
+              {
+                "action": [
+                  "noChange"
+                ],
+                "name": [
+                  "132352"
+                ],
+                "componentExternalId": [
+                  "C800W14_Voice_132352_-1"
+                ],
+                "productCode": [
+                  "132352"
+                ],
+                "productName": [
+                  "Inside Wire Maintenance - No"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "132292",
+            "value": [
+              {
+                "action": [
+                  "noChange"
+                ],
+                "name": [
+                  "132292"
+                ],
+                "componentExternalId": [
+                  "C800W14_Voice_132292_-1"
+                ],
+                "productCode": [
+                  "132292"
+                ],
+                "productName": [
+                  "Domestic Ocp Denied"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "C800W14",
+      "action": "noChange",
+      "product": {
+        "id": "Video",
+        "productSpecification": {
+          "id": "Video"
+        },
+        "characteristic": [
+          {
+            "name": "serviceAddressId",
+            "value": [
+              "606179"
+            ]
+          },
+          {
+            "name": "dueDate",
+            "value": [
+              "2023-04-06T04:00:00.000+0000"
+            ]
+          },
+          {
+            "name": "MDUEvent",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "expediteFlag",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "isBillingSuspend",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "isBillingResume",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "installAndMaintNotes",
+            "value": [
+              "CONTACT- KENNETH BLOOM, CBR 111-111-1111 \n\nLoose animals on-prem: (edit to include the number of loose animals and if they will be restrained upon arrival)\nAccess arrangements: (edit to include any special access arrangements for the tech - ie. gate code, property mgt access, etc)\n\n\nFioptics 1G/500M\nGateway Fee (Non-TV/HSI)\nResidential Internet Email\n\nInstall Fioptics 1G/500M on TN 8083253456\nONT Action Needed: Install"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

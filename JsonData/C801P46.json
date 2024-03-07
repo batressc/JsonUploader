@@ -1,0 +1,1083 @@
+{
+  "externalId": "C801P46",
+  "requestedCompletionDate": "2023-06-08T04:00:00.000+0000",
+  "characteristic": [
+    {
+      "name": "sourceSystem",
+      "value": [
+        "SOE"
+      ]
+    },
+    {
+      "name": "BSSOrderNumber",
+      "value": [
+        "C801P46"
+      ]
+    },
+    {
+      "name": "orderVersion",
+      "value": [
+        "0"
+      ]
+    },
+    {
+      "name": "dueDate",
+      "value": [
+        "2023-06-08T04:00:00.000+0000"
+      ]
+    },
+    {
+      "name": "BSSOrderCapturer",
+      "value": [
+        "mmen640"
+      ]
+    },
+    {
+      "name": "isRecordsOnly",
+      "value": [
+        "No"
+      ]
+    },
+    {
+      "name": "isONTSwapRequired",
+      "value": [
+        "Yes"
+      ]
+    }
+  ],
+  "relatedParty": [
+    {
+      "id": "200000000833058",
+      "firstName": "Brook",
+      "middleName": "",
+      "lastName": "Hess",
+      "role": "customer"
+    }
+  ],
+  "orderItem": [
+    {
+      "id": "C801P46_Billing",
+      "action": "noChange",
+      "product": {
+        "id": "C801P46_Billing",
+        "productSpecification": {
+          "id": "Billing"
+        },
+        "characteristic": [
+          {
+            "name": "accountExternalId",
+            "value": [
+              "200000000833058"
+            ]
+          },
+          {
+            "name": "parentAccountExternalId",
+            "value": [
+              ""
+            ]
+          },
+          {
+            "name": "accountStatus",
+            "value": [
+              "ACT"
+            ]
+          },
+          {
+            "name": "accountType",
+            "value": [
+              "IND"
+            ]
+          },
+          {
+            "name": "ACNA",
+            "value": [
+              "AWL"
+            ]
+          },
+          {
+            "name": "billAddress1",
+            "value": [
+              "5080 Likini St"
+            ]
+          },
+          {
+            "name": "billAddress2",
+            "value": [
+              "APT 217"
+            ]
+          },
+          {
+            "name": "billCity",
+            "value": [
+              "Honolulu"
+            ]
+          },
+          {
+            "name": "billCountry",
+            "value": [
+              "USA"
+            ]
+          },
+          {
+            "name": "billDispMeth",
+            "value": [
+              "1"
+            ]
+          },
+          {
+            "name": "billFmtOpt",
+            "value": [
+              "100"
+            ]
+          },
+          {
+            "name": "billFranchiseTaxCode",
+            "value": [
+              "1"
+            ]
+          },
+          {
+            "name": "billPeriod",
+            "value": [
+              "M07"
+            ]
+          },
+          {
+            "name": "billState",
+            "value": [
+              "HI"
+            ]
+          },
+          {
+            "name": "billZip",
+            "value": [
+              "96818-2381"
+            ]
+          },
+          {
+            "name": "creditRating",
+            "value": [
+              "2"
+            ]
+          },
+          {
+            "name": "custFirstName",
+            "value": [
+              "Brook"
+            ]
+          },
+          {
+            "name": "custMiddleName",
+            "value": [
+              ""
+            ]
+          },
+          {
+            "name": "custLastName",
+            "value": [
+              "Hess"
+            ]
+          },
+          {
+            "name": "custEmail",
+            "value": [
+              "Mail Receipt"
+            ]
+          },
+          {
+            "name": "dateActive",
+            "value": [
+              "2022-07-28T04:00:00.000+0000"
+            ]
+          },
+          {
+            "name": "mktCode",
+            "value": [
+              "1"
+            ]
+          },
+          {
+            "name": "payMethod",
+            "value": [
+              "INV"
+            ]
+          },
+          {
+            "name": "rateClassDefault",
+            "value": [
+              "1"
+            ]
+          },
+          {
+            "name": "SSN",
+            "value": [
+              "999999999"
+            ]
+          },
+          {
+            "name": "VIPCode",
+            "value": [
+              "1"
+            ]
+          },
+          {
+            "name": "waiveTerminationObligation",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "waiveUnmetObligation",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "ExtendedData",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C801P46_Billing_NUMBER_OF_INVOICE_COPIES"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "paramName": [
+                  "NUMBER_OF_INVOICE_COPIES"
+                ],
+                "paramValue": [
+                  "1"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "ExtendedData",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C801P46_Billing_CREF"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "paramName": [
+                  "CREF"
+                ],
+                "paramValue": [
+                  ""
+                ]
+              }
+            ]
+          },
+          {
+            "name": "ExtendedData",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C801P46_Billing_SALESREP_FIRSTNAME"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "paramName": [
+                  "SALESREP_FIRSTNAME"
+                ],
+                "paramValue": [
+                  ""
+                ]
+              }
+            ]
+          },
+          {
+            "name": "ExtendedData",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C801P46_Billing_SALESREP_LASTNAME"
+                ],
+                "action": [
+                  "noChange"
+                ],
+                "paramName": [
+                  "SALESREP_LASTNAME"
+                ],
+                "paramValue": [
+                  ""
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "C801P46_Address",
+      "action": "noChange",
+      "product": {
+        "id": "C801P46_Address",
+        "productSpecification": {
+          "id": "Address"
+        },
+        "characteristic": [
+          {
+            "name": "Address",
+            "value": [
+              {
+                "componentExternalId": [
+                  "C801P46_Address_368322"
+                ],
+                "serviceAddressId": [
+                  "368322"
+                ],
+                "streetNumber": [
+                  "5080"
+                ],
+                "streetName": [
+                  "LIKINI"
+                ],
+                "preDirectional": [
+                  ""
+                ],
+                "postDirectional": [
+                  ""
+                ],
+                "streetType": [
+                  "ST"
+                ],
+                "streetAddress": [
+                  "5080 LIKINI ST"
+                ],
+                "city": [
+                  "HONOLULU"
+                ],
+                "county": [
+                  "OAHU"
+                ],
+                "state": [
+                  "HI"
+                ],
+                "country": [
+                  "USA"
+                ],
+                "zip": [
+                  "96818"
+                ],
+                "subloc1": [
+                  "APT 217"
+                ],
+                "subloc2": [
+                  ""
+                ],
+                "subloc3": [
+                  ""
+                ],
+                "subloc": [
+                  "APT 217"
+                ],
+                "addressRemarks1": [
+                  ""
+                ],
+                "addressRemarks2": [
+                  "MDU - COUNTRY CLUB PLAZA"
+                ],
+                "jurisdiction": [
+                  "1002000"
+                ],
+                "ACO": [
+                  "BCF"
+                ],
+                "CLLI": [
+                  "MLUAHICOSIP"
+                ],
+                "MDU": [
+                  "No"
+                ],
+                "centralOffice": [
+                  "3833"
+                ],
+                "FTTPServingCLLI": [
+                  "MLUAHICO"
+                ],
+                "SIPProvisioningCLLI": [
+                  "MLUAHICOSIP"
+                ],
+                "FTTPDropInstalled": [
+                  "No"
+                ],
+                "cs2kLRN": [
+                  "HNLLHIMNPS2"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "C801P46_Internet",
+      "action": "noChange",
+      "product": {
+        "id": "C801P46_Internet",
+        "productSpecification": {
+          "id": "Internet"
+        },
+        "characteristic": [
+          {
+            "name": "serviceAddressId",
+            "value": [
+              "368322"
+            ]
+          },
+          {
+            "name": "installJobId",
+            "value": [
+              "N4PU10DT"
+            ]
+          },
+          {
+            "name": "dueDate",
+            "value": [
+              "2023-06-08T04:00:00.000+0000"
+            ]
+          },
+          {
+            "name": "MDUEvent",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "expediteFlag",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "isBillingSuspend",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "isBillingResume",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "installAndMaintNotes",
+            "value": [
+              "CONTACT- Brook Hess, CBR 111-111-1111 \n\nLoose animals on-prem: (edit to include the number of loose animals and if they will be restrained upon arrival)\nAccess arrangements: (edit to include any special access arrangements for the tech - ie. gate code, property mgt access, etc)\n\n\nAdditional Set Top Box\nAdditional Set Top Box"
+            ]
+          },
+          {
+            "name": "100002010",
+            "value": [
+              {
+                "action": [
+                  "noChange"
+                ],
+                "componentExternalId": [
+                  "C801P46_Internet_100002010_-1"
+                ],
+                "productCode": [
+                  "100002010"
+                ],
+                "productName": [
+                  "(old) MDU Disc-HSI 300"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "100492",
+            "value": [
+              {
+                "action": [
+                  "noChange"
+                ],
+                "componentExternalId": [
+                  "C801P46_Internet_100492_-1"
+                ],
+                "productCode": [
+                  "100492"
+                ],
+                "productName": [
+                  "Residential Internet Email"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "160722",
+            "value": [
+              {
+                "action": [
+                  "noChange"
+                ],
+                "componentExternalId": [
+                  "C801P46_Internet_160722_-1"
+                ],
+                "productCode": [
+                  "160722"
+                ],
+                "productName": [
+                  "Fioptics 300"
+                ],
+                "technologyType": [
+                  "Fiber"
+                ],
+                "downloadSpeed": [
+                  "300"
+                ],
+                "uploadSpeed": [
+                  "300"
+                ],
+                "HSIProduct": [
+                  "FIBER_300"
+                ],
+                "IPAddressType": [
+                  "Dynamic"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "920088",
+            "value": [
+              {
+                "action": [
+                  "noChange"
+                ],
+                "componentExternalId": [
+                  "C801P46_Internet_920088_-1"
+                ],
+                "productCode": [
+                  "920088"
+                ],
+                "productName": [
+                  "Gateway Fee (TV-HSI)"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "100002625",
+            "value": [
+              {
+                "action": [
+                  "noChange"
+                ],
+                "componentExternalId": [
+                  "C801P46_Internet_100002625_-1"
+                ],
+                "productCode": [
+                  "100002625"
+                ],
+                "productName": [
+                  "HSI Activation Fee 100% Discount"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "C801P46_Voice",
+      "action": "noChange",
+      "product": {
+        "id": "C801P46_Voice",
+        "productSpecification": {
+          "id": "Voice"
+        },
+        "characteristic": [
+          {
+            "name": "serviceAddressId",
+            "value": [
+              "368322"
+            ]
+          },
+          {
+            "name": "installJobId",
+            "value": [
+              "N4PU10DT"
+            ]
+          },
+          {
+            "name": "dueDate",
+            "value": [
+              "2023-06-08T04:00:00.000+0000"
+            ]
+          },
+          {
+            "name": "MDUEvent",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "expediteFlag",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "isBillingSuspend",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "isBillingResume",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "installAndMaintNotes",
+            "value": [
+              "CONTACT- Brook Hess, CBR 111-111-1111 \n\nLoose animals on-prem: (edit to include the number of loose animals and if they will be restrained upon arrival)\nAccess arrangements: (edit to include any special access arrangements for the tech - ie. gate code, property mgt access, etc)\n\n\nAdditional Set Top Box\nAdditional Set Top Box"
+            ]
+          },
+          {
+            "name": "132804",
+            "value": [
+              {
+                "action": [
+                  "noChange"
+                ],
+                "componentExternalId": [
+                  "C801P46_Voice_132804_-1"
+                ],
+                "productCode": [
+                  "132804"
+                ],
+                "productName": [
+                  "Dry Loop - Res"
+                ],
+                "technologyType": [
+                  "Fiber"
+                ],
+                "telephoneNumber": [
+                  "8088394926"
+                ],
+                "intralataPIC": [
+                  "9000"
+                ],
+                "interlataPIC": [
+                  "9000"
+                ],
+                "internationalPIC": [
+                  "9000"
+                ],
+                "winback": [
+                  "PI"
+                ],
+                "newServiceProviderId": [
+                  "3100"
+                ],
+                "oldServiceProviderId": [
+                  "3100"
+                ],
+                "LNPType": [
+                  "Port Within"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "132806",
+            "value": [
+              {
+                "action": [
+                  "noChange"
+                ],
+                "componentExternalId": [
+                  "C801P46_Voice_132806_-1"
+                ],
+                "productCode": [
+                  "132806"
+                ],
+                "productName": [
+                  "Announcement - 643-0023"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "132352",
+            "value": [
+              {
+                "action": [
+                  "noChange"
+                ],
+                "componentExternalId": [
+                  "C801P46_Voice_132352_-1"
+                ],
+                "productCode": [
+                  "132352"
+                ],
+                "productName": [
+                  "Inside Wire Maintenance - No"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "C801P46_Video",
+      "action": "modify",
+      "product": {
+        "id": "C801P46_Video",
+        "productSpecification": {
+          "id": "Video"
+        },
+        "characteristic": [
+          {
+            "name": "serviceAddressId",
+            "value": [
+              "368322"
+            ]
+          },
+          {
+            "name": "installJobId",
+            "value": [
+              "N4PU10DT"
+            ]
+          },
+          {
+            "name": "dueDate",
+            "value": [
+              "2023-06-08T04:00:00.000+0000"
+            ]
+          },
+          {
+            "name": "MDUEvent",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "expediteFlag",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "isBillingSuspend",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "isBillingResume",
+            "value": [
+              "No"
+            ]
+          },
+          {
+            "name": "installAndMaintNotes",
+            "value": [
+              "CONTACT- Brook Hess, CBR 111-111-1111 \n\nLoose animals on-prem: (edit to include the number of loose animals and if they will be restrained upon arrival)\nAccess arrangements: (edit to include any special access arrangements for the tech - ie. gate code, property mgt access, etc)\n\n\nAdditional Set Top Box\nAdditional Set Top Box"
+            ]
+          },
+          {
+            "name": "920002",
+            "value": [
+              {
+                "action": [
+                  "noChange"
+                ],
+                "componentExternalId": [
+                  "C801P46_Video_920002_-1"
+                ],
+                "productCode": [
+                  "920002"
+                ],
+                "productName": [
+                  "Advantage TV"
+                ],
+                "technologyType": [
+                  "Fiber"
+                ],
+                "creditRiskClass": [
+                  "3"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "920032",
+            "value": [
+              {
+                "action": [
+                  "noChange"
+                ],
+                "componentExternalId": [
+                  "C801P46_Video_920032_-1"
+                ],
+                "productCode": [
+                  "920032"
+                ],
+                "productName": [
+                  "HD"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "920034",
+            "value": [
+              {
+                "action": [
+                  "noChange"
+                ],
+                "componentExternalId": [
+                  "C801P46_Video_920034_-1"
+                ],
+                "productCode": [
+                  "920034"
+                ],
+                "productName": [
+                  "Whole Home DVR"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "920068",
+            "value": [
+              {
+                "action": [
+                  "noChange"
+                ],
+                "componentExternalId": [
+                  "C801P46_Video_920068_-1"
+                ],
+                "productCode": [
+                  "920068"
+                ],
+                "productName": [
+                  "Allow PPV/VOD"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "920086",
+            "value": [
+              {
+                "action": [
+                  "noChange"
+                ],
+                "componentExternalId": [
+                  "C801P46_Video_920086_-1"
+                ],
+                "productCode": [
+                  "920086"
+                ],
+                "productName": [
+                  "1st Set Top Box"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "920135",
+            "value": [
+              {
+                "action": [
+                  "noChange"
+                ],
+                "componentExternalId": [
+                  "C801P46_Video_920135_-1"
+                ],
+                "productCode": [
+                  "920135"
+                ],
+                "productName": [
+                  "Starz Pack"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "100002624",
+            "value": [
+              {
+                "action": [
+                  "noChange"
+                ],
+                "componentExternalId": [
+                  "C801P46_Video_100002624_-1"
+                ],
+                "productCode": [
+                  "100002624"
+                ],
+                "productName": [
+                  "TV Activation Fee 100% Discount"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "920022",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "C801P46_Video_920022_0"
+                ],
+                "productCode": [
+                  "920022"
+                ],
+                "productName": [
+                  "Additional Set Top Box"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "920022",
+            "value": [
+              {
+                "action": [
+                  "add"
+                ],
+                "componentExternalId": [
+                  "C801P46_Video_920022_1"
+                ],
+                "productCode": [
+                  "920022"
+                ],
+                "productName": [
+                  "Additional Set Top Box"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "920111",
+            "value": [
+              {
+                "action": [
+                  "noChange"
+                ],
+                "componentExternalId": [
+                  "C801P46_Video_920111_-1"
+                ],
+                "productCode": [
+                  "920111"
+                ],
+                "productName": [
+                  "MDU Disc-Starz Pack"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "920271",
+            "value": [
+              {
+                "action": [
+                  "noChange"
+                ],
+                "componentExternalId": [
+                  "C801P46_Video_920271_-1"
+                ],
+                "productCode": [
+                  "920271"
+                ],
+                "productName": [
+                  "MDU Disc-DVR"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "100001025",
+            "value": [
+              {
+                "action": [
+                  "noChange"
+                ],
+                "componentExternalId": [
+                  "C801P46_Video_100001025_-1"
+                ],
+                "productCode": [
+                  "100001025"
+                ],
+                "productName": [
+                  "MDU Disc-HD"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "100001289",
+            "value": [
+              {
+                "action": [
+                  "noChange"
+                ],
+                "componentExternalId": [
+                  "C801P46_Video_100001289_-1"
+                ],
+                "productCode": [
+                  "100001289"
+                ],
+                "productName": [
+                  "MDU Disc-Addl STB $3.00"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "100001770",
+            "value": [
+              {
+                "action": [
+                  "noChange"
+                ],
+                "componentExternalId": [
+                  "C801P46_Video_100001770_-1"
+                ],
+                "productCode": [
+                  "100001770"
+                ],
+                "productName": [
+                  "MDU Disc-AdvantageTV w/$10 Upg"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "100002583",
+            "value": [
+              {
+                "action": [
+                  "noChange"
+                ],
+                "componentExternalId": [
+                  "C801P46_Video_100002583_-1"
+                ],
+                "productCode": [
+                  "100002583"
+                ],
+                "productName": [
+                  "MDU Disc-Wireless Gateway Incl"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
