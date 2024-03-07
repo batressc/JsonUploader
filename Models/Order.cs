@@ -1,22 +1,35 @@
-﻿using System.Text.Json.Serialization;
+﻿namespace JsonUploader.Models;
 
-namespace JsonUploader.Models;
+internal abstract class IOrderElement<TValue> {
+    public string Name { get; set; } = null!;
+    public IEnumerable<TValue> Value { get; set; } = null!;
+}
 
-
-//[JsonConverter(typeof(OrderCharacteristicConverter))]
-internal class OrderCharacteristic {
-    [JsonPropertyName("orderVersion")]
-    public string OrderVersion { get; set; } = null!;
-    [JsonPropertyName("dueDate")]
-    public DateTime? DueDate { get; set; }
+internal class OrderElementString : IOrderElement<string> {
 }
 
 
+internal class ValueProduct {
+    public IEnumerable<string> Action { get; set; } = null!;
+    public IEnumerable<string> ProductCode { get; set; } = null!;
+}
+
+internal class OrderElementProduct : IOrderElement<ValueProduct> {
+}
+
+internal class ValuePromo {
+    public IEnumerable<string> Action { get; set; } = null!;
+    public IEnumerable<string> PromoCode { get; set; } = null!;
+    public IEnumerable<string>? PromoDate { get; set; }
+}
+
+internal class OrderElementPromo : IOrderElement<ValuePromo> {
+}
+
+
+
 internal class Order {
-    [JsonPropertyName("externalId")]
     public string ExternalId { get; set; } = null!;
-    [JsonPropertyName("requestedCompletionDate")]
-    public DateTime RequestedCompletionDate { get; set; }
-    [JsonPropertyName("characteristic")]
-    public List<OrderCharacteristic> Characteristic { get; set; } = null!;
+    public string RequestedCompletionDate { get; set; } = null!;
+    public IEnumerable<OrderElementString> Characteristic { get; set; } = []; 
 }

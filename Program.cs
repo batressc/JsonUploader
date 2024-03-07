@@ -1,7 +1,6 @@
 ﻿using JsonUploader.Models;
 using JsonUploader.Queries;
 using System.Text.Json;
-using System.Text.Json.Serialization;
 
 namespace JsonUploader;
 
@@ -14,13 +13,18 @@ class Program {
         }
         string[] jsonFiles = Directory.GetFiles(currentPath, "*.json");
         List<JsonInformation> data = [];
+        JsonSerializerOptions jsonSerializerOptions = new() {
+            PropertyNamingPolicy = JsonNamingPolicy.CamelCase,
+            WriteIndented = true
+        };
         foreach (string file in jsonFiles) {
             string content = await File.ReadAllTextAsync(file);
             data.Add(
                 new JsonInformation(
                     Path.GetFileNameWithoutExtension(file),
                     content,
-                    JsonDocument.Parse(content)
+                    JsonDocument.Parse(content),
+                    JsonSerializer.Deserialize<Order>(content, jsonSerializerOptions)
                 )
             );
         }

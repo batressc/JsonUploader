@@ -1,5 +1,7 @@
 ﻿using JsonUploader.Models;
+using Newtonsoft.Json;
 using System.Text.Json;
+using System.Text.Json.Serialization;
 using static System.Text.Json.JsonElement;
 
 namespace JsonUploader.Queries;
@@ -81,5 +83,31 @@ internal class ComponentsRemoved {
             .Select(Materialization)
             .ToList();
         return resultado;
+    }
+}
+
+
+
+
+
+/*
+
+{
+      "name": "BSSOrderNumber",
+      "value": [
+        "C806S60"
+      ]
+    },
+
+*/
+
+public class MyClass {
+    public string Name { get; set; } = null!;
+    public IEnumerable<string> Value { get; set; } = null!;
+
+
+
+    public void Deserialize() {
+        JsonConvert.DeserializeObject<MyClass>("<json baboso>");
     }
 }
