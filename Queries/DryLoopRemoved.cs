@@ -58,4 +58,24 @@ internal class DryLoopRemoved {
             .ToList();
         return resultado;
     }
+
+    public List<JsonInformation> ExecuteLinQ() {
+        List<JsonInformation> result = _data.Where(
+            json => 
+                json.Order is not null && 
+                json.Order.OrderItem.Any(
+                    ordItem => 
+                        ordItem.Action.Equals("delete", StringComparison.CurrentCultureIgnoreCase) &&
+                        ordItem.Product.Characteristic.Any(
+                            charac => 
+                                charac is OrderElementProduct prodItem &&
+                                prodItem.Value.Any(
+                                    val => val.Action.First().Equals("delete", StringComparison.CurrentCultureIgnoreCase) &&
+                                    val.ProductCode.First().Equals("132804")
+                                )
+                        )
+                )
+        ).ToList();
+        return result;
+    }
 }

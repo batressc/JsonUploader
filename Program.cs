@@ -46,6 +46,7 @@ class Program {
 
         DryLoopRemoved dryLoopRemoved = new(jsonData);
         dryLoopRemoved.ExecuteQuery();
+        dryLoopRemoved.ExecuteLinQ();
 
         OneAdditionalSetupBox oneAdditionalSetupBox = new(jsonData);
         oneAdditionalSetupBox.ExecuteQuery();
