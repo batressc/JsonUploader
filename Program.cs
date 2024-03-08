@@ -50,11 +50,14 @@ class Program {
 
         OneAdditionalSetupBox oneAdditionalSetupBox = new(jsonData);
         oneAdditionalSetupBox.ExecuteQuery();
+        oneAdditionalSetupBox.ExecuteLinQ();
 
         OnlyMainSetupBox onlyMainSetupBox = new(jsonData);
         onlyMainSetupBox.ExecuteQuery();
+        onlyMainSetupBox.ExecuteLinQ();
 
         WithoutPromotions withoutPromotions = new(jsonData);
         withoutPromotions.ExecuteQuery();
+        withoutPromotions.ExecuteLinQ();
     }
 }

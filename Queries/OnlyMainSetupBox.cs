@@ -67,4 +67,23 @@ internal class OnlyMainSetupBox {
             .ToList();
         return resultado;
     }
+
+    public List<JsonInformation> ExecuteLinQ() {
+        List<JsonInformation> result = _data.Where(json => json.Order is not null)
+            .Select(data => new {
+                Data = data,
+                Products = data.Order!.OrderItem
+                    .Where(ordItem => !ordItem.Action.Equals("nochange", StringComparison.CurrentCultureIgnoreCase))
+                    .SelectMany(prod => prod.Product.Characteristic.Where(charac => charac is OrderElementProduct))
+                    .Cast<OrderElementProduct>()
+                    .SelectMany(prodItem => prodItem.Value.Where(val => !val.Action.First().Equals("delete", StringComparison.CurrentCultureIgnoreCase)))
+                    .SelectMany(valProd => valProd.ProductCode)
+                    .Where(prodCode => prodCode == "920086" || prodCode == "920022")
+                    .ToList()
+            })
+            .Where(filter => filter.Products.Count == 1 && filter.Products.Any(x => x == "920086"))
+            .Select(x => x.Data)
+            .ToList();
+        return result;
+    }
 }

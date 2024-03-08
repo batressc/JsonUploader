@@ -26,7 +26,7 @@ internal class OrderElementProduct : IOrderElementValue<ValueProduct> {
 
 internal class ValuePromo {
     public IEnumerable<string> Action { get; set; } = null!;
-    public IEnumerable<string> PromoCode { get; set; } = null!;
+    public IEnumerable<string>? PromoCode { get; set; } = null!;
     public IEnumerable<string>? PromoDate { get; set; }
 }
 

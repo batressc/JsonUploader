@@ -57,4 +57,21 @@ internal class WithoutPromotions {
             .ToList();
         return resultado;
     }
+
+    public List<JsonInformation> ExecuteLinQ() {
+        List<JsonInformation> result = _data.Where(
+            json =>
+                json.Order is not null &&
+                !json.Order.OrderItem.Any(
+                    ordItem =>
+                        !ordItem.Action.Equals("nochange", StringComparison.CurrentCultureIgnoreCase) &&
+                        ordItem.Product.Characteristic.Any(
+                            charac =>
+                                charac is OrderElementPromo promoItem &&
+                                promoItem.Value.Any(val => !string.IsNullOrWhiteSpace(val.PromoCode?.First()))
+                        )
+                )
+        ).ToList();
+        return result;
+    }
 }
