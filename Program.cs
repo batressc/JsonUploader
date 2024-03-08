@@ -37,7 +37,8 @@ class Program {
             return;
         }
         OrdersByRange ordersByRange = new(jsonData);
-        ordersByRange.ExecuteQuery(new(2019, 1, 1), new(2024, 1, 1));
+        ordersByRange.ExecuteQuery(new(2023, 4, 5), new(2023, 4, 6));
+        ordersByRange.ExecuteLinQ(new(2023, 4, 5), new(2023, 4, 6));
 
         ComponentsRemoved componentsRemoved = new(jsonData);
         componentsRemoved.ExecuteQuery();

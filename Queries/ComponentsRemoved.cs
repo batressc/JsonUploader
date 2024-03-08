@@ -85,29 +85,3 @@ internal class ComponentsRemoved {
         return resultado;
     }
 }
-
-
-
-
-
-/*
-
-{
-      "name": "BSSOrderNumber",
-      "value": [
-        "C806S60"
-      ]
-    },
-
-*/
-
-public class MyClass {
-    public string Name { get; set; } = null!;
-    public IEnumerable<string> Value { get; set; } = null!;
-
-
-
-    public void Deserialize() {
-        JsonConvert.DeserializeObject<MyClass>("<json baboso>");
-    }
-}
