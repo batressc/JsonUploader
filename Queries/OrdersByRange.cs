@@ -32,13 +32,4 @@ internal class OrdersByRange {
         }).ToList();
         return result;
     }
-
-    public List<JsonInformation> ExecuteLinQ(DateTime startDate, DateTime endDate) {
-        List<JsonInformation> result = _data.Where(
-            x => !string.IsNullOrWhiteSpace(x.Order?.RequestedCompletionDate) &&
-            DateTime.TryParseExact(x.Order.RequestedCompletionDate, "yyyy-MM-ddTHH:mm:ss.fffzzz", CultureInfo.InvariantCulture, DateTimeStyles.None, out DateTime parsedDate) &&
-            parsedDate.Date >= startDate.Date && parsedDate.Date <= endDate.Date
-        ).ToList();
-        return result;
-    }
 }

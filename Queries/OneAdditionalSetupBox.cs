@@ -60,20 +60,4 @@ internal class OneAdditionalSetupBox {
             .ToList();
         return resultado;
     }
-
-    public List<JsonInformation> ExecuteLinQ() {
-        List<JsonInformation> result = _data.Where(
-            json =>
-                json.Order is not null &&
-                json.Order.OrderItem
-                    .Where(ordItem => !ordItem.Action.Equals("nochange", StringComparison.CurrentCultureIgnoreCase))
-                    .SelectMany(prod => prod.Product.Characteristic.Where(charac => charac is OrderElementProduct))
-                    .Cast<OrderElementProduct>()
-                    .SelectMany(prodItem => prodItem.Value.Where(val => val.Action.First().Equals("add", StringComparison.CurrentCultureIgnoreCase)))
-                    .SelectMany(valProd => valProd.ProductCode)
-                    .Where(prodCode => prodCode == "920022")
-                    .Count() == 1
-        ).ToList();
-        return result;
-    }
 }

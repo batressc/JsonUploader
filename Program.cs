@@ -36,28 +36,30 @@ class Program {
         if (jsonData is null) {
             return;
         }
+        QueriesLinQ queriesLinQ = new(jsonData);
+
         OrdersByRange ordersByRange = new(jsonData);
         ordersByRange.ExecuteQuery(new(2023, 4, 5), new(2023, 4, 6));
-        ordersByRange.ExecuteLinQ(new(2023, 4, 5), new(2023, 4, 6));
+        queriesLinQ.OrdersByRange(new(2023, 4, 5), new(2023, 4, 6));
 
         ComponentsRemoved componentsRemoved = new(jsonData);
         componentsRemoved.ExecuteQuery();
-        componentsRemoved.ExecuteLinQ();
+        queriesLinQ.ComponentsRemoved();
 
         DryLoopRemoved dryLoopRemoved = new(jsonData);
         dryLoopRemoved.ExecuteQuery();
-        dryLoopRemoved.ExecuteLinQ();
+        queriesLinQ.DryLoopRemoved();
 
         OneAdditionalSetupBox oneAdditionalSetupBox = new(jsonData);
         oneAdditionalSetupBox.ExecuteQuery();
-        oneAdditionalSetupBox.ExecuteLinQ();
+        queriesLinQ.OneAdditionalSetupBox();
 
         OnlyMainSetupBox onlyMainSetupBox = new(jsonData);
         onlyMainSetupBox.ExecuteQuery();
-        onlyMainSetupBox.ExecuteLinQ();
+        queriesLinQ.OnlyMainSetupBox();
 
         WithoutPromotions withoutPromotions = new(jsonData);
         withoutPromotions.ExecuteQuery();
-        withoutPromotions.ExecuteLinQ();
+        queriesLinQ.WithoutPromotions();
     }
 }
