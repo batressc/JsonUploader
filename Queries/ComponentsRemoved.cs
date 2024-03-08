@@ -1,7 +1,5 @@
 ﻿using JsonUploader.Models;
-using Newtonsoft.Json;
 using System.Text.Json;
-using System.Text.Json.Serialization;
 using static System.Text.Json.JsonElement;
 
 namespace JsonUploader.Queries;
@@ -83,5 +81,23 @@ internal class ComponentsRemoved {
             .Select(Materialization)
             .ToList();
         return resultado;
+    }
+
+    public List<ComponentRemovedDto> ExecuteLinQ() {
+        List<ComponentRemovedDto> result = _data.Where(json => json.Order is not null)
+            .Select(x => new ComponentRemovedDto(
+                x.FileName, 
+                x.Content,
+                x.Order!.OrderItem
+                    .Where(ordItem => !ordItem.Action.Equals("nochange", StringComparison.CurrentCultureIgnoreCase))
+                    .SelectMany(prod => prod.Product.Characteristic.Where(charac => charac is OrderElementProduct))
+                    .Cast<OrderElementProduct>()
+                    .SelectMany(prodItem => prodItem.Value.Where(val => val.Action.First().Equals("delete", StringComparison.CurrentCultureIgnoreCase)))
+                    .SelectMany(valProd => valProd.ProductCode)
+                    .ToList()
+            ))
+            .Where(x => x.ProductsRemoved.Any())
+            .ToList();
+        return result;
     }
 }

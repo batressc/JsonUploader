@@ -42,6 +42,7 @@ class Program {
 
         ComponentsRemoved componentsRemoved = new(jsonData);
         componentsRemoved.ExecuteQuery();
+        componentsRemoved.ExecuteLinQ();
 
         DryLoopRemoved dryLoopRemoved = new(jsonData);
         dryLoopRemoved.ExecuteQuery();
