@@ -10,7 +10,7 @@ internal class QueriesLinQ {
         _data = data;
     }
 
-
+    // 1. Obtener todas las órdenes filtrando por rango de fechas
     public List<JsonInformation> OrdersByRange(DateTime startDate, DateTime endDate) {
         List<JsonInformation> result = _data.Where(
             x => !string.IsNullOrWhiteSpace(x.Order?.RequestedCompletionDate) &&
@@ -20,7 +20,7 @@ internal class QueriesLinQ {
         return result;
     }
 
-
+    // 2. Obtener todos los componentes removidos por orden
     public List<ComponentRemovedDto> ComponentsRemoved() {
         List<ComponentRemovedDto> result = _data.Where(json => json.Order is not null)
             .Select(x => new ComponentRemovedDto(
@@ -39,7 +39,7 @@ internal class QueriesLinQ {
         return result;
     }
 
-
+    // 6. Obtener todas las órdenes que remuevan dry loop
     public List<JsonInformation> DryLoopRemoved() {
         List<JsonInformation> result = _data.Where(
             json =>
@@ -60,7 +60,7 @@ internal class QueriesLinQ {
         return result;
     }
 
-
+    // 7. Obtener todas las órdenes que tengan solo un additional STB
     public List<JsonInformation> OneAdditionalSetupBox() {
         List<JsonInformation> result = _data.Where(
             json =>
@@ -77,7 +77,7 @@ internal class QueriesLinQ {
         return result;
     }
 
-
+    // 8. Obtener todas las órdenes que tengan no tengan additional STB pero tengan STB principal
     public List<JsonInformation> OnlyMainSetupBox() {
         List<JsonInformation> result = _data.Where(json => json.Order is not null)
             .Select(data => new {
@@ -97,7 +97,7 @@ internal class QueriesLinQ {
         return result;
     }
 
-
+    // 9. Obtener las órdenes que no tengan promociones
     public List<JsonInformation> WithoutPromotions() {
         List<JsonInformation> result = _data.Where(
             json =>
